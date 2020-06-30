@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/spcourse/movement.git
+	branch = main
+	commit = 0450f49ae0d4d5692e92aadcd09f81a485935ceb
+	parent = df7d136073fbf74a788282f4644d2688fa33c27e
+	method = merge
+	cmdver = 0.4.1
