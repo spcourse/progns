@@ -1,0 +1,16 @@
+name: numbers
+content:
+
+    Introduction: .
+    Getting started:
+        Basic elements of Python: /python/en/basics
+        Program the computer to be a Number Whiz: whiz
+    Prime numbers:
+        Learn about algorithms: /python/en/algorithms
+        Learn about loops: /python/en/loops
+        Look for prime numbers: primes
+    Number theory:
+        Learn about storing data in lists: /python/en/lists
+        Find the longest sequence of non-primes: sequence
+        Understand how to write good code: /style-guide
+        Try to (dis)prove Goldbach's conjecture: goldbach
