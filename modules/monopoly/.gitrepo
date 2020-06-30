@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/spcourse/monopoly.git
+	branch = main
+	commit = 49fce850064824b5e92f21f9c99488520b91c774
+	parent = df92349a2bd0e98a332b908824f771acaef5d85d
+	method = merge
+	cmdver = 0.4.1
