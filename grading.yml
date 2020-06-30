@@ -1,0 +1,74 @@
+grades:
+    module1:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        automatic:
+            scope: check_score.floor
+        calculation: ((scope / 12.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
+    module2:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        automatic:
+            scope: check_score.floor
+        calculation: ((scope / 18.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
+    module3:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        automatic:
+            scope: check_score.floor
+        calculation: ((scope / 17.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
+    module4:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        automatic:
+            scope: check_score.floor
+        calculation: ((scope / 6.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
+    tent:
+        type: float
+        subgrades:
+            points: float
+        calculation: ([points.to_f + 0.5, 10].min / 10 * 9 + 1).round(1)
+    hert:
+        type: float
+        subgrades:
+            points: float
+        calculation: (points.to_f / 10 * 9 + 1).round(1)
+
+calculation:
+    resit:
+        hert: 50
+        psets: 50
+    normal:
+        tent: 50
+        psets: 50
+
+psets:
+    submits:
+        module1: 1
+        module2: 1
+        module3: 1
+        module4: 1
+
+tent:
+    minimum: 5.5
+    required: true
+    submits:
+        tent: 1
+
+hert:
+    minimum: 5.5
+    required: true
+    submits:
+        hert: 1
