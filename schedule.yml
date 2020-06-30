@@ -1,16 +1,16 @@
-Module 1:
+Module 1 - Getaltheorie:
     - getaltheorie
     - plotten
     - getaltheorie-extra
 
-Module 2:
+Module 2 - Numeriek integreren:
     - integreren
     - animatie
     - integreren-extra
 
-Module 3:
+Module 3 - Simulaties:
     - monopoly-nl
     - beweging
 
-Module 4:
+Module 4 - Big Data:
     - bigdata-nl
