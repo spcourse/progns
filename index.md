@@ -1,7 +1,7 @@
 # Studiewijzer
 
 *Inleiding programmeren voor Natuur- en Sterrenkunde*  
-*September 2019*
+*September 2020*
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
 
@@ -9,16 +9,52 @@ De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met progr
 
 ![Python](python-logo.png){:.inline}  
 
-## Docenten
+
+## Docenten en assistenten
+
+De docenten zijn de ontwerpers van deze cursus. Je zult ze af en toe zien of horen in een filmpje en ze denken graag met je mee als je een probleem hebt. Je kunt ze mailen via <progns@mprog.nl>:
 
 Ivo van Vulpen (Nikhef/UvA)  
 Martijn Stegeman (UvA)
 
-Mail bij voorkeur naar <progns@mprog.nl> als je praktische vragen hebt of problemen wil melden. Als we bij het practicum zijn, kun je ons natuurlijk ook gewoon direct aanspreken!
+Voor hulp bij dit vak vak staan bovendien de assistenten voor je klaar. Zij zijn studenten die het vak eerder hebben gevolgd en een heleboel problemen zelf al zijn tegengekomen.
 
-## Assistenten
 
-Tijdens de practica van dit vak staan de assistenten voor je klaar. Je kunt bij ze terecht met vragen over het programmeren zelf, maar ook over vragen over de feedback op de opdrachten die je hebt ingeleverd of tips over het vak.
+## Vragen stellen
+
+Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
+
+**Ed:** altijd beschikbaar, de belangrijkste plek voor hulp.
+
+- vragen over wat er in de opdracht bedoeld wordt
+- technische vragen over programmeren en bugs
+- vragen over de oefeningen in het basisboek
+- medestudenten en assistenten denken mee
+
+**Assistentie:** direct contact met een assistent, voor moeilijk te formuleren vragen.
+
+- weet niet waar te beginnen
+- onvindbare bug
+- moeite met verzinnen oplossing (met partner)
+- tijdens geroosterde uren, wachttijd kan oplopen
+
+**Mail:** contact met de vakcoördinatoren via <progns@mprog.nl>.
+
+- maken van persoonlijke planningsafspraken
+- meedenken over grote problemen met het vak
+- andere officiële zaken
+- administratie na afloop van het vak
+
+<details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
+Juist even niet aan de opdracht werken kan je verder helpen!
+
+- Neem een halfuurtje echt even afstand van je computer; dit helpt je brein afstand nemen van het probleem. Met een frisse blik kom je dan toch weer verder.
+
+- Ga even door met de volgende opdracht van de module om te kijken hoe je daar mee gaat.
+
+- Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
+</details>
+
 
 ## Leerdoelen
 
@@ -30,6 +66,7 @@ Wat willen we dat je kunt aan het einde van deze cursus?
   consistente stijl toe te passen
 * Je kunt programmeerfouten opsporen en verbeteren
 * Je kunt uitleggen hoe je een aantal numerieke technieken als programma kunt implementeren
+
 
 ## Opdrachten
 
@@ -45,6 +82,7 @@ je alles digitaal in. Dat wordt beoordeeld:
 * Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een belangrijke component 
 in de beoordeling zijn!
 
+
 ### Stijl
 
 De scores voor stijl worden als volgt bepaald:
@@ -56,15 +94,11 @@ De scores voor stijl worden als volgt bepaald:
 - 1: matig, her en der duidelijk geprobeerd maar niet systematisch
 - 0: slecht, niet geprobeerd
 
+
 ## Dagelijks ritme
 
 De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok gemiddeld een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicum maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 
-## Aanwezigheid
-
-De bedoeling is dat je tijdens alle practicumuren aanwezig bent. Wij leren je namelijk ter plaatse nog dingen die je niet in je eentje kunt leren zoals het opsporen en verbeteren van fouten in je programma's.
-
-Bij afwezigheid (om welke reden dan ook) wordt het cijfer voor de betreffende opdracht een punt per dagdeel verlaagd, tot maximaal 4 punten aftrek. Uitzondering is natuurlijk als je de opdracht geheel af hebt en hebt laten zien aan de assistent dat het werkt: dan mag je gewoon wegblijven. Mocht je om bijzondere redenen afwezig moeten zijn, stuur dan vooral een mail naar de docenten.
 
 ## Deadline inleveren opdrachten
 
@@ -84,6 +118,7 @@ kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstan
 Hoewel het niet toegestaan is zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
 een medestudent tijdens het maken van de practica. Doe dit alsjeblieft niet. De regels wat betreft plagiaat zijn erg streng en we voeren controles uit, dus kom gewoon langs als je moeite hebt met de stof en wat extra hulp nodig hebt, dan helpen we je. Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald sluiten we het vak af met een (individueel) tentamen. Het tentamen telt voor 50% mee voor je eindcijfer en om het vak te halen is er een extra eis dat het tentamen zelf ook met een voldoende afgesloten moet worden.
 
+
 ## Eindcijfer
 
 Je krijgt een eindcijfer voor dit vak als je:
@@ -100,6 +135,7 @@ Het eindcijfer wordt dan als volgt berekend:
 | module 3  | scope & stijl |   12,5% |  
 | module 4  | scope & stijl |   12,5% |  
 | tentamen  | punten        |     50% |  
+
 
 ## Samenwerken, fraude en plagiaat
 
@@ -121,6 +157,7 @@ als een medestudent, is het hoog tijd om de assistent om hulp te vragen!
 Kom je in tijdnood? Bespreek het even met de docenten. We willen het graag zo
 oplossen dat je het vak zelfstandig kunt halen. Programmeren is echt iets dat
 je zelf even onder de knie moet krijgen.
+
 
 ### Plagiaatregeling
 
