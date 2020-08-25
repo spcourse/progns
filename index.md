@@ -51,8 +51,6 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 - Neem een halfuurtje echt even afstand van je computer; dit helpt je brein afstand nemen van het probleem. Met een frisse blik kom je dan toch weer verder.
 
 - Ga even door met de volgende opdracht van de module om te kijken hoe je daar mee gaat.
-
-- Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
 </details>
 
 
