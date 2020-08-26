@@ -78,12 +78,12 @@ Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee
 voor een programma naar werkende Python-code. Per module doe je eerst wat kleine
 oefeningen om de nieuwe programmeerelementen onder de knie te krijgen en ga je 
 daarna aan de slag met wat grotere opdrachten. Aan het eind van de module lever 
-je alles digitaal in. Dat wordt beoordeeld:
+je alles digitaal in. De beoordeling gebeurt dan in twee delen:
 
-* Omvang --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen?
+* **Omvang** --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen?
   Heb je alles precies gedaan zoals de omschrijving vereist?
 
-* Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een belangrijke component 
+* **Stijl** --- hoe ordelijk en leesbaar is je code? Dit kan een belangrijke component 
 in de beoordeling zijn!
 
 De stijl wordt beoordeeld met hulp van een aantal aspecten, die je in de [Stijlgids](/python/nl/stijl) kunt vinden. Om te helpen het begrip van deze aspecten te ontwikkelen krijg je na elke module bovendien feedback op de toepassing hiervan. De beoordeling gaat vervolgens zo:
