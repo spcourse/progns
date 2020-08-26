@@ -36,8 +36,8 @@ Jouw **eerste aanspreekpunt** punt zijn jouw medestudenten uit je groepje. Juist
 
 - hulp via een videogesprek waar je je scherm kunt delen
 - je weet niet waar te beginnen of een onvindbare bug
-- moeite met verzinnen oplossing (met partner)
-- tijdens geroosterde uren, wachttijd kan oplopen
+- moeite met verzinnen oplossing
+- alleen tijdens de geroosterde uren, de wachttijd kan soms oplopen
 
 **Mail:** contact met de vakcoördinatoren via <progns@mprog.nl>.
 
