@@ -24,6 +24,8 @@ Voor hulp bij dit vak vak staan bovendien de assistenten voor je klaar. Zij zijn
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
+Jouw eerste aanspreekpunt punt zijn jouw medestudenten uit je groepje....
+
 **Ed:** altijd beschikbaar, de belangrijkste plek voor hulp.
 
 - vragen over wat er in de opdracht bedoeld wordt
@@ -31,12 +33,16 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - vragen over de oefeningen in het basisboek
 - medestudenten en assistenten denken mee
 
+Klik op de link onderaan deze site om naar Ed te gaan.
+
 **Assistentie:** direct contact met een assistent, voor moeilijk te formuleren vragen.
 
-- weet niet waar te beginnen
-- onvindbare bug
+- hulp via een videogesprek waar je je scherm kunt delen
+- je weet niet waar te beginnen of een onvindbare bug
 - moeite met verzinnen oplossing (met partner)
 - tijdens geroosterde uren, wachttijd kan oplopen
+
+Klik op de ? rechtsboven deze site om jezelf in de rij te plaatsen.
 
 **Mail:** contact met de vakcoördinatoren via <progns@mprog.nl>.
 
@@ -44,6 +50,9 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - meedenken over grote problemen met het vak
 - andere officiële zaken
 - administratie na afloop van het vak
+
+**Laptophelpdesk:**
+
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -80,17 +89,15 @@ je alles digitaal in. Dat wordt beoordeeld:
 * Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een belangrijke component 
 in de beoordeling zijn!
 
+De stijl wordt beoordeeld met hulp van een aantal aspecten, die je in de [Stijlgids](/python/nl/stijl) kunt vinden. Om te helpen het begrip van deze aspecten te ontwikkelen krijg je na elke module bovendien feedback op de toepassing hiervan. De beoordeling gaat vervolgens zo:
 
-### Stijl
-
-De scores voor stijl worden als volgt bepaald:
-
-- 5: excellent, perfect, geen problemen of echt een kleine omissie
-- 4: zeer goed, weinig ruimte voor verbetering, paar kleine problemen
-- 3: goed, aantal duidelijke punten voor verbetering
-- 2: redelijk, behoorlijk wat ruimte voor verbetering
-- 1: matig, her en der duidelijk geprobeerd maar niet systematisch
-- 0: slecht, niet geprobeerd
+6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
+5. zeer goede kwaliteit, beperkt ruimte voor verbetering
+4. degelijke kwaliteit op de genoemde aspecten, met ruimte voor verbetering
+3. net voldoende aandacht voor de genoemde aspecten, erg veel ruimte voor verbetering
+2. enige zichtbare aandacht voor een beperkt aantal aspecten
+1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
+{: start="6" reversed=""}
 
 
 ## Dagelijks ritme
@@ -103,12 +110,12 @@ De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook
 De deadline voor het inleveren van alle code is voor elke module op de maandagavond in de week nadat de module afgesloten is. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren, dus lever sowieso in wat je hebt! Om te zorgen dat je de assistent alle vragen 
 kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstandiger om te zorgen dat je alles af hebt aan het eind van het laatste practicum.
 
-| deadline  |                             |  
-| --------- | --------------------------- |  
-| module 1  | maandag 16 september 23:59  |  
-| module 2  | maandag 30 september 23:59  |  
-| module 3  | maandag 14 oktober   23:59  |  
-| module 4  | maandag 21 oktober   23:59  |  
+| deadline  | oplossing       | nette versie    |
+| --------- | --------------- |---------------- |  
+| module 1  | vr 11 sep 12:59 | ma 14 sep 10:59 |  
+| module 2  | vr 25 sep 12:59 | ma 28 sep 10:59 |  
+| module 3  | vr  9 okt 12:59 | ma 12 okt 10:59 |  
+| module 4  | vr 16 okt 12:59 | ma 19 okt 10:59 |  
 
 
 ## Tentamen
