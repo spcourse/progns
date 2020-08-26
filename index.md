@@ -28,20 +28,20 @@ Jouw eerste aanspreekpunt punt zijn jouw medestudenten uit je groepje....
 
 **Ed:** altijd beschikbaar, de belangrijkste plek voor hulp.
 
+Klik op de link onderaan deze site om naar Ed te gaan.
+
 - vragen over wat er in de opdracht bedoeld wordt
 - technische vragen over programmeren en bugs
 - medestudenten en assistenten beantwoorden je vragen
 
-Klik op de link onderaan deze site om naar Ed te gaan.
-
 **Assistentie:** direct contact met een assistent, voor moeilijk te formuleren vragen.
+
+Klik op de ? rechtsbovenaan om jezelf in de rij te plaatsen.
 
 - hulp via een videogesprek waar je je scherm kunt delen
 - je weet niet waar te beginnen of een onvindbare bug
 - moeite met verzinnen oplossing (met partner)
 - tijdens geroosterde uren, wachttijd kan oplopen
-
-Klik op de ? rechtsbovenaan site om jezelf in de rij te plaatsen.
 
 **Mail:** contact met de vakcoördinatoren via <progns@mprog.nl>.
 
@@ -52,10 +52,10 @@ Klik op de ? rechtsbovenaan site om jezelf in de rij te plaatsen.
 
 **Laptophelpdesk:**
 
+Neem direct contact op met Zoom via de link die in de [mededelingen](/announcements) staat.
+
 - laptop werkt niet meer
 - installatieproblemen voor de benodigde software
-
-Neem direct contact op met Zoom via de link die in de [mededelingen](/announcements) staat.
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
