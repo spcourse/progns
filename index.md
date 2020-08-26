@@ -82,8 +82,7 @@ je alles digitaal in.
 
 Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaat uit meerdere delen, die samen optellen tot dat cijfer:
 
-* **Omvang** (0--3 punten) --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen?
-  Heb je alles precies gedaan zoals de omschrijving vereist? Met 
+* **Omvang** (0--3 punten) --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen? Heb je alles precies gedaan zoals de omschrijving vereist? Met `checkpy` bepalen we hoe groot het aandeel correcte opdrachten is.
 
 * **Stijl** (1--6 punten) --- hoe ordelijk en leesbaar is je code? Je assistent kijkt je werk na en beoordeelt de kwaliteit.
 
