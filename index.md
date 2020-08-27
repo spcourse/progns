@@ -9,6 +9,8 @@ De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met progr
 
 ![Python](python-logo.png){:.inline}  
 
+> Let op! De toetsing voor dit vak ligt nog niet vast. Duidelijk is dat je alle opdrachten ingeleverd moet hebben om het vak te kunnen halen. Daar zit het meeste werk in. Voor de andere delen van de toetsing (tentamen) wordt nog een alternatief gezocht.
+{:.bg-warning}
 
 ## Docenten en assistenten
 
@@ -66,8 +68,7 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 
 * Je kunt een omschrijving van een programma omzetten naar werkende code
 * Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma's
-* Je kunt code overzichtelijk en beter leesbaar maken door een
-  consistente stijl toe te passen
+* Je kunt code overzichtelijk en beter leesbaar maken door een consistente stijl toe te passen
 * Je kunt programmeerfouten opsporen en verbeteren
 * Je kunt uitleggen hoe je een aantal numerieke technieken als programma kunt implementeren
 
@@ -80,28 +81,30 @@ oefeningen om de nieuwe programmeerelementen onder de knie te krijgen en ga je
 daarna aan de slag met wat grotere opdrachten. Aan het eind van de module lever 
 je alles digitaal in.
 
-Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaat uit meerdere delen, die samen optellen tot dat cijfer:
+Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaat uit meerdere delen:
 
-* **Omvang** (0--3 punten) --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen? Heb je alles precies gedaan zoals de omschrijving vereist? Met `checkpy` bepalen we hoe groot het aandeel correcte opdrachten is.
+* **Omvang** --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen? Heb je alles precies gedaan zoals de omschrijving vereist? Met `checkpy` bepalen we hoe groot het aandeel correcte opdrachten is.
 
-* **Stijl** (1--6 punten) --- hoe ordelijk en leesbaar is je code? Je assistent kijkt je werk na en beoordeelt de kwaliteit.
+* **Stijl** --- hoe ordelijk en leesbaar is je code? Je assistent kijkt je werk na en beoordeelt de kwaliteit. De wijze van beoordelen staat hieronder.
 
-* **Extra opdracht** (1 punt) --- als je de extra opdracht hebt gedaan levert dit je je laatste punt voor de module op.
+  De stijl wordt beoordeeld met hulp van een aantal aspecten, die je in de [Stijlgids](/python/nl/stijl) kunt vinden. Om te helpen het begrip van deze aspecten te ontwikkelen krijg je na elke module bovendien feedback op de toepassing hiervan. De beoordeling gaat vervolgens zo:
 
-De stijl wordt beoordeeld met hulp van een aantal aspecten, die je in de [Stijlgids](/python/nl/stijl) kunt vinden. Om te helpen het begrip van deze aspecten te ontwikkelen krijg je na elke module bovendien feedback op de toepassing hiervan. De beoordeling gaat vervolgens zo:
+  6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
+  5. zeer goede kwaliteit, beperkt ruimte voor verbetering
+  4. degelijke kwaliteit op de genoemde aspecten, met ruimte voor verbetering
+  3. net voldoende aandacht voor de genoemde aspecten, erg veel ruimte voor verbetering
+  2. enige zichtbare aandacht voor een beperkt aantal aspecten
+  1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
+  {: start="6" reversed=""}
 
-6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
-5. zeer goede kwaliteit, beperkt ruimte voor verbetering
-4. degelijke kwaliteit op de genoemde aspecten, met ruimte voor verbetering
-3. net voldoende aandacht voor de genoemde aspecten, erg veel ruimte voor verbetering
-2. enige zichtbare aandacht voor een beperkt aantal aspecten
-1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
-{: start="6" reversed=""}
+Omvang en stijl tellen evenveel mee, en samen kun je er een 9 mee halen.
+
+* **Extra** --- als je de extra opdracht hebt gedaan levert dit je je laatste punt voor de module op.
 
 
 ## Dagelijks ritme
 
-De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok gemiddeld een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicum maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
+De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok ruim een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicum maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 
 
 ## Deadline inleveren opdrachten
@@ -109,12 +112,12 @@ De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook
 De deadline voor het inleveren van alle code is voor elke module op de maandagavond in de week nadat de module afgesloten is. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren, dus lever sowieso in wat je hebt! Om te zorgen dat je de assistent alle vragen 
 kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstandiger om te zorgen dat je alles af hebt aan het eind van het laatste practicum.
 
-| deadline  | oplossing       | nette versie    |
-| --------- | --------------- |---------------- |  
-| module 1  | vr 11 sep 12:59 | ma 14 sep 10:59 |  
-| module 2  | vr 25 sep 12:59 | ma 28 sep 10:59 |  
-| module 3  | vr  9 okt 12:59 | ma 12 okt 10:59 |  
-| module 4  | vr 16 okt 12:59 | ma 19 okt 10:59 |  
+| opdracht  | deadline        |  
+| --------- |---------------- |  
+| module 1  | ma 14 sep 10:59 |  
+| module 2  | ma 28 sep 10:59 |  
+| module 3  | ma 12 okt 10:59 |  
+| module 4  | ma 19 okt 10:59 |  
 
 
 ## Tentamen
@@ -132,13 +135,13 @@ Je krijgt een eindcijfer voor dit vak als je:
 
 Het eindcijfer wordt dan als volgt berekend:
 
-| onderdeel | berekening    | gewicht |  
-| --------- | ------------- | ------: |  
-| module 1  | scope & stijl |   12,5% |  
-| module 2  | scope & stijl |   12,5% |  
-| module 3  | scope & stijl |   12,5% |  
-| module 4  | scope & stijl |   12,5% |  
-| tentamen  | punten        |     50% |  
+| onderdeel | gewicht |  
+| --------- | ------: |  
+| module 1  |   12,5% |  
+| module 2  |   12,5% |  
+| module 3  |   12,5% |  
+| module 4  |   12,5% |  
+| tentamen  |     50% |  
 
 
 ## Samenwerken, fraude en plagiaat
