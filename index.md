@@ -28,7 +28,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 Jouw **eerste aanspreekpunt** punt zijn jouw medestudenten uit je groepje. Juist als je bezig bent met het begrijpen van het probleem, het formuleren van jouw oplossing, dan kan een medestudent vaak goed meedenken. Let wel op dat je tijdens het implementeren van jouw oplossing in Python altijd moet zorgen dat elke regel code jouw eigen intellectueel werk is. Het beste is dus om medestudenten in te schakelen in de fase vóór het echte programmeren.
 
-**Ed:** altijd beschikbaar, de belangrijkste plek voor hulp. Klik op de link onderaan deze site om naar Ed te gaan.
+**Ed:** altijd beschikbaar, de belangrijkste plek voor hulp. Klik op de link onderaan deze site om naar Ed te gaan (een uitnodiging volgt na het eerste college).
 
 - vragen over wat er in de opdracht bedoeld wordt
 - technische vragen over programmeren en bugs
