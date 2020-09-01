@@ -3,9 +3,12 @@ Welkom:
     Installeer Python: /python/nl/installatie/computer
 
 Module 1 - Getaltheorie:
+  "":
     - getaltheorie
     - plotten
     - getaltheorie-extra
+  Submit:
+    Inleveren van de opdrachten: /submit/getaltheorie
 
 # Module 2 - Numeriek integreren:
 #     - integreren
