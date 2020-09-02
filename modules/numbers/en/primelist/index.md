@@ -1,10 +1,10 @@
 # List of primes
 
-Write a program called `primelist.py` that asks the user to provide a number $$n$$ and generates a list of all the primes between 2 (inclusive) and $$n$$ (exclusive).
+Write a program called `listprimes.py` that asks the user to provide a number $$n$$ and generates a list of all the primes between 2 (inclusive) and $$n$$ (exclusive).
 
-Example:
-Enter a number: 11
-[2, 3, 5, 7]
+    Example:
+    Enter a number: 11
+    [2, 3, 5, 7]
 
 ## Specification
 
@@ -18,7 +18,7 @@ Enter a number: 11
 
 To be sure test your program again using `checkpy`:
 
-    checkpy primelist
+    checkpy listprimes
 
 ## Extra challenge (not required)
 
