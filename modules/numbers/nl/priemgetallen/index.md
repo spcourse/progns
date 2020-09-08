@@ -93,7 +93,7 @@ Bovenstaande optimalisaties geven een beperkte snelheidswinst, in die zin dat je
 
 Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door 2, 3, 5, 7, 11. Bedenk waarom (dit vraagt waarschijnlijk een flinke aanpassing van je code).
 
-Om dit idee in een algoritme te implementeren heb je hulp nodig van lijsten (lijsten van priemgetallen in dit geval). Bestudeer [hier](https://progns.mprog.nl/python/lijsten) hoe ze werken in Python.
+Om dit idee in een algoritme te implementeren heb je hulp nodig van lijsten (lijsten van priemgetallen in dit geval). Bestudeer [hier](/python/nl/lijsten) hoe ze werken in Python.
 
 Als je deze versie maakt zal `checkpy` klagen dat je lijsten gebruikt. Dat is geen probleem, je mag het gewoon inleveren.
 
