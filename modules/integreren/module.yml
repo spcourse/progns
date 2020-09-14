@@ -8,8 +8,8 @@ content:
         Bepaal de nulpunten van een polynoom: nulpunten
 
     Riemannsom:
-        Leer meer over de Riemannsom: riemann/explanation
-        Gebruik computerkracht voor het bepalen van de Riemannsom: riemann/integrals
+        Leer meer over het gebruik van functies als argumenten van andere functies: /python/nl/functies2
+        Gebruik computerkracht voor het bepalen van de Riemannsom: riemann
 
     Random:
         Leer over het gebruik van random getallen: /python/nl/random
@@ -18,7 +18,5 @@ content:
         Analyseer met een histogram de uitkomst van de `random`-functie: histogram
 
     Monte Carlo:
-        Leer meer over het gebruik van functies als argumenten van andere functies: /python/nl/functies2
-        Leer meer over de Monte-Carlomethode: montecarlo/explanation
-        Gebruik random waarden bij het berekenen van integralen met de Monte-Carlomethode: montecarlo/integrals
+        Gebruik random waarden bij het berekenen van integralen met de Monte-Carlomethode: montecarlo
         Bereken de oppervlakte van een vreemde vorm: ei
