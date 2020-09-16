@@ -16,7 +16,7 @@ grades:
             extra: float
         automatic:
             scope: check_score.floor
-        calculation: ((scope / 18.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
+        calculation: (scope/18.0*4 + stijl/6.0*4 + extra + 1).round(1)
     module3:
         type: float
         subgrades:
@@ -25,7 +25,7 @@ grades:
             extra: float
         automatic:
             scope: check_score.floor
-        calculation: ((scope / 17.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
+        calculation: (scope/17.0*4 + stijl/6.0*4 + extra + 1).round(1)
     module4:
         type: float
         subgrades:
@@ -34,13 +34,13 @@ grades:
             extra: float
         automatic:
             scope: check_score.floor
-        calculation: ((scope / 6.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
-    tent:
+        calculation: (scope/6.0*4 + stijl/6.0*4 + extra + 1).round(1)
+    tentamen:
         type: float
         subgrades:
             points: float
         calculation: ([points.to_f + 0.5, 10].min / 10 * 9 + 1).round(1)
-    hert:
+    hertentamen:
         type: float
         subgrades:
             points: float
@@ -48,27 +48,28 @@ grades:
 
 calculation:
     resit:
-        hert: 50
-        psets: 50
+        hertentamen: 50
+        modules: 50
     normal:
-        tent: 50
-        psets: 50
+        tentamen: 50
+        modules: 50
 
-psets:
+modules:
+    show_progress: true
     submits:
         module1: 1
         module2: 1
         module3: 1
         module4: 1
 
-tent:
+tentamen:
     minimum: 5.5
     required: true
     submits:
-        tent: 1
+        tentamen: 1
 
-hert:
+hertentamen:
     minimum: 5.5
     required: true
     submits:
-        hert: 1
+        hertentamen: 1
