@@ -49,12 +49,12 @@ grades:
 calculation:
     resit:
         hertentamen: 50
-        modules: 50
+        opdrachten: 50
     normal:
         tentamen: 50
-        modules: 50
+        opdrachten: 50
 
-modules:
+opdrachten:
     show_progress: true
     submits:
         module1: 1
