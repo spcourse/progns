@@ -6,8 +6,8 @@ grades:
             stijl: integer
             extra: float
         automatic:
-            scope: check_score.floor
-        calculation: ((scope / 12.0 * 5 + stijl) / 10.0 * 8 + extra + 1).round(1)
+            scope: correctness_score.floor
+        calculation: (scope/12.0*4 + stijl/6.0*4 + extra + 1).round(1)
     module2:
         type: float
         subgrades:
