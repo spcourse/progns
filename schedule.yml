@@ -23,8 +23,9 @@ Module 3 - Simulaties:
   " ":
     - animaties
     - monopoly-nl
-  Extra opdracht:
     - beweging
+  Extra opdracht:
+    - particles
   Submit:
     Inleveren van de opdrachten: /submit/monopoly
 
