@@ -13,14 +13,15 @@ Module 1 - Getaltheorie:
 Module 2 - Numeriek integreren:
   "":
     - integreren2
-    - animatie
     - integreren-extra
   Submit:
     Inleveren van de opdrachten: /submit/integreren
 
 Module 3 - Simulaties:
   "":
+    - animatie
     - monopoly-nl
+  Extra opdracht:
     - beweging
   Submit:
     Inleveren van de opdrachten: /submit/monopoly
