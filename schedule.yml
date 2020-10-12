@@ -33,7 +33,8 @@ Module 4 - Big Data:
   "":
     - bigdata-nl
     - autorit
-    - fietsrit
+    - temperatuur
+    # - fietsrit
     - verzamelen
   Submit:
     Inleveren van de opdrachten: /submit/bigdata
