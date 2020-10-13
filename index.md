@@ -117,7 +117,7 @@ kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstan
 | module 1  | ma 14 sep 10:59 |  
 | module 2  | ma 28 sep 10:59 |  
 | module 3  | ma 12 okt 10:59 |  
-| module 4  | ma 19 okt 10:59 |  
+| module 4  | wo 21 okt 16:59 |  
 
 
 ## Tentamen
