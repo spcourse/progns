@@ -5,6 +5,7 @@ files:
         - temperatuur.py
     extra:
         - mijndata.py
+        - mijnverhaal.pdf
 check:
     tool: checkpy
     repo: uva/progns
