@@ -6,6 +6,7 @@ files:
     extra:
         - mijndata.py
         - mijnverhaal.pdf
+        - data.txt
 check:
     tool: checkpy
     repo: uva/progns
