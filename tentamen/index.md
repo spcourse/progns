@@ -31,4 +31,4 @@ Samenwerken is bij dit tentamen geheel **niet** toegestaan. De bedoeling is dat 
 
 Hieronder kun je je uitwerking, in één bestand, inleveren.
 
-<label for="eerlijk">De uitwerking die ik hieronder instuur is geheel mijn eigen werk en ik heb op geen enkele manier hulp ontvangen bij het maken van de uitwerking, behalve van docenten of assistenten die direct bij het vak betrokken zijn.</label><input type="check" name="f[eerlijk]" value="-1" id="eerlijk" required>
+<label for="eerlijk">De uitwerking die ik hieronder instuur is geheel mijn eigen werk en ik heb op geen enkele manier hulp ontvangen bij het maken van de uitwerking, behalve van docenten of assistenten die direct bij het vak betrokken zijn.</label><input type="checkbox" name="f[eerlijk]" value="-1" id="eerlijk" required>
