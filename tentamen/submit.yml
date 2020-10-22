@@ -1,0 +1,4 @@
+name: tentamen
+files:
+    vereist:
+        - tentamen.py
