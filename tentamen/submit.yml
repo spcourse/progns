@@ -1,4 +1,4 @@
 name: tentamen
 files:
-    vereist:
+    required:
         - tentamen.py
