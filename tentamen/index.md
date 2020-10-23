@@ -9,7 +9,7 @@ Heb je recht op extra tijd dan heb je dit vooraf laten registreren zoals gebruik
 
 ## Opgaven
 
-Op vrijdag vanaf 9 uur vind je hier de opdrachten als PDF.
+Op vrijdag vanaf 9 uur vind je [hier de opdrachten als PDF](20202021_Exam_InleidingProgrammeren.pdf).
 
 ## Mondeling
 
