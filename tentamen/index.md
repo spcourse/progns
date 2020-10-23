@@ -9,11 +9,13 @@ Heb je recht op extra tijd dan heb je dit vooraf laten registreren zoals gebruik
 
 ## Opgaven
 
-Op vrijdag vanaf 9 uur vind je [hier de opdrachten als PDF](20202021_Exam_InleidingProgrammeren.pdf).
+Op vrijdag vanaf 9 uur vind je [hier de opdrachten als PDF](20202021_Exam_InleidingProgrammeren.pdf). Mocht er later een fout ontdekt worden, dan sturen we een **mail** rond naar alle studenten. Hou je mail dus voor de zekerheid in de gaten.
 
 ## Mondeling
 
-Voor 10% van de studenten volgt een **mondelinge bespreking** na afloop van het tentamen. Deze besprekingen vinden plaats tussen 13:00 en 16:00 uur, wederom op vrijdag 23 oktober. Tijdens deze bespreking licht je toe hoe je de opdrachten hebt begrepen en hoe jouw oplossingen in elkaar zitten. Na het inleveren van je opdrachten krijg je bericht of je geselecteerd bent.
+Voor 10% van de studenten volgt een **mondelinge bespreking** na afloop van het tentamen. Als jij bij deze 10% hoort krijg je vandaag uiterlijk om 12:30 bericht.
+
+Deze besprekingen vinden plaats tussen 13:00 en 16:00 uur, vandaag, vrijdag 23 oktober. Tijdens deze bespreking licht je toe hoe je de opdrachten hebt begrepen en hoe jouw oplossingen in elkaar zitten. Na het inleveren van je opdrachten krijg je bericht of je geselecteerd bent.
 
 ## Hulplijn
 
