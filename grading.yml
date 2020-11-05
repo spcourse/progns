@@ -50,7 +50,7 @@ calculation:
     resit:
         hertentamen: 50
         opdrachten: 50
-    normal:
+    eindcijfer:
         tentamen: 50
         opdrachten: 50
 
