@@ -1,6 +1,6 @@
-# Tentamen
+# Hettentamen
 
-Het tentamen is op woensdag 2 december vanaf 9 uur. Voor de eindtijd zijn twee opties:
+Het hertentamen is op woensdag 2 december vanaf 9 uur. Voor de eindtijd zijn twee opties:
 
 - eindtijd **normaal** 11:30, inleveren op deze pagina tot uiterlijk 11:45
 - met **extra tijd** (bv. dyslexie) 12:00, inleveren op deze pagina tot uiterlijk 12:15
