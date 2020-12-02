@@ -1,4 +1,4 @@
-# Hettentamen
+# Hertentamen
 
 Het hertentamen is op woensdag 2 december vanaf 9 uur. Voor de eindtijd zijn twee opties:
 
