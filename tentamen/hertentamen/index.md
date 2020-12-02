@@ -9,7 +9,7 @@ Heb je recht op extra tijd dan heb je dit vooraf laten registreren zoals gebruik
 
 ## Opgaven
 
-Vanaf 9 uur vind je [hier de opdrachten als PDF](). Mocht er later een fout ontdekt worden, dan sturen we een **mail** rond naar alle studenten. Hou je mail dus voor de zekerheid in de gaten.
+Vanaf 9 uur vind je [hier de opdrachten als PDF](Exam_retake_20202021_blok1_InleidingProgrammeren.pdf). Mocht er later een fout ontdekt worden, dan sturen we een **mail** rond naar alle studenten. Hou je mail dus voor de zekerheid in de gaten.
 
 ## Hulplijn
 
