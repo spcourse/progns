@@ -76,7 +76,7 @@ Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaa
 
 * **Stijl** --- hoe ordelijk en leesbaar is je code? Je assistent kijkt je werk na en beoordeelt de kwaliteit. De wijze van beoordelen staat hieronder.
 
-  De stijl wordt beoordeeld met hulp van een aantal aspecten, die je in de [Stijlgids](/python/nl/stijl) kunt vinden. Om te helpen het begrip van deze aspecten te ontwikkelen krijg je na elke module bovendien feedback op de toepassing hiervan. De beoordeling gaat vervolgens zo:
+  De stijl wordt beoordeeld met hulp van een aantal aspecten, die je in de [Stijlgids](/python/stijl) kunt vinden. Om te helpen het begrip van deze aspecten te ontwikkelen krijg je na elke module bovendien feedback op de toepassing hiervan. De beoordeling gaat vervolgens zo:
 
   6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
   5. zeer goede kwaliteit, beperkt ruimte voor verbetering
