@@ -1,16 +1,11 @@
 # Studiewijzer
 
 *Inleiding programmeren voor Natuur- en Sterrenkunde*  
-*September 2020*
-
-![Python](python-logo.png){:.inline}  
+*September 2021*
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
 
 De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren en bestaat uit vier afzonderlijke modules. Gedurende de cursus leren we steeds meer over programmeren en de manier waarop we complexe problemen gestructureerd aan kunnen pakken. Elke module is opgedeeld in vier dagdelen en per module zijn er een aantal opgaves die digitaal ingeleverd moeten worden. 
-
-> Let op! De toetsing voor dit vak ligt nog niet vast. Duidelijk is dat je alle opdrachten ingeleverd moet hebben om het vak te kunnen halen. Daar zit het meeste werk in. Voor de andere delen van de toetsing (tentamen) wordt nog een alternatief gezocht.
-{:.bg-warning}
 
 ## Docenten en assistenten
 
@@ -27,12 +22,6 @@ Voor hulp bij dit vak vak staan bovendien de assistenten voor je klaar. Zij zijn
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
 Jouw **eerste aanspreekpunt** punt zijn jouw medestudenten uit je groepje. Juist als je bezig bent met het begrijpen van het probleem, het formuleren van jouw oplossing, dan kan een medestudent vaak goed meedenken. Let wel op dat je tijdens het implementeren van jouw oplossing in Python altijd moet zorgen dat elke regel code jouw eigen intellectueel werk is. Het beste is dus om medestudenten in te schakelen in de fase vóór het echte programmeren.
-
-**Ed:** altijd beschikbaar, de belangrijkste plek voor hulp. Klik op de link onderaan deze site om naar Ed te gaan (een uitnodiging volgt na het eerste college).
-
-- vragen over wat er in de opdracht bedoeld wordt
-- technische vragen over programmeren en bugs
-- medestudenten en assistenten beantwoorden je vragen
 
 **Assistentie:** direct contact met een assistent, voor moeilijk te formuleren vragen. Klik op de ? rechtsbovenaan om jezelf in de rij te plaatsen.
 
@@ -112,12 +101,12 @@ De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook
 De deadline voor het inleveren van alle code is voor elke module op de maandagavond in de week nadat de module afgesloten is. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren, dus lever sowieso in wat je hebt! Om te zorgen dat je de assistent alle vragen 
 kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstandiger om te zorgen dat je alles af hebt aan het eind van het laatste practicum.
 
-| opdracht  | deadline        |  
-| --------- |---------------- |  
-| module 1  | ma 14 sep 10:59 |  
-| module 2  | ma 28 sep 10:59 |  
-| module 3  | ma 12 okt 10:59 |  
-| module 4  | wo 21 okt 16:59 |  
+| opdracht  | deadline        |  verbeterd       |  
+| --------- |---------------- |  --------------- |  
+| module 1  | ma 20 sep 10:59 |  wo 14 sep 19:59 |  
+| module 2  | ma  5 okt 10:59 |  wo  7 okt 19:59 |  
+| module 3  | ma 18 okt 10:59 |  wo 20 okt 19:59 |  
+| module 4  | ma 25 okt 10:59 |  -               |  
 
 
 ## Tentamen
@@ -140,7 +129,7 @@ Het eindcijfer wordt dan als volgt berekend:
 | module 1  |   12,5% |  
 | module 2  |   12,5% |  
 | module 3  |   12,5% |  
-| module 4  |   12,5% |  
+| module 4  |   12,5% (niet meetellen, wel verplichten?) |
 | tentamen  |     50% |  
 
 
