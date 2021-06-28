@@ -12,13 +12,13 @@ In het hoofdstuk [basiselementen](/python/basiselementen) heb je een aantal **in
 
 Daarnaast heb je kennis gemaakt met operators die gebruikt worden om expressies samen te stellen. Dit was al genoeg om een werkend programma te schrijven. We gaan het nu interessanter maken door uitzonderingen en herhaling toe te staan.
 
-# Voorwaardelijke instructies
+## Voorwaardelijke instructies
 
 In de voorgaande programma's schreven we scriptjes die regel voor regel van boven naar beneden werden uitgevoerd. Een soort stapsgewijze handleiding. Programma's worden interessanter als we *uitzonderingen* willen beschrijven.
 
 ![embed](https://player.vimeo.com/video/287244672)
 
-## Details
+### Details
 
 Een `if`-statement in Python kent de volgende structuur:
 
@@ -48,7 +48,7 @@ Je kunt verschillende voorwaarden combineren. Als je wilt weten of een getal zic
     x_min = 3
     x_max = 39
     if x > x_min and x < x_max:
-        print("het getal", x, "bevindt zich tussen", x_min, "en", x_max)
+        print(f"het getal {x} bevindt zich tussen {x_min} en {x_max}")
 
 Hier zijn de drie operators om voorwaarden te combineren:
 

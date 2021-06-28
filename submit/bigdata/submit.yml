@@ -1,0 +1,13 @@
+name: module4
+files:
+    required:
+        - autorit.py
+        - temperatuur.py
+    extra:
+        - mijndata.py
+        - mijnverhaal.pdf
+        - data.txt
+check:
+    tool: checkpy
+    repo: uva/progns
+    args: -m bigdata

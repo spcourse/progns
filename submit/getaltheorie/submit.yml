@@ -1,0 +1,14 @@
+name: module1
+files:
+    required:
+        - rekenwonder.py
+        - priemgetal.py
+        - reeks.py
+        - goldbach.py
+        - plot.py
+    extra:
+        - onderlingpriem.py
+check:
+    tool: checkpy
+    repo: uva/progns
+    args: -m getaltheorie

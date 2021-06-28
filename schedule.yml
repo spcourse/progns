@@ -1,16 +1,40 @@
-Module 1:
+Welkom:
+    Lees eerst even de studiewijzer door: /syllabus
+    Installeer Python: /python/nl/installatie/computer
+
+Module 1 - Getaltheorie:
+  "":
     - getaltheorie
-    - plotten
+    - grafieken
     - getaltheorie-extra
+  Submit:
+    Inleveren van de opdrachten: /submit/getaltheorie
 
-Module 2:
-    - integreren
-    - animatie
+Module 2 - Numeriek integreren:
+  "":
+    - integreren2
     - integreren-extra
+  Submit:
+    Inleveren van de opdrachten: /submit/integreren
 
-Module 3:
+Module 3 - Simulaties:
+  "":
+    Inleiding: /modules/monopoly/nl/
+  " ":
+    - animaties
     - monopoly-nl
     - beweging
+  Extra opdracht:
+    Deeltjes in een doos: /modules/particles/doos
+  Submit:
+    Inleveren van de opdrachten: /submit/monopoly
 
-Module 4:
+Module 4 - Big Data:
+  "":
     - bigdata-nl
+    - autorit
+    - temperatuur
+    # - fietsrit
+    - data-verzamelen
+  Submit:
+    Inleveren van de opdrachten: /submit/bigdata

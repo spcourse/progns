@@ -1,0 +1,75 @@
+grades:
+    module1:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        automatic:
+            scope: correctness_score.floor
+        calculation: (scope/12.0*4 + stijl/6.0*4 + extra + 1).round(1)
+    module2:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        automatic:
+            scope: correctness_score.floor
+        calculation: (scope/19.0*4 + stijl/6.0*4 + extra + 1).round(1)
+    module3:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        automatic:
+            scope: correctness_score.floor
+        calculation: (scope/15.0*4 + stijl/6.0*4 + extra + 1).round(1)
+    module4:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        automatic:
+            scope: correctness_score.floor
+        calculation: (scope/6.0*4 + stijl/6.0*4 + extra + 1).round(1)
+    tentamen:
+        type: float
+        subgrades:
+            points: float
+        calculation: (points.to_f / 10 * 9 + 1).round(1)
+    hertentamen:
+        type: float
+        subgrades:
+            points: float
+        calculation: (points.to_f / 10 * 9 + 1).round(1)
+
+calculation:
+    resit:
+        hertentamen: 50
+        opdrachten: 50
+    eindcijfer:
+        tentamen: 50
+        opdrachten: 50
+
+opdrachten:
+    show_progress: true
+    submits:
+        module1: 1
+        module2: 1
+        module3: 1
+        module4: 1
+
+tentamen:
+    minimum: 6.4
+    required: true
+    submits:
+        tentamen: 1
+
+hertentamen:
+    minimum: 6.4
+    required: true
+    submits:
+        hertentamen: 1

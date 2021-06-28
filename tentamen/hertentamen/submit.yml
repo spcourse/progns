@@ -1,0 +1,4 @@
+name: hertentamen
+files:
+    required:
+        - hertentamen.py

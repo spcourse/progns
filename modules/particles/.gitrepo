@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:spcourse/particles.git
+	branch = main
+	commit = 805814732c1248abee15a72e0c842ce4a9f01c29
+	parent = e4a7ab6e4231e2c4c0e11af154f8fff6332f818a
+	method = merge
+	cmdver = 0.4.1
