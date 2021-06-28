@@ -2,7 +2,6 @@ name: grafieken
 content:
 
     Grafieken:
-        Leer informatie verzamelen in lijsten : /python/lijsten
         Leer over het gebruiken van modules in Python: /python/modules
         Zoek op hoe je data kunt plotten: /python/plot
         Maak data inzichtelijk met grafieken: .
