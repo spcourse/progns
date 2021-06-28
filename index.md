@@ -125,11 +125,11 @@ Je krijgt een eindcijfer voor dit vak als je:
 Het eindcijfer wordt dan als volgt berekend:
 
 | onderdeel | gewicht |  
-| --------- | ------: |  
-| module 1  |   12,5% |  
-| module 2  |   12,5% |  
-| module 3  |   12,5% |  
-| module 4  |   12,5% (niet meetellen, wel verplichten?) |
+| --------- | ------: |
+| module 1  |     14% |  
+| module 2  |     14% |  
+| module 3  |     14% |  
+| module 4  |      8% |
 | tentamen  |     50% |  
 
 
