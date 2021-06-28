@@ -33,7 +33,7 @@ om in de plot aan te geven welke $$x$$-waardes en $$y$$-waardes we willen zien.
         plt.pause(0.001)
         plt.clf()            # clear grafiek
 
-![](../../assets/AnimationExampleSin1.gif)
+![](../assets/AnimationExampleSin1.gif)
 
 > Je ziet dat we in de code de functie `pause()` aanroepen. Dat doen we om pyplot de gelegenheid te geven de nieuwe figuur op het scherm te tekenen. Dit wordt alleen gedaan tijdens de pauzes die we geven.
 
@@ -42,7 +42,7 @@ Omdat de CS50 IDE normaal gesproken geen scherm heeft om de animaties in te tone
 
 > `gui50` is op dit moment nog in beta. Mogelijk moet je af en toe de pagina opnieuw openen of op 'Connect' klikken. Mocht het niet werken, stel je vraag dan via Ed.
 
-![](../../assets/gui50.gif)
+![](../assets/gui50.gif)
 
 ## Een bewegende lijn
 
@@ -78,7 +78,7 @@ lijn.
 Zoals je ziet is de code maar drie regels veranderd ten opzichte van voorbeeld
 1. Het resultaat ziet er als volgt uit:
 
-![](../../assets/AnimationExampleSin2.gif)
+![](../assets/AnimationExampleSin2.gif)
 
 ## Een stip, een lijn en tekst
 
@@ -113,4 +113,4 @@ weergeven over de $$(x,y)$$ positie van het punt op het scherm.
         plt.pause(0.001)
         plt.clf()            # clear grafiek
 
-![](../../assets/AnimationExampleSin3.gif)
+![](../assets/AnimationExampleSin3.gif)

@@ -2,7 +2,7 @@
     
 Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over de positie, snelheid, versnelling. We hebben gedurende een korte auto-rit de data opgeslagen en in een file weggeschreven met een frequentie van 1[Hz]. Het verzamelen van de data begon toen de auto zich bevond op de plek waar de snelweg A4 op de ringweg A10 aansluit. Het verzamelen van de data stopte toen de auto op het Nikhef was aangekomen.
 
-![Kaartje van de route](../../assets/KaartAmsterdamKlein.png)
+![Kaartje van de route](../assets/KaartAmsterdamKlein.png)
 
 De sensordata is beschikbaar in de file `AutoRitData.csv` en is te downloaden  via de volgende link:
 
