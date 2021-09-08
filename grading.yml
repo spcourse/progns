@@ -1,4 +1,13 @@
 grades:
+    hello:
+        type: pass
+        subgrades:
+            done: pass
+        automatic:
+            done: -(correctness_score.floor)
+        calculation: done
+        auto_publish: true
+        hide_calculated: true
     module1:
         type: float
         subgrades:
@@ -57,6 +66,7 @@ calculation:
 opdrachten:
     show_progress: true
     submits:
+        hello: 0
         module1: 1
         module2: 1
         module3: 1

@@ -1,0 +1,8 @@
+name: hello
+files:
+    required:
+        - hello.py
+check:
+    tool: checkpy
+    repo: uva/progns
+    args: hello
