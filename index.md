@@ -21,7 +21,7 @@ Voor hulp bij dit vak vak staan bovendien de assistenten voor je klaar. Zij zijn
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
-Jouw **eerste aanspreekpunt** punt zijn jouw medestudenten uit je groepje. Juist als je bezig bent met het begrijpen van het probleem, het formuleren van jouw oplossing, dan kan een medestudent vaak goed meedenken. Let wel op dat je tijdens het implementeren van jouw oplossing in Python altijd moet zorgen dat elke regel code jouw eigen intellectueel werk is. Het beste is dus om medestudenten in te schakelen in de fase vóór het echte programmeren.
+Jouw **eerste aanspreekpunt** punt bij problemen zijn jouw medestudenten uit je groepje. Juist als je bezig bent met het begrijpen van het probleem, het formuleren van jouw oplossing, dan kan een medestudent vaak goed meedenken. Let wel op dat je tijdens het implementeren van jouw oplossing in Python altijd moet zorgen dat elke regel code jouw eigen intellectueel werk is. Het beste is dus om medestudenten in te schakelen in de fase vóór het echte programmeren.
 
 **Assistentie:** direct contact met een assistent, voor moeilijk te formuleren vragen. Klik op de ? rechtsbovenaan om jezelf in de rij te plaatsen.
 
