@@ -104,7 +104,7 @@ kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstan
 | opdracht  | deadline        |  verbeterd       |  
 | --------- |---------------- |  --------------- |  
 | module 1  | ma 20 sep 10:59 |  wo 22 sep 19:59 |  
-| module 2  | ma  5 okt 10:59 |  wo  7 okt 19:59 |  
+| module 2  | ma  4 okt 10:59 |  wo  6 okt 19:59 |  
 | module 3  | ma 18 okt 10:59 |  wo 20 okt 19:59 |  
 | module 4  | ma 25 okt 10:59 |  -               |  
 
