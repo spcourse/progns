@@ -2,7 +2,7 @@
 
 Schrijf een programma dat de volgende grafiek laat zien:
 
-![](../plot.png)
+![](plot.png)
 
 ## Specificatie
 
