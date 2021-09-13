@@ -14,11 +14,14 @@ Je **programma** moet gebruik maken van een zelfgeschreven **functie** `nulpunte
 
 - Noem je programma `nulpunten.py`.
 
-- Maak eerst een functie `nulpunten(a, b, c)` die als taak heeft de nulpunten van de polynoom $$f(x)=ax^2+bx+c$$ te berekenen.
+- Maak eerst een functie `nulpunten(a, b, c)` die als taak heeft de nulpunten van een willekeurige polynoom $$f(x)=ax^2+bx+c$$ te berekenen.
+
+    - De functie geeft altijd een **lijst** terug.
 
     - Er zijn twee mogelijkheden voor het resultaat van de functie:
 
         - een lege lijst `[]` als er geen nulpunten zijn
+
         - een lijst met twee elementen `[n1, n2]` waarin `n1` en `n2` de nulpunten van de polynoom zijn
 
 - Schrijf dan de rest van het programma om de resultaten netjes te presenteren:
@@ -29,7 +32,7 @@ Je **programma** moet gebruik maken van een zelfgeschreven **functie** `nulpunte
 
     - Print de uitkomst in nette bewoordingen, en print de volgende uitkomst als er geen nulpunten zijn:
 
-        Deze functie heeft geen nulpunten.
+            Deze functie heeft geen nulpunten.
 
     - Plot sowieso de functie, en geef de nulpunten uit de berekening duidelijk aan in de grafiek.
 
