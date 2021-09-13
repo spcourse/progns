@@ -14,12 +14,18 @@ Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10
 
 - Maak één functie `nulpunten(a, b, c)` die als taak heeft de nulpunten van de polynoom $$f(x)=ax^2+bx+c$$ te berekenen.
 
+- Zorg dat je de functie `nulpunten` een lijst teruggeeft als resultaat
+
 - Er zijn twee mogelijkheden voor het resultaat van de functie:
 
     - een lege lijst `[]` als er geen nulpunten zijn
     - een lijst met twee elementen `[n1, n2]` waarin `n1` en `n2` de nulpunten van de polynoom zijn
 
-- Plot in alle gevallen de functie, en geef de nulpunten uit de berekening duidelijk aan in de grafiek.
+- Plot in alle gevallen de functie, en geef (als ze er zijn) de nulpunten uit de berekening duidelijk aan in de grafiek.
+
+- Als er geen nulpunten zijn (de lijst met nulpunten is leeg is dan moet je programma netjes printen dat de nulpunten ontbreken:
+
+        Deze functie heeft geen nulpunten.
 
 ## Hints
 
@@ -29,9 +35,8 @@ Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10
 
         resultaat = nulpunten(1, 2, -10)
 
-- Test later ook met een polynoom die geen nulpunten heeft (check dan of de lijst leeg is). Het programma moet in dat geval netjes printen dat de nulpunten ontbreken:
+   De lijst `resultaat` bevat nu de informatie over de nulpunten die je vervolgens kunt printen.
 
-        Deze functie heeft geen nulpunten.
 
 ## Testen
 
