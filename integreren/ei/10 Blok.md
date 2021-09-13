@@ -19,3 +19,10 @@ Je programma moet vier dingen doen:
 - Er moet een plot verschijnen van de distributie van de goede en slechte punten (zoals in de rechterplot hierboven)
 
 - Geef ook in de grafiek aan wat de oppervlakte is, eveneens op 2 decimalen nauwkeurig
+
+## Testen
+
+Je kunt ook bij deze functie `checkpy` gebruiken om te testen of je progamma het juiste resultaat geeft.
+
+    checkpy twitter.py
+
