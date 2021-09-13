@@ -47,7 +47,6 @@ De truc is de volgende: de uiteindelijke integraal kunnen we evalueren door de o
 
 - De functie `riemann()` moet de juiste waarde van de integraal teruggeven als resultaat.
 
-- De functie `riemann()` moet de wiskundige functie op het scherm laten zien.
 
 
 ## Tests
