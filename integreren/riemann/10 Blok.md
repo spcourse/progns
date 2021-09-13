@@ -77,7 +77,7 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 - Let op: als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
-- Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent. Je kunt in je `riemann()`-functie een stukje code opnemen om de grafiek te plotten.
+- Het is niet verplicht, maar het is ontzettend handig om een plot te maken van de grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent. Dat kan in een apart programmaatje, maar je zou ook een stukje code op kunnen nemen in de `riemann()`-functie zelf.
 
 - Test je functie altijd eerst op een integraal waarvan je de uitkomst kent. Dit is het geval voor een aantal van de functies die hierboven staan weergegeven. Pas als jouw functie die integralen goed uitrekent kan je met vertrouwen de onbekende nieuwe integraal aanpakken.
 
