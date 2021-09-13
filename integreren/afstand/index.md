@@ -14,7 +14,7 @@ Dit is een typisch voorbeeld van een duidelijk en ogenschijnlijk simpel probleem
 
 - De naam van het programma is `afstand.py`.
 
-- Definieer daarin een functie `vierkant($$N$$)` die als parameter het aantal keer ($$N$$) accepteert en de gemiddelde afstand tussen twee punten in zo'n vierkant `return`t.
+- Definieer daarin een functie `vierkant(N)` die als parameter het aantal keer ($$N$$) accepteert en de gemiddelde afstand tussen twee punten in zo'n vierkant `return`t.
 
 
 ## Probleemanalyse
