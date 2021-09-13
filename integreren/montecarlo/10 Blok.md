@@ -88,11 +88,9 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 ## Hints
 
-- Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
+- Kijk goed naar de grafiek van de rode en groene punten die je maakt zodat je ziet of duidelijk ziet welk gebied je aan het integreren bent. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in één keer terwijl je daar anders uren naar moet zoeken in de code zelf.
 
-- Maak ook een grafiek met rode en groene punten zoals in bovenstaand voorbeeld. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in 1 keer terwijl je daar anders uren naar moet zoeken in de code zelf.
-
-- Bij 'negatieve' integratieregio's kun je de gebieden splitsen.
+- Bij 'negatieve' integratieregio's is het handig om de integratiegebieden splitsen. Denk even na waarom dat zo is.
 
 - In onderzoekstoepassingen wordt voor maximalisatie van de efficientie de rechthoek zo gekozen dat hij de integraal zo nauw mogelijk omsluit.
 

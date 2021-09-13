@@ -6,7 +6,7 @@ Programmacode is bij voorkeur goed leesbaar, niet alleen voor jezelf, maar ook v
 
 Om te beginnen een paar dingen over terminologie:
 
-- We hebben het vaak over "programma's". Een *programma* is een op zichzelf staan geheel, een stuk software dat een taak kan uitvoeren. Denk aan een rekenmachine op je telefoon. Of Microsoft Word. Python zelf is ook een programma. En jij schrijft in deze cursus dus een heleboel verschillende programma's.
+- We hebben het vaak over "programma's". Een *programma* is een op zichzelf staand geheel, een stuk software dat een taak kan uitvoeren. Denk aan een rekenmachine op je telefoon. Of Microsoft Word. Python zelf is ook een programma. En jij schrijft in deze cursus dus een heleboel verschillende programma's.
 
 - We hebben het ook vaak over "code". Een stuk *code* is een fragment, vaak onderdeel van een programma. Het woord code is niet telbaar, dat wil zeggen dat je niet kunt spreken van "een code" of "twee codes". Je kunt wel zeggen "mijn code werkt niet", dan gaat het kennelijk over het stuk code dat je zojuist geschreven hebt.
 

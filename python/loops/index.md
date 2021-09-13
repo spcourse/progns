@@ -115,7 +115,7 @@ In de voorbeelden bovenaan de pagina wordt er naast printen en dingen bewaren ni
 
 Het is mogelijk om loops in loops te maken. In het Engels worden dit *'nested loops'* genoemd. Als je voor elke waarde van `x` bijvoorbeeld een andere variabele wilt laten variëren van 1 tot en met 3 (denk hierbij bijvoorbeeld dat `x` het studentnummer is en `y` de cijfers voor drie verschillende opdrachten tijdens een tentamen), dan gebruiken we de volgende constructie.
 
-    for x in range(1, 6):
+    for x in range(1, 7):
        for y in range(1, 4):
            print(f"x = {x} en y = {y}")
 
@@ -137,7 +137,7 @@ Dit programma heeft als output
 
 **Oefening 9:** Pas bovenstaand programma zo aan dat y niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van x. Gebruik nu de while-constructie voor de waardes van y.
 
-**Oefening 10:** Pas bovenstaand programma zo aan dat de loop over y alleen uitgevoerd wordt als x groter is dan 3. Zorg dat in de loop over x gewoon range(1,6) blijft staan, maar verzin een ander oplosisng met behulp van een if-statement.
+**Oefening 10:** Pas bovenstaand programma zo aan dat de loop over y alleen uitgevoerd wordt als x groter is dan 3. Zorg dat in de loop over x gewoon range(1,7) blijft staan, maar verzin een ander oplosisng met behulp van een if-statement.
 
 ## Oefenen en debuggen
 

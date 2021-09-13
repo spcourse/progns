@@ -2,7 +2,7 @@
 
 Implementeer een programma dat op verzoek het $$n$$-de priemgetal genereert.
 
-	Naar welk priemgetal bent u op zoek? 1000
+	Naar het hoeveelste priemgetal bent u op zoek? 1000
 	7919
 
 ## Achtergrond

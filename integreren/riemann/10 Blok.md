@@ -28,7 +28,7 @@ De volledige integraal is dan te schrijven als:
 $$\int_a^b f(x)~dx = \frac{\Delta x}{2} (f_0 + 2 f_1 + 2 f_2 + ... +  2 f_{N-1} + f_N)~+~\mathcal{O}((\Delta x)^2)\\
                        ~~ \approx \Delta~x(f_1 + f_2 + ... +  f_{N-1}) ~+~ \frac{\Delta x}{2}(f_0+f_N) $$
 
-In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we het integratiegebied in $$x$$ opgedeeld in 13 gebieden van gelijke grootte. We hebben dan dus in totaal 14 x-waardes. De hoogte van elk vcan de 13 rechthoeken is het gemiddelde van de waarde aan de linkerkant en de rechterkant van het kleine integratiegebied.
+In de evaluatie van de integraal $$\int_{0}^{\pi}sin(x)~dx$$ hebben we het integratiegebied in $$x$$ opgedeeld in 13 gebieden van gelijke grootte. We hebben dan dus in totaal 14 x-waardes. De hoogte van elk van de 13 rechthoeken is het gemiddelde van de waarde aan de linkerkant en de rechterkant van het kleine integratiegebied.
 
 De truc is de volgende: de uiteindelijke integraal kunnen we evalueren door de oppervlaktes van alle rechthoeken op te tellen. Let op dat bij de berekening van de integraal de 'oppervlaktes' van de rechthoeken onder de y-as als negatief geteld worden. Als we de intervallen steeds kleiner maken, wordt de benadering van de integraal steeds preciezer! Daarom komt het goed van pas dat we met een computer werken.
 
@@ -47,7 +47,6 @@ De truc is de volgende: de uiteindelijke integraal kunnen we evalueren door de o
 
 - De functie `riemann()` moet de juiste waarde van de integraal teruggeven als resultaat.
 
-- De functie `riemann()` moet de wiskundige functie op het scherm laten zien.
 
 
 ## Tests
@@ -77,7 +76,7 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 - Let op: als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
-- Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent. Je kunt in je `riemann()`-functie een stukje code opnemen om de grafiek te plotten.
+- Het is niet verplicht, maar het is ontzettend handig om een plot te maken van de grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent. Dat kan in een apart programmaatje, maar je zou ook een stukje code op kunnen nemen in de `riemann()`-functie zelf.
 
 - Test je functie altijd eerst op een integraal waarvan je de uitkomst kent. Dit is het geval voor een aantal van de functies die hierboven staan weergegeven. Pas als jouw functie die integralen goed uitrekent kan je met vertrouwen de onbekende nieuwe integraal aanpakken.
 
