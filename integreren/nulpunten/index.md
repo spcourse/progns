@@ -7,7 +7,7 @@ Schrijf een **programma** dat de nulpunten berekent van de polynoom $$f(x)=x^2+2
 
 ![](PolynoomAnalyse.png)
 
-Je **programma** moet gebruik maken van een zelfgeschreven **functie** `nulpunten` die de nulpunten berekent.
+Je **programma** moet gebruik maken van een zelfgeschreven **functie** `nulpunten` die de nulpunten berekent. Het programma lost een specifiek probleem op, maar de functie kan later makkelijk hergebruikt worden in andere programma's.
 
 
 ## Specificatie
@@ -24,7 +24,9 @@ Je **programma** moet gebruik maken van een zelfgeschreven **functie** `nulpunte
 
         - een lijst met twee elementen `[n1, n2]` waarin `n1` en `n2` de nulpunten van de polynoom zijn
 
-- Schrijf dan de rest van het programma om de resultaten netjes te presenteren:
+        - als er één nulpunt is mag ook twee keer hetzelfde nulpunt teruggegeven worden
+
+- Schrijf dan de rest van het programma om de resultaten netjes te presenteren voor één specifieke polynoom:
 
     - Roep de functie `nulpunten` aan voor de polynoom $$f(x)=x^2+2x-10$$ en sla het resultaat op in een variabele:
 
