@@ -34,6 +34,8 @@ Schrijf een programma dat de volgende grafiek laat zien:
 
 * Vergeet trouwens niet dat `^` in Python zelf géén machtsverheffen is. Je moet voor het berekenen van een macht de operator `**` gebruiken.
 
+* Voor afronden van waarden mag je de Python-functie `round()` gebruiken ([documentatie](https://docs.python.org/3/library/functions.html?highlight=round#round)).
+
 * Krijg je het plotten niet werkend? Vraag om hulp!
 
 ## Testen
