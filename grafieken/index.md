@@ -8,6 +8,8 @@ Schrijf een programma dat de volgende grafiek laat zien:
 
 * Maak een file `plot.py` en schrijf daarin een programma dat de grafiek van de functie $$f(x) = x^x$$ tussen $$x=0$$ en $$x=1.5$$ in stapjes van $$0.01$$ plot. Gebruik hiervoor een blauwe lijn.
 
+* Bereken de coördinaten van het minimum. De oefening is om hiervoor geen functie `min()` te gebruiken maar te zoeken tot je het minimum gevonden hebt. Dat kan met dezelfde stapjes van $$0.01$$ als voor het plotten van de grafiek.
+
 * Zorg dat het minimum in de grafiek wordt aangegeven door middel van een rode stip.
 
 * Gebruik `print` om het minimum ook als tekst te printen.
