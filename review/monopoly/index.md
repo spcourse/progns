@@ -26,9 +26,11 @@ Er zijn talloze manieren om je code netter te maken, maar voor deze cursus richt
 
 3. Tijdens het bladeren ga je hardop denken over de code. Wat begrijp je niet? Hoe denk je dat het in elkaar zit? Vraag je je af waarom iets op een bepaalde manier gedaan is? Zou je het anders doen? Noem het allemaal.
 
-4. Je partner luistert goed mee en maakt notities voor zichzelf. Als jij hardop denkt geeft dat je partner ideeën om de code te verbeteren. Je mag zelfs concrete adviezen geven, maar je partner mag natuurlijk zelf beslissen of ze dit overnemen.
+4. Besteed ook expliciet aandacht aan de punten uit de stijlgids. Is er commentaar? Zijn de namen duidelijk en snel te begrijpen?
 
-5. Daarna wissel je van rol en doe je hetzelfde met de programma's van de ander.
+5. Je partner luistert goed mee en maakt notities voor zichzelf. Als jij hardop denkt geeft dat je partner ideeën om de code te verbeteren. Je mag zelfs concrete adviezen geven, maar je partner mag natuurlijk zelf beslissen of ze dit overnemen.
+
+6. Daarna wissel je van rol en doe je hetzelfde met de programma's van de ander.
 
 Het belangrijkste hier is dat er hardop gedacht wordt, dat geprobeerd wordt de code van de ander te begrijpen en dat er notities gemaakt worden over hoe iemand anders de code leest (en wat je kunt verbeteren).
 
