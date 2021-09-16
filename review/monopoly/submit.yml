@@ -1,0 +1,9 @@
+name: module3-reviewed
+files:
+    required:
+        - spiraal.py
+        - student.py
+        - monopoly.py
+        - monopoly_realistisch.py
+        - appel.py
+        - basejump.py

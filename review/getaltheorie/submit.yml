@@ -1,0 +1,8 @@
+name: module1-reviewed
+files:
+    required:
+        - rekenwonder.py
+        - priemgetal.py
+        - reeks.py
+        - goldbach.py
+        - plot.py
