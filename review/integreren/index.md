@@ -4,6 +4,8 @@ Code reviews worden georganiseerd tijdens de laptopcolleges op 22 september, 6 o
 
 > Let op: je mag alleen code reviews doen als je de opdrachten al eerder goed werkend hebt ingeleverd. Had je om één of andere reden uitstel en ben je nog niet klaar, dan mag je nu nog geen review doen.
 
+Een "code review" is letterlijk het bestuderen, proberen te begrijpen en kritisch bekijken van eerder geschreven programmacode. Dat kan code van iemand anders zijn, maar het kan ook je eigen programma zijn waarvoor je even rustig tijd neemt.
+
 De code review is bedacht om jou ruimte te geven je eigen programma's nog te verbeteren na de eerste deadline voor de module. Zo kun je je voor de eerste deadline bezig houden met oefenen en programmeren, zonder je druk te maken over hoe "netjes" je code is.
 
 ## Codekwaliteit
@@ -18,11 +20,11 @@ Er zijn talloze manieren om je code netter te maken, maar voor deze cursus richt
 - Naamgeving
 - Witruimte
 
-## Instructies voor de code review
+## Instructies voor de code review (30 minuten gezamenlijk)
 
-1. Je zult alleen de verplichte opgaven verbeteren. De extra opgaven kun je niet nogmaals inleveren en worden ook niet beoordeeld.
+1. Ga met je review-partner achter jullie laptops zitten. Eén van jullie gaat, op de computer van de ander, bladeren door de uitwerkingen van deze module.
 
-2. Ga met je review-partner achter jullie laptops zitten. Eén van jullie gaat, op de computer van de ander, bladeren door de uitwerkingen van deze module.
+2. Je gaat alleen de verplichte opgaven verbeteren. De extra opgaven kun je niet nogmaals inleveren en worden ook niet verder beoordeeld.
 
 3. Tijdens het bladeren ga je hardop denken over de code. Wat begrijp je niet? Hoe denk je dat het in elkaar zit? Vraag je je af waarom iets op een bepaalde manier gedaan is? Zou je het anders doen? Noem het allemaal.
 
@@ -34,7 +36,7 @@ Er zijn talloze manieren om je code netter te maken, maar voor deze cursus richt
 
 Het belangrijkste hier is dat er hardop gedacht wordt, dat geprobeerd wordt de code van de ander te begrijpen en dat er notities gemaakt worden over hoe iemand anders de code leest (en wat je kunt verbeteren).
 
-## Verbeteren
+## Verbeteren (30 minuten zelfstandig)
 
 - Na de code review ga je maximaal 30 minuten tot een uur besteden aan het verbeteren van je programma's. Daarna lever je deze versies hieronder in. Het inleveren van verbeterde versies is **verplicht**.
 
