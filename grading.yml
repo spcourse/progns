@@ -12,8 +12,6 @@ grades:
         type: float
         subgrades:
             scope: integer
-            stijl: integer
-            extra: float
         automatic:
             scope: correctness_score.floor
         calculation: (scope/12.0*100).round
