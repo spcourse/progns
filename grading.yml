@@ -9,7 +9,7 @@ grades:
         auto_publish: true
         hide_calculated: true
     module1:
-        type: float
+        type: integer
         subgrades:
             scope: integer
         automatic:
