@@ -67,7 +67,8 @@ grades:
 calculation:
     resit:
         hertentamen: 50
-        opdrachten: 50
+        opdrachten: 0
+        review-opdrachten: 50
     eindcijfer:
         tentamen: 50
         opdrachten: 50
@@ -80,6 +81,14 @@ opdrachten:
         module2: 1
         module3: 1
         module4: 1
+
+review-opdrachten:
+    show_progress: true
+    submits:
+        module1-reviewed: 1
+        # module2: 1
+        # module3: 1
+        # module4: 1
 
 tentamen:
     minimum: 6.4
