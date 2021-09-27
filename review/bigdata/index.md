@@ -38,7 +38,7 @@ Het belangrijkste hier is dat er hardop gedacht wordt, dat geprobeerd wordt de c
 
 ## Verbeteren (30 minuten zelfstandig)
 
-- Na de code review ga je maximaal 30 minuten tot een uur besteden aan het verbeteren van je programma's. Daarna lever je deze versies hieronder in. Het inleveren van verbeterde versies is **verplicht**.
+- Na de code review ga je maximaal zo'n 30 minuten besteden aan het verbeteren van je programma's. Daarna lever je deze versies hieronder in. Het inleveren van verbeterde versies is **verplicht**.
 
 - De nieuwe versies worden **niet** meer gecontroleerd op werking, maar natuurlijk moeten ze net zo goed werken als de versies die je vorige week hebt ingeleverd.
 
