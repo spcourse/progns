@@ -2,7 +2,7 @@
 
 Met een simulatie wil je een reëel beeld van de werkelijkheid geven, zodat de uitkomsten gebruikt kunnen worden in de "echte wereld". Het is dus een *model*.
 
-Het is vaak moeilijk om aan de uitkomst te zien of de simulatie goed werkt. In het geval van de appel hierboven, kun je de uitkomst ook nog analytisch berekenen. Maar dat wordt al snel bewerkelijk.
+Het is vaak moeilijk om aan de uitkomst te zien of de simulatie goed werkt. In het geval van het simuleren van een vallende appel later in deze module, kun je de uitkomst ook nog analytisch berekenen. Maar dat wordt al snel bewerkelijk als we wrijving en andere elementen toevoegen.
 
 Daarom is het belangrijk om een simulatie systematisch te controleren. Hier geven we een paar punten die daarbij kunnen helpen:
 
