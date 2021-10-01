@@ -65,7 +65,7 @@ Er is natuurlijk een bedrag waarbij het voordeel ineens bij speler 2 komt te lig
 ## Samenvatting
 
 De simulatie die we hier gedaan hebben is een versimpelde versie van de vaak zeer complexe 
-modellen waarmee grote financiele partijen risico's inschatten en strategieen bepalen. 
+modellen waarmee grote financiële partijen risico's inschatten en hun strategie bepalen. 
 Tegelijkertijd worden deze simulaties ook gebruikt door politieke partijen om de effecten 
 van hun keuzes door te rekenen in verschillende scenario's.
 
