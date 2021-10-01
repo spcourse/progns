@@ -88,7 +88,7 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 ## Hints
 
-- Kijk goed naar de grafiek van de rode en groene punten die je maakt zodat je ziet of duidelijk ziet welk gebied je aan het integreren bent. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in één keer terwijl je daar anders uren naar moet zoeken in de code zelf.
+- Kijk goed naar de grafiek van de rode en groene punten die je maakt zodat je duidelijk ziet welk gebied je aan het integreren bent. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in één keer terwijl je daar anders uren naar moet zoeken in de code zelf.
 
 - Bij 'negatieve' integratieregio's is het handig om de integratiegebieden splitsen. Denk even na waarom dat zo is.
 
