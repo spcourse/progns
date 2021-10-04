@@ -13,7 +13,7 @@ We gaan in deze opdracht de positie van een groot aantal deeltjes volgen. In dee
 
 ## Deel 1: niet-botsende deeltjes
 
-Schrijf een programma `deeltjes_in_doos.py` dat de 1000 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma dan een grafiek opleveren van het aantal deeltjes dat zich aan de rechterkant van de doos bevindt (dus $$x_i \geq 0.5$$) als functie van de tijd.
+Schrijf een programma `deeltjes_in_doos.py` dat de 1000 deeltjes produceert en de simulatie in de tijd laat lopen gedurende een groot aantal stappen. Het programma moet een grafiek laten zien van het aantal deeltjes dat zich aan de rechterkant van de doos bevindt (dus $$x_i \geq 0.5$$) als functie van de tijd.
 
 De aannames en specificaties in dit deel van de opdracht:
 
