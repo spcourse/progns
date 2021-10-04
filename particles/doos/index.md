@@ -43,7 +43,7 @@ Tips:
 
 Omdat elk deeltje een snelheid heeft zal zijn positie veranderen in de tijd. Maak kleine stapjes in de tijd ($$\Delta t$$) en bereken op welke nieuwe positie het deeltje terecht zal komen. Als voorbeeld voor de positie in de $$x$$-richting: 
 
-  $$x_i(t+\Delta_t) = x_i(t) + (v_x)_i(t)\Delta t$$ 
+  $$x_i(t+\Delta_t) = x_i(t) + v_{x,i}(t)\Delta t$$ 
 
 De snelheid in de $$x$$-richting zal onveranderd blijven, tenzij het deeltje tegen de wand botst natuurlijk. Bedenk zelf wat er moet gebeuren als het deeltje op een positie buiten de doos terechtkomt. De deeltjes mogen de doos immers niet uit.
 
