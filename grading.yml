@@ -87,6 +87,7 @@ review-opdrachten:
     show_progress: true
     submits:
         module1-reviewed: 1
+        module2-reviewed: 1
         # module2: 1
         # module3: 1
         # module4: 1
