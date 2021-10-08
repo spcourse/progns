@@ -89,15 +89,12 @@ Niet elke positie op het bord correspondeert met een bezitting (straat, station
 of water/electriciteit). De hoekpunten van het bord zijn niet te koop en ook de
 "Kans" en "Algemeen fonds" kaarten en de belastingen zijn niet te koop. Maak een
 lijst van lengte 40, waarbij je voor elke positie op het bord laat zien welke
-waarde aan de plek op het bord verbonden is. De eerste 11 posities zijn dan:
+waarde aan de plek op het bord verbonden is.
 
 {: .language-python}
-    bord_waardes = [0, 60, 0, 60, 0, 200, 100, 0, 100, 120, 0, ......]
+    bord_waardes = [0, 60, 0, 60, 0, 200, 100, 0, 100, 120, 0, 140, 150, 140, 160, 200, 180, 0, 180, 200, 0, 220, 0, 220, 240, 200, 260, 260, 150, 280, 0, 300, 300, 0, 320, 200, 0, 350, 0, 400]
 
-Zoek op internet op hoe het Monopolybord verder in elkaar zit zodat je niet
-alleen van de eerste 11, maar van alle 40 velden weet voor welk geldbedrag ze
-te koop zijn. Als de waarde kleiner is dan 1 euro (of gewoon gelijk aan nul)
-dan is dat een zogenaamd leeg veld (niet te koop).
+Als de waarde in de lijst gelijk is aan nul dan is dat een zogenaamd leeg veld (niet te koop).
 
 Voor elke positie op het bord kan je dan het volgende uitprinten:
 
