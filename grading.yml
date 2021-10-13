@@ -26,20 +26,16 @@ grades:
         type: float
         subgrades:
             scope: integer
-            stijl: integer
-            extra: float
         automatic:
             scope: correctness_score.floor
-        calculation: (scope/15.0*4 + stijl/6.0*4 + extra + 1).round(1)
+        calculation: (scope/15.0*100).round(1)
     module4:
         type: float
         subgrades:
             scope: integer
-            stijl: integer
-            extra: float
         automatic:
             scope: correctness_score.floor
-        calculation: (scope/6.0*4 + stijl/6.0*4 + extra + 1).round(1)
+        calculation: (scope/6.0*4).round(1)
     module1-reviewed:
         type: float
         subgrades:
@@ -54,6 +50,20 @@ grades:
             stijl: integer
             extra: float
         calculation: (scope/19.0*4 + stijl/6.0*4 + extra + 1).round(1)
+    module3-reviewed:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        calculation: (scope/15.0*4 + stijl/6.0*4 + extra + 1).round(1)
+    module4-reviewed:
+        type: float
+        subgrades:
+            scope: integer
+            stijl: integer
+            extra: float
+        calculation: (scope/6.0*4 + stijl/6.0*4 + extra + 1).round(1)
     tentamen:
         type: float
         subgrades:
@@ -69,7 +79,7 @@ calculation:
     resit:
         hertentamen: 50
         opdrachten: 0
-        review-opdrachten: 50
+        reviews: 50
     eindcijfer:
         tentamen: 50
         opdrachten: 50
@@ -83,14 +93,13 @@ opdrachten:
         module3: 1
         module4: 1
 
-review-opdrachten:
+reviews:
     show_progress: true
     submits:
         module1-reviewed: 1
         module2-reviewed: 1
-        # module2: 1
-        # module3: 1
-        # module4: 1
+        module3-reviewed: 1
+        module4-reviewed: 1
 
 tentamen:
     minimum: 6.4
