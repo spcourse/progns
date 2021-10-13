@@ -61,6 +61,7 @@ Er is natuurlijk een bedrag waarbij het voordeel ineens bij speler 2 komt te lig
 	Monopoly simulator: 2 spelers
     Als we speler 2 XXX euro meer startgeld meegeven hebben beide spelers gemiddeld evenveel straten in bezit
 
+**Let op dat je voor je berekening zoveel iteraties doet dat het programma elke keer hetzelfde antwoord geeft! Anders wordt het foutgerekend.**
 
 ## Samenvatting
 
