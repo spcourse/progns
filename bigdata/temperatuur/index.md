@@ -24,7 +24,7 @@ Wat waren de hoogste en laagste temperatuur die in De Bilt zijn gemeten sinds he
 
 maar      
 
-     De hoogste temperatuur was 34.5 graden Celcius, en werd gemeten op 13 mei 1967.
+     De hoogste temperatuur was 34.5 graden Celsius, en werd gemeten op 13 mei 1967.
 
 Tip: maak een aparte functie die een getal als `19670513` kan omzetten naar een goed leesbare beschrijving als `13 mei 1967`.
 
@@ -34,7 +34,7 @@ Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperat
 
 ### Opdracht 3: zomerse en tropische dagen
 
-We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celcius was. Op een tropische dag is het in de Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
+We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celsius was. Op een tropische dag is het in de Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
 
 ### Opdracht 4: Eerste hittegolf
 
