@@ -30,7 +30,7 @@ Tip: maak een aparte functie die een getal als `19670513` kan omzetten naar een 
 
 ### Opdracht 2: koud kouder koudst
 
-Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0◦C). Wat was de datum van de laatste dag van deze periode?
+Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperatuur onder 0°C). Wat was de datum van de laatste dag van deze periode?
 
 ### Opdracht 3: zomerse en tropische dagen
 
