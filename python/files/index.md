@@ -49,7 +49,7 @@ De `'r'` bij de functie `open()` betekent 'read', lezen dus. Als je dit programm
 
 ## Stap 2: splitsen van de regel en in een lijst opslaan
 
-Elke regel bestaat uit verschillende elementen die Toegang tot de verschillende parameters in de regel krijg je door de regel in stukken te ’knippen’. Dit doe je met het Python commando `split()`. Als parameter kan je aan split meegeven waar hij moet knippen. Wij willen dat hij bij elke komma (`,`) knipt, dus we voeren het volgende commando uit: `line.split(',')`. Dit commando produceert een lijst met elementen die de losse stukken bevatten. Hierop kun je afzonderlijke bewerkingen uitvoeren.
+Elke regel bestaat uit verschillende elementen die gescheiden zijn door komma's. Toegang tot die verschillende parameters in de regel krijg je door de regel in stukken te ’knippen’. Dit doe je met het Python commando `split()`. Als parameter kan je aan split meegeven waar hij moet knippen. Wij willen dat hij bij elke komma (`,`) knipt, dus we voeren het volgende commando uit: `line.split(',')`. Dit commando produceert een lijst met elementen die de losse stukken bevatten. Hierop kun je afzonderlijke bewerkingen uitvoeren.
 
     input_file = open('VanBasten.txt', 'r')
     for line in input_file:
@@ -66,7 +66,7 @@ De karakters `"\t"` (tab) en `"\n"` (return aan eind van de regel) zijn ook zich
 
 ## Stap 3: opslaan van de informatie in variabelen
 
-In deze opgave zijn we alleen geinteresseerd in het seizoen en het aantal doelpunten. Zoals je ziet is die informatie opgeslagen in respectievelijk element 0 en 2 van de lijst.
+In deze opgave zijn we alleen geïnteresseerd in het seizoen en het aantal doelpunten. Zoals je ziet is die informatie opgeslagen in respectievelijk element 0 en 2 van de lijst.
 
 Die informatie kunnen we nu dus opslaan in een variabele:
 
