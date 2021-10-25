@@ -95,15 +95,14 @@ opdrachten:
         module1: 1
         module2: 1
         module3: 1
-        module4: 1
 
-reviews:
+cijfers:
     show_progress: true
     submits:
         module1-reviewed: 1
         module2-reviewed: 1
         module3-reviewed: 1
-        module4-reviewed: 1
+        module4: 1
 
 tentamen:
     minimum: 6.4
