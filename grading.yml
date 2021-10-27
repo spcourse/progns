@@ -36,9 +36,10 @@ grades:
         type: float
         subgrades:
             scope: integer
+            extra: float
         automatic:
             scope: correctness_score.floor
-        calculation: (scope/5.0*9+1).round(1)
+        calculation: (scope/6.0*9 + extra + 1).round(1)
         hide_calculated: true
     module1-reviewed:
         type: float
@@ -61,13 +62,6 @@ grades:
             stijl: integer
             extra: float
         calculation: (scope/15.0*4 + stijl/6.0*4 + extra + 1).round(1)
-    module4-reviewed:
-        type: float
-        subgrades:
-            scope: integer
-            stijl: integer
-            extra: float
-        calculation: (scope/6.0*4 + stijl/6.0*4 + extra + 1).round(1)
     tentamen:
         type: float
         subgrades:
