@@ -99,6 +99,7 @@ cijfers:
         module4: 1
 
 tentamen:
+    show_progress: true
     minimum: 6.4
     required: true
     submits:
