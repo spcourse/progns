@@ -39,7 +39,7 @@ grades:
             extra: float
         automatic:
             scope: correctness_score.floor
-        calculation: (scope/6.0*8 + extra + 1).round(1)
+        calculation: (scope/5.0*8 + extra + 1).round(1)
         hide_calculated: true
     module1-reviewed:
         type: float
