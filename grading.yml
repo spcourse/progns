@@ -76,8 +76,7 @@ grades:
 calculation:
     resit:
         hertentamen: 50
-        opdrachten: 0
-        reviews: 50
+        cijfers: 50
     eindcijfer:
         tentamen: 50
         cijfers: 50
