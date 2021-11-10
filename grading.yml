@@ -80,7 +80,7 @@ calculation:
         reviews: 50
     eindcijfer:
         tentamen: 50
-        opdrachten: 50
+        cijfers: 50
 
 opdrachten:
     show_progress: true
@@ -100,13 +100,13 @@ cijfers:
 
 tentamen:
     show_progress: true
-    minimum: 6.4
+    minimum: 5.5
     required: true
     submits:
         tentamen: 1
 
 hertentamen:
-    minimum: 6.4
+    minimum: 5.5
     required: true
     submits:
         hertentamen: 1
