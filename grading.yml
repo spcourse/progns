@@ -105,6 +105,7 @@ tentamen:
         tentamen: 1
 
 hertentamen:
+    show_progress: true
     minimum: 5.5
     required: true
     submits:
