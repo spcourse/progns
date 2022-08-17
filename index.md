@@ -1,7 +1,7 @@
 # Studiewijzer
 
 *Inleiding programmeren voor Natuur- en Sterrenkunde*  
-*September 2021*
+*September 2022*
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
 
@@ -103,10 +103,10 @@ kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstan
 
 | opdracht  | deadline        |  verbeterd       |  
 | --------- |---------------- |  --------------- |  
-| module 1  | ma 20 sep 10:59 |  wo 22 sep 19:59 |  
-| module 2  | ma  4 okt 10:59 |  wo  6 okt 19:59 |  
-| module 3  | ma 18 okt 10:59 |  wo 20 okt 19:59 |  
-| module 4  | ma 25 okt 10:59 |  -               |  
+| module 1  | ma 19 sep 10:59 |  wo 21 sep 19:59 |  
+| module 2  | ma  3 okt 10:59 |  wo  5 okt 19:59 |  
+| module 3  | ma 17 okt 10:59 |  wo 19 okt 19:59 |  
+| module 4  | ma 24 okt 10:59 |  -               |  
 
 
 ## Tentamen
