@@ -47,21 +47,21 @@ grades:
             scope: integer
             stijl: integer
             extra: float
-        calculation: (scope/12.0*4 + stijl/6.0*4 + extra + 1).round(1)
+        calculation: (scope/12.0*5 + stijl/6.0*3 + extra + 1).round(1)
     module2-reviewed:
         type: float
         subgrades:
             scope: integer
             stijl: integer
             extra: float
-        calculation: (scope/19.0*4 + stijl/6.0*4 + extra + 1).round(1)
+        calculation: (scope/19.0*5 + stijl/6.0*3 + extra + 1).round(1)
     module3-reviewed:
         type: float
         subgrades:
             scope: integer
             stijl: integer
             extra: float
-        calculation: (scope/15.0*4 + stijl/6.0*4 + extra + 1).round(1)
+        calculation: (scope/15.0*5 + stijl/6.0*3 + extra + 1).round(1)
     tentamen:
         type: float
         subgrades:
