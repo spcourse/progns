@@ -21,13 +21,13 @@ Voor hulp bij dit vak vak staan bovendien de assistenten voor je klaar. Zij zijn
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
-Jouw **eerste aanspreekpunt** punt zijn jouw medestudenten uit je groepje. Juist als je bezig bent met het begrijpen van het probleem, het formuleren van jouw oplossing, dan kan een medestudent vaak goed meedenken. Let wel op dat je tijdens het implementeren van jouw oplossing in Python altijd moet zorgen dat elke regel code jouw eigen intellectueel werk is. Het beste is dus om medestudenten in te schakelen in de fase vóór het echte programmeren.
+Jouw **eerste aanspreekpunt** punt zijn jouw medestudenten. Juist als je bezig bent met het begrijpen van het probleem, het formuleren van jouw oplossing, dan kan een medestudent vaak goed meedenken. Let wel op dat je tijdens het implementeren van jouw oplossing in Python altijd moet zorgen dat elke regel code jouw eigen werk is. Het beste is dus om medestudenten in te schakelen in de fase vóór het echte programmeren.
 
-**Assistentie:** direct contact met een assistent, voor moeilijk te formuleren vragen. Klik op de ? rechtsbovenaan om jezelf in de rij te plaatsen.
+**Assistentie:** direct contact met een assistent, voor moeilijk te formuleren vragen.
 
-- hulp via een videogesprek waar je je scherm kunt delen
+- de assistent komt naar je toe zodra je aan de beurt bent
 - je weet niet waar te beginnen of een onvindbare bug
-- moeite met verzinnen oplossing
+- je hebt moeite met verzinnen oplossing
 - alleen tijdens de geroosterde uren, de wachttijd kan soms oplopen
 
 **Mail:** contact met de vakcoördinatoren via <progns@mprog.nl>.
@@ -37,10 +37,12 @@ Jouw **eerste aanspreekpunt** punt zijn jouw medestudenten uit je groepje. Juist
 - andere officiële zaken
 - administratie na afloop van het vak
 
-**Laptophelpdesk:** neem direct contact op met Zoom via de link die in de [mededelingen](/announcements) staat.
+**Laptophelpdesk:** voor moeilijke installatieproblemen.
 
 - laptop werkt niet meer
 - installatieproblemen voor de benodigde software
+- loop langs tussen 10 en 16 uur in lokaal B1.19A
+- vanaf 26 september alleen nog dinsdag en donderdag 12--13 uur in B1.27A
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -72,9 +74,9 @@ je alles digitaal in.
 
 Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaat uit meerdere delen:
 
-* **Omvang** --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen? Heb je alles precies gedaan zoals de omschrijving vereist? Met `checkpy` bepalen we hoe groot het aandeel correcte opdrachten is.
+* **Omvang** --- (telt voor 5/9 deel) Heb je alle opdrachten geprobeerd of heb je dingen overgeslagen? Heb je alles precies gedaan zoals de omschrijving vereist? Met `checkpy` bepalen we hoe groot het aandeel correcte opdrachten is.
 
-* **Stijl** --- hoe ordelijk en leesbaar is je code? Je assistent kijkt je werk na en beoordeelt de kwaliteit. De wijze van beoordelen staat hieronder.
+* **Stijl** --- (telt voor 3/9 deel) Hoe ordelijk en leesbaar is je code? Je assistent kijkt je werk na en beoordeelt de kwaliteit. De wijze van beoordelen staat hieronder.
 
   De stijl wordt beoordeeld met hulp van een aantal aspecten, die je in de [Stijlgids](/python/stijl) kunt vinden. Om te helpen het begrip van deze aspecten te ontwikkelen krijg je na elke module bovendien feedback op de toepassing hiervan. De beoordeling gaat vervolgens zo:
 
@@ -86,9 +88,7 @@ Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaa
   1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
   {: start="6" reversed=""}
 
-Omvang en stijl tellen evenveel mee, en samen kun je er een 9 mee halen.
-
-* **Extra** --- als je de extra opdracht hebt gedaan levert dit je je laatste punt voor de module op.
+* **Extra** --- (telt voor 1/9 deel) Als je de extra opdracht hebt gedaan levert dit je je laatste punt voor de module op.
 
 
 ## Dagelijks ritme
