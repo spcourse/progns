@@ -2,75 +2,75 @@ grades:
     hello:
         type: pass
         subgrades:
-            done: pass
+            correct: pass
         automatic:
-            done: correctness_score == 1 && -1 || 0
+            correct: correctness_score == 1 && -1 || 0
         calculation: done
         auto_publish: true
         hide_calculated: true
     module1:
         type: integer
         subgrades:
-            scope: integer
+            checks: integer
         automatic:
-            scope: correctness_score.floor
+            checks: correctness_score.floor
         calculation: (scope/12.0*100).round
         hide_calculated: true
     module2:
         type: float
         subgrades:
-            scope: integer
+            checks: integer
         automatic:
-            scope: correctness_score.floor
+            checks: correctness_score.floor
         calculation: (scope/19.0*100).round
         hide_calculated: true
     module3:
         type: float
         subgrades:
-            scope: integer
+            checks: integer
         automatic:
-            scope: correctness_score.floor
+            checks: correctness_score.floor
         calculation: (scope/15.0*100).round(1)
         hide_calculated: true
     module4:
         type: float
         subgrades:
-            scope: integer
+            checks: integer
             extra: float
         automatic:
-            scope: correctness_score.floor
+            checks: correctness_score.floor
         calculation: (scope/5.0*8 + extra + 1).round(1)
         hide_calculated: true
     module1-reviewed:
         type: float
         subgrades:
-            scope: integer
+            checks: integer
             stijl: integer
             extra: float
         calculation: (scope/12.0*5 + stijl/6.0*3 + extra + 1).round(1)
     module2-reviewed:
         type: float
         subgrades:
-            scope: integer
+            checks: integer
             stijl: integer
             extra: float
         calculation: (scope/19.0*5 + stijl/6.0*3 + extra + 1).round(1)
     module3-reviewed:
         type: float
         subgrades:
-            scope: integer
+            checks: integer
             stijl: integer
             extra: float
         calculation: (scope/15.0*5 + stijl/6.0*3 + extra + 1).round(1)
     tentamen:
         type: float
         subgrades:
-            points: float
+            punten: float
         calculation: (points.to_f / 10 * 9 + 1).round(1)
     hertentamen:
         type: float
         subgrades:
-            points: float
+            punten: float
         calculation: (points.to_f / 10 * 9 + 1).round(1)
 
 calculation:
