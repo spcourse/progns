@@ -5,7 +5,7 @@ grades:
             correct: pass
         automatic:
             correct: correctness_score == 1 && -1 || 0
-        calculation: pass
+        calculation: correct
         auto_publish: true
         hide_calculated: true
     module1:
