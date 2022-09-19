@@ -2,7 +2,7 @@ grades:
     hello:
         type: pass
         subgrades:
-            correct: pass
+            correct: boolean
         automatic:
             correct: correctness_score == 1 && -1 || 0
         calculation: correct
