@@ -98,8 +98,7 @@ De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook
 
 ## Deadline inleveren opdrachten
 
-De deadline voor het inleveren van alle code is voor elke module op de maandagavond in de week nadat de module afgesloten is. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren, dus lever sowieso in wat je hebt! Om te zorgen dat je de assistent alle vragen 
-kan stellen en hem/haar kan vragen je code te bekijken is het natuurlijk verstandiger om te zorgen dat je alles af hebt aan het eind van het laatste practicum.
+Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever je van zoveel mogelijk opdrachten jouw oplossing in, waarna deze automatisch wordt gecontroleerd op werking met `checkpy`. Dan volgt een werkcollege waarin je een code review gaat doen, en dan kun je nog verbeterde versies inleveren van dezelfde programma's. Dat zijn dan de versies die door de assistenten worden nagekeken.
 
 | opdracht  | deadline        |  verbeterd       |  
 | --------- |---------------- |  --------------- |  
