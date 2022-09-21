@@ -1,9 +1,5 @@
 # Code review
 
-Code reviews worden georganiseerd tijdens de laptopcolleges op 22 september, 6 oktober en 20 oktober.
-
-> Let op: je mag alleen code reviews doen als je de opdrachten al eerder goed werkend hebt ingeleverd. Had je om één of andere reden uitstel en ben je nog niet klaar, dan mag je nu nog geen review doen.
-
 Een "code review" is letterlijk het bestuderen, proberen te begrijpen en kritisch bekijken van eerder geschreven programmacode. Dat kan code van iemand anders zijn, maar het kan ook je eigen programma zijn waarvoor je even rustig tijd neemt.
 
 De code review is bedacht om jou ruimte te geven je eigen programma's nog te verbeteren na de eerste deadline voor de module. Zo kun je je voor de eerste deadline bezig houden met oefenen en programmeren, zonder je druk te maken over hoe "netjes" je code is.
