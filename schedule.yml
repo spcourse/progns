@@ -12,6 +12,8 @@ Module 1 - Getaltheorie:
     Inleveren van de opdrachten: /submit/getaltheorie
 
 Module 2 - Numeriek integreren:
+  Review vorige module:
+    Code review: /review/getaltheorie
   "":
     - integreren2
     - integreren-extra

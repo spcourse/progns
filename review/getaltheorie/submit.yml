@@ -4,5 +4,4 @@ files:
         - rekenwonder.py
         - priemgetal.py
         - reeks.py
-        - goldbach.py
         - plot.py
