@@ -100,4 +100,6 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 ## Testen
 
+**Let op! Zorg dat je checkpy meerdere keren gebruikt om te kijken of monte carlo elke keer het zelfde antwoord geeft. Dit ligt namelijk aan de verhouding tussen je gekozen integratiegebied en het aantal keer dat je punten "gooit". Tegelijk moet je wel zorgen dat het aantal punten niet veel te groot is, anders riskeer je een time-out.**
+
 	checkpy montecarlo
