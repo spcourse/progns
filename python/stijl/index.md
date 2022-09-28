@@ -83,6 +83,21 @@ Oh, en misschien goed om nog even te herhalen. Als een regel eindigt op een dubb
 
 Hier zie je dat de regel `result = result + number` bij de `for`-loop hoort. De `return` staat echter weer een stukje naar links, waardoor je weet dat deze niet bij de `for`-loop hoort.
 
+Ook comments moet je een indentatie geven. Kijk naar dit voorbeeld:
+
+    def print_is_het_fruit(naam_van_eten):
+        # bepaal of het fruit is
+        antwoord = False
+        for fruitsoort in fruitsoorten:
+            if fruitsoorten == naam_van_eten:
+                antwoord = True
+        
+        # print het resultaat
+        if antwoord:
+            print(f"{naam_van_eten} is fruit")
+        else:
+            print(f"{naam_van_eten} is geen fruit")
+
 ## Naamgeving
 
 Veel elementen in je code hebben een *naam*. Het gaat dan vooral om functies en variabelen. We geven wat richtlijnen.
