@@ -57,6 +57,8 @@ Als je een paar simulaties hebt gedraaid heb je een kleine data-set waarmee je b
 
 Er is natuurlijk een bedrag waarbij het voordeel ineens bij speler 2 komt te liggen. Gebruikt dat bedrag (en het bedrag ervoor) om een schatting te maken van het bedrag waar het evenwicht ligt. Gebruik hiervoor een aanname dat het verschil lineair verloopt als functie van het extra geld voor speler 2. Het antwoord moet op 25 euro nauwkeurig zijn.
 
+**Let op dat je voor je berekening zoveel iteraties doet dat het programma elke keer hetzelfde antwoord geeft! Anders wordt het foutgerekend.**
+
 {: .language-python}
 	Monopoly simulator: 2 spelers
     Als we speler 2 XXX euro meer startgeld meegeven hebben beide spelers gemiddeld evenveel straten in bezit
