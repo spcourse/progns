@@ -1,6 +1,6 @@
 # Code review
 
-Code reviews worden georganiseerd tijdens de laptopcolleges op 22 september, 6 oktober en 20 oktober.
+Code reviews worden georganiseerd tijdens de laptopcolleges op 22 september, 6 oktober en 19 oktober.
 
 > Let op: je mag alleen code reviews doen als je de opdrachten al eerder goed werkend hebt ingeleverd. Had je om één of andere reden uitstel en ben je nog niet klaar, dan mag je nu nog geen review doen.
 
