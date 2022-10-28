@@ -13,3 +13,4 @@ Extra tijd is alleen beschikbaar voor studenten die dit vooraf hebben laten regi
 - Zorg dat je ingelogd bent op deze pagina en onderaan het inlever-formulier kunt zien!
 - Hieronder kun je je uitwerking, in één bestand, inleveren.
 - Je assistent moet noteren op welke tijd je je uitwerking hebt ingeleverd.
+- Je mag maar één keer inleveren!!
