@@ -43,7 +43,7 @@ grades:
         automatic:
             checks: correctness_score.floor
         calculation: (checks/5.0*8 + extra + 1).round(1)
-        hide_calculated: true
+        # hide_calculated: true
     module1-reviewed:
         type: float
         subgrades:
@@ -95,10 +95,10 @@ opdrachten:
 cijfers:
     show_progress: true
     submits:
-        module1-reviewed: 1
-        module2-reviewed: 1
-        module3-reviewed: 1
-        module4: 1
+        module1-reviewed: 14
+        module2-reviewed: 14
+        module3-reviewed: 14
+        module4: 8
 
 tentamen:
     show_progress: true
