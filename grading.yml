@@ -83,6 +83,12 @@ calculation:
     eindcijfer:
         tentamen: 50
         cijfers: 50
+    eindcijfer-corr:
+        tentamen: 50
+        cijfers-corr: 50
+    resit-corr:
+        hertentamen: 50
+        cijfers-corr: 50
 
 opdrachten:
     show_progress: true
@@ -95,10 +101,19 @@ opdrachten:
 cijfers:
     show_progress: true
     submits:
+        module1-reviewed: 1
+        module2-reviewed: 1
+        module3-reviewed: 1
+        module4: 1
+
+cijfers-corr:
+    show_progress: true
+    submits:
         module1-reviewed: 14
         module2-reviewed: 14
         module3-reviewed: 14
         module4: 8
+
 
 tentamen:
     show_progress: true
