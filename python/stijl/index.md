@@ -67,9 +67,9 @@ Indentatie gaat over het toevoegen van witruimte aan het begin van een regel. In
 
 Let wel op! Je kunt de extra witruimte invullen met tabs of met spaties. In heel veel gevallen is een tab zichtbaar als 8 spaties, maar soms ook als 4 of 2. Hoe dan ook, het wordt een probleem als je tabs en spaties door elkaar gaat gebruiken, want dan is onduidelijk wat de bedoeling is.
 
-    def sum(x, y):
-        result = x + y         <-- vier spaties
-            return result      <-- 1 tab is hier 8 spaties geworden
+    def som(x, y):
+        resultaat = x + y         <-- vier spaties
+            return resultaat      <-- 1 tab is hier 8 spaties geworden
 
 De `return` staat een stukje extra naar rechts, maar in feite is het één tab. Het resultaat is dat het een stuk moeilijker leesbaar is. Bovendien begrijpt Python er ook niet zoveel meer van. Je krijgt al snel een foutmelding als je zoiets doet. Gebruik dus alleen maar spaties, of alleen maar tabs om te indenteren.
 
