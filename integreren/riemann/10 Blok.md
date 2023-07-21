@@ -90,9 +90,6 @@ Lijkt het niet te werken?
 - Als dat wel goed zit, kan het zijn dat het aantal stappen te klein is om tot een precies genoeg antwoord te komen. Probeer het aantal te verhogen en bekijk ook hoe dit de uitkomsten beinvloedt.
 
 
-## Test je code
+## Testen
 
 	checkpy riemann
-
-
-
