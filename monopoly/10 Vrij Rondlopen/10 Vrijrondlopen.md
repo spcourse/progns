@@ -32,12 +32,12 @@ Elke beurt in het spel begint met het gooien van twee dobbelstenen. Dat zijn dus
 
 {: .language-python}
     import random
-    dobbelsteen = random.randint(1,6)
+    dobbelsteen = random.randint(1, 6)
 
 **Schrijf** een functie `worp_met_twee_dobbelstenen()` zonder parameters die een worp met twee dobbelstenen teruggeeft. In je code zou je deze functie als volgt willen gebruiken:
 
       resultaat = worp_met_twee_dobbelstenen()
-      print("Totaal aantal ogen van twee dobbelstenen: {}".format(resultaat))
+      print(f"Totaal aantal ogen van twee dobbelstenen: {resultaat}")
 
 **Schrijf** om te testen een functie `oefenen_met_de_dobbelstenen()` die duizend
 worpen simuleert en voor elke worp steeds twee dobbelstenen gooit. Zorg dat op
@@ -159,7 +159,7 @@ In je code moet het dus als volgt werken:
 {: .language-python}
 
     aantal_worpen = simuleer_potje_monopoly()
-    print("Klaar! Na worp {} had de speler alle straten in zijn bezit".format(aantal_worpen))
+    print(f"Klaar! Na worp {aantal_worpen} had de speler alle straten in zijn bezit")
 
 ## Meerdere potjes en gemiddeld aantal worpen
 

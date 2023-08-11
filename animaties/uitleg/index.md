@@ -5,7 +5,7 @@ soms inzichtelijker een animatie te maken. Python biedt je de mogelijkheid om
 een figuur steeds opnieuw te tekenen. Dat geeft je verschillende mogelijkheden
 om een beweging aan te geven. We bouwen hier een kort voorbeeld, waarin we een
 lijn (en punt) volgens $$f(x)=sin(x)$$ over het scherm laten bewegen. We bouwen
-de functie op in 3 stappen waarbij we telkens 1 element toevoegen. Met behulp
+de functie op in drie stappen waarbij we telkens één element toevoegen. Met behulp
 van deze functionaliteit kun je een groot scala aan animaties maken.
 
 ## Een bewegend stipje 
@@ -16,22 +16,21 @@ de code hieronder nemen we steeds stapjes in $$x$$, rekenen $$y$$ uit en
 tekenen het punt op het scherm. We gebruiken ook de commando's `xlim` en `ylim`
 om in de plot aan te geven welke $$x$$-waardes en $$y$$-waardes we willen zien.
 
-    import math
     import numpy as np
     import matplotlib.pyplot as plt
     
-    # neem kleine stappen in x tussen 0 en 2pi
-    for x in np.arange(0,2 * math.pi, 0.05):
+    # x neemt kleine stapjes tussen 0 en 2 pi
+    for x in np.arange(0, 2 * np.pi, 0.05):
 
-        y = math.sin(x)
+        y = np.sin(x)
 
         # plot grafiek
-        plt.plot(x, y, 'bo', markersize = 10)  # blauwe punt
-        plt.xlim(0,2 * math.pi)
+        plt.plot(x, y, 'bo', markersize = 10)  <-- blauwe punt
+        plt.xlim(0, 2 * np.pi)
         plt.ylim(-1, 1)
-        plt.draw()           # update grafiek
+        plt.draw()           <-- update grafiek
         plt.pause(0.001)
-        plt.clf()            # clear grafiek
+        plt.clf()            <-- 'clear' grafiek
 
 ![](../assets/AnimationExampleSin1.gif)
 
@@ -51,28 +50,26 @@ een lijst met $$y$$-waardes. Als je die lijsten steeds uitbreidt dan krijg je
 het onderstaande effect: de functie $$f(x) = sin(x)$$ getekend met een rode
 lijn.
 
-    import math
     import numpy as np
     import matplotlib.pyplot as plt
     
-    L_x = []
-    L_y = []
+    L_x, L_y = [], []
 
-    # take small steps in x
-    for x in np.arange(0,2 * math.pi, 0.05):
+    # x neemt kleine stapjes tussen 0 en 2 pi
+    for x in np.arange(0, 2 * np.pi, 0.05):
 
-        y = math.sin(x)
+        y = np.sin(x)
 
         L_x.append(x)
         L_y.append(y)
 
         # plot grafiek
-        plt.plot(L_x, L_y, 'r-')   # rode lijn
-        plt.xlim(0,2 * math.pi)
+        plt.plot(L_x, L_y, 'r-')   <-- rode lijn
+        plt.xlim(0, 2 * np.pi)
         plt.ylim(-1, 1)
-        plt.draw()           # update grafiek
+        plt.draw()
         plt.pause(0.001)
-        plt.clf()            # clear grafiek
+        plt.clf()
 
 
 Zoals je ziet is de code maar drie regels veranderd ten opzichte van voorbeeld
@@ -85,32 +82,30 @@ Zoals je ziet is de code maar drie regels veranderd ten opzichte van voorbeeld
 Je kan de stip en de lijn ook tegelijk tekenen en op het scherm ook informatie
 weergeven over de $$(x,y)$$ positie van het punt op het scherm.
 
-    import math
     import numpy as np
     import matplotlib.pyplot as plt
     
-    L_x = []
-    L_y = []
+    L_x, L_y = [], []
 
-    # take small steps in x
-    for x in np.arange(0,2*math.pi,0.05):
+    # x neemt kleine stapjes tussen 0 en 2 pi
+    for x in np.arange(0, 2 * np.pi, 0.05):
 
-        y = math.sin(x)
+        y = np.sin(x)
 
         L_x.append(x)
         L_y.append(y)
 
         # plot grafiek
-        plt.plot(L_x, L_y, 'r-')               # rode lijn
-        plt.plot(x, y, 'bo', markersize = 10)  # blauwe stip
-        plt.xlim(0,2 * math.pi)
-        plt.ylim(-1,1)
+        plt.plot(L_x, L_y, 'r-')
+        plt.plot(x, y, 'bo', markersize = 10)
+        plt.xlim(0, 2 * np.pi)
+        plt.ylim(-1, 1)
 
-        # text op scherm      
-        plt.text( 0.25, -0.8, "(%.2f,%.2f)" % (x,y) )  
+        # text op scherm
+        plt.text(0.25, -0.8, "(%.2f, %.2f)" % (x, y) )
 
-        plt.draw()           # update grafiek
+        plt.draw()
         plt.pause(0.001)
-        plt.clf()            # clear grafiek
+        plt.clf()
 
 ![](../assets/AnimationExampleSin3.gif)
