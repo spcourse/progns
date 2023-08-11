@@ -2,15 +2,15 @@
 
 Tot nu toe hebben we het gehad over twee aspecten van code: of het programma werkt, en de stijl/opmaak van code zelf. Een derde aspect is design of "ontwerp". Kijk eens naar dit programma, dat alle elementen uit een lijst print:
 
-    L = [3,1,4,1,5,2,9]
+    L = [3, 1, 4, 1, 5, 2, 9]
     for pos in range(len(L)):
         print L[pos]
 
 En dan een andere versie:
 
-    L = [3,1,4,1,5,2,9]
-    for number in L:
-        print number
+    L = [3, 1, 4, 1, 5, 2, 9]
+    for getal in L:
+        print getal
 
 Je ziet dat het eerste programma loopt met de getallen 0 t/m 6, en dat alle getallen uit de lijst geprint worden. Het tweede programma print ook netjes, maar het gebruikt voor de loop direct de getallen uit de lijst. De formules worden daardoor minder ingewikkeld en het programma is sneller in één keer te lezen.
 

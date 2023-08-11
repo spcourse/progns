@@ -2,7 +2,7 @@
 
 Schrijf een programma `onderlingpriem.py` dat de kans berekent dat twee willekeurig gehele getallen geen gemeenschappelijke deler hebben. Zo'n paar wordt **onderling-priem** genoemd. De Engelse term daarvoor is **coprime**.
 
-    #python onderlingpriem.py
+    >> python onderlingpriem.py
     De kans dat twee random getallen geen gemeenschappelijke deler hebben is:
         - voorspelling (wiskunde): 0.xxx
 	    - empirisch (Python): 0.xxx 
@@ -19,7 +19,7 @@ Deze kans is: $$1/\zeta(n)$$, waarbij $$\zeta(n)$$ de beroemde [Riemann zeta fun
 
 De kans dat twee willekeurige getallen géén gemeenschappelijke deler hebben is: 
 
-$$1/\zeta(2) \approx 0,608$$.
+$$1/\zeta(2) \approx 0.608$$.
 
 In deze opdracht gaan we controleren of dit wel klopt. We gaan eerst uitzoeken hoe we kunnen bepalen of twee getallen een gemeenschappelijke deler hebben en door dit daarna voor een groot aantal willekeurige getallen-paren te doen kunnen we de kans bepalen dat twee van zulke getallen onderling-priem zullen zijn. En daarmee controleren of de voorspelling uit de getaltheorie wel of niet klopt.
 
@@ -35,16 +35,16 @@ Elk getal is op een unieke manier te schrijven als het product van priemgetallen
         88 = 2 x 2 x 2 x 11
      79220 = 2 x 2 x 5 x 17 x 233
 
-Schrijf een functie `PriemFactoren(getal)` die voor een bepaald getal de lijst met de priemfactoren (de delers) vindt en op het scherm kan printen.
+Schrijf een functie `priemfactoren(getal)` die voor een bepaald getal de lijst met de priemfactoren (de delers) vindt en op het scherm kan printen.
 
-    python> Priemfactoren(79220) 
-            Priemfactoren  79220  =  [2, 2, 5, 17, 233]
+    python> priemfactoren(79220) 
+            priemfactoren  79220  =  [2, 2, 5, 17, 233]
 
 Zorg ook dat de functie de lijst met priemgetallen als output teruggeeft (als return). In de rest van het programma zullen we deze functie meer gaan gebruiken
  
 #### stap 2: op zoek naar gemeenschappelijke delers van twee getallen
 
-Schrijf een functie `AantalDelers(n1, n2)` die voor twee getallen aangeeft of er een gemeenschappelijke deler is of niet. Gebruik hierbij de functie `Priemfactoren()` om voor elk van de getallen eerst de priemfactor-lijst te vinden en ga vervolgens op zoek naar getallen die in beide lijsten voorkomen.
+Schrijf een functie `aantal_delers(n1, n2)` die voor twee getallen aangeeft of er een gemeenschappelijke deler is of niet. Gebruik hierbij de functie `priemfactoren()` om voor elk van de getallen eerst de priemfactor-lijst te vinden en ga vervolgens op zoek naar getallen die in beide lijsten voorkomen.
 
 Op dit moment is het niet van belang om het precieze aantal gemeenschappelijke delers te bepalen. Voor deze opgave is het alleen belangrijk om te weten of er *géén* gemeenschappelijke delers zijn. De functie moet dan als return argument 0 teruggeven.
 
@@ -58,13 +58,13 @@ Om de fractie van paren te bepalen waarin er geen gemeenschappelijke deler is mo
 
    3. evalueren welke fractie van de getallen-paren geen gemeenschappelijke deler had  
 
-Maak een functie `Experiment()` die deze stappen implementeert en die deze fractie op het scherm print en ook teruggeeft als return argument.
+Maak een functie `experiment()` die deze stappen implementeert en die deze fractie op het scherm print en ook teruggeeft als return argument.
 
 Specificaties:
 
-    - gebruik getallen (n1 en n2) tussen de 10.000 en 100.000
+    - gebruik getallen (n1 en n2) tussen de 10,000 en 100,000
 
-    - gebruik 10.000 getallen-paren
+    - gebruik 10,000 getallen-paren
 
 
 **Python tip:**
@@ -75,18 +75,18 @@ Plaats bovenaan je programma de volgende regel die je in staat stelt de `random-
  
         from random import *
         
-De functie die wij nodig hebben is `randint(Nmin,Nmax)` die een random geheel getal teruggeeft tussen `Nmin` en `Nmax`. In onze opgave gebruiken we Nmin=10000 en Nmax = 100000. Om in je code een random geheel getal `n` te krijgen gebruik je de volgende regel: 
+De functie die wij nodig hebben is `randint(Nmin, Nmax)` die een random geheel getal teruggeeft tussen `Nmin` en `Nmax`. In onze opgave gebruiken we Nmin = 10000 en Nmax = 100000. Om in je code een random geheel getal `n` te krijgen gebruik je de volgende regel: 
 
          n = randint(Nmin, Nmax)        
         
 
 #### stap 4: theoretische voorspelling
 
-Schrijf een functie `Voorspelling(n)` die de theoretisch voorspelde kans uitrekent dat er geen gemeenschappelijke deler is voor `n` getallen. Dit is niet veel meer dan zelf de Riemann zeta functie uitrekenen en daarmee de kans bepalen. Geef deze kans terug als returnwaarde.
+Schrijf een functie `voorspelling(n)` die de theoretisch voorspelde kans uitrekent dat er geen gemeenschappelijke deler is voor `n` getallen. Dit is niet veel meer dan zelf de Riemann zeta functie uitrekenen en daarmee de kans bepalen. Geef deze kans terug als returnwaarde.
 
 #### stap 5: Gooi alles bij elkaar
 
-Door nou de twee functies `Experiment()` en `Voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen (met drie decimalen):
+Door nou de twee functies `experiment()` en `voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen (met drie decimalen):
 
     De kans dat twee random getallen geen gemeenschappelijke deler hebben is:
         - voorspelling (wiskunde): 0.xxx 
