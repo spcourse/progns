@@ -10,8 +10,8 @@ Schrijf een programma `spiraal.py` waarin de stip geanimeerd wordt zoals hierbov
 
 ## Hints
 
-Poolcoordinaten: een punt kan worden beschreven middels de coordinaten $$(x,y)$$, maar je
-kunt ook twee andere variabelen gebruiken ($$\alpha$$,R), waarbij $$\alpha$$ de
+Poolcoördinaten: een punt kan worden beschreven middels de coördinaten $$(x,y)$$, maar je
+kunt ook twee andere variabelen gebruiken ($$\alpha$$, R), waarbij $$\alpha$$ de
 hoek is met de positieve $$x$$-as en $$R$$ de afstand tot de oorsprong. De
 variabelen kunnen in elkaar omgeschreven worden zoals in de volgende grafiek is
 aangegeven.
@@ -20,7 +20,7 @@ aangegeven.
 
 Details voor de animatie:
 
-- hoek $$\alpha$$ varieert van $$0$$ tot $$20$$ radialen in stappen van $$0.1$$
+- hoek $$\alpha$$ varieert van $$0$$ tot $$20$$ radialen in stappen van $$0.1$$ (hoeveel radialen is één rondje?)
 - straal $$R$$ hangt af van $$\alpha$$, namelijk $$R=10-0.5\alpha$$
 
 ## Testen

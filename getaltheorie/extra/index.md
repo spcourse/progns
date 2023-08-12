@@ -2,7 +2,7 @@
 
 Schrijf een programma `onderlingpriem.py` dat de kans berekent dat twee willekeurig gehele getallen geen gemeenschappelijke deler hebben. Zo'n paar wordt **onderling-priem** genoemd. De Engelse term daarvoor is **coprime**.
 
-    >> python onderlingpriem.py
+    # python onderlingpriem.py
     De kans dat twee random getallen geen gemeenschappelijke deler hebben is:
         - voorspelling (wiskunde): 0.xxx
 	    - empirisch (Python): 0.xxx 

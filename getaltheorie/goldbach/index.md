@@ -2,7 +2,7 @@
 
 Schrijf een programma dat laat zien dat het vermoeden van Goldbach correct is voor de even getallen (groter dan 2) tot en met 1000.
 
-	>> python goldbach.py
+	# python goldbach.py
 	16 = ...
 	18 = 5 + 13 
 	20 = 3 + 17 

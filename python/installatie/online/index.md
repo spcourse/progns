@@ -34,7 +34,7 @@ Het commando `cd` is hier een afkorting van compact disc... uh, nee... *change d
 
 Het commando `touch` kijkt of een bestand bestaat, en zo niet, dan wordt het bestand aangemaakt. Nu hebben we een bestand genaamd `hello.py` binnen de map `week1`. Gebruik nog een keer `ls` om dit te controleren.
 
-Om de file `hello.py` te openen, ga je naar links bovenin je scherm waar je een map-icoontje ziet gevolgd door de tekst `~/`. Druk op het driehoekje ernaast om de map `~/` uit te klappen. Doe vervolgens hetzelfde bij de map `week1`, en dubbelklik dan op de file `hello.py`. Nu opent er een nieuwe tab genaamd `hello.py` en kunnen we meteen beginnen met programmeren!
+Om het bestand `hello.py` te openen, ga je naar links bovenin je scherm waar je een map-icoontje ziet gevolgd door de tekst `~/`. Druk op het driehoekje ernaast om de map `~/` uit te klappen. Doe vervolgens hetzelfde bij de map `week1`, en dubbelklik dan op het bestand `hello.py`. Nu opent er een nieuwe tab genaamd `hello.py` en kunnen we meteen beginnen met programmeren!
 
 Voer in het bestand `hello.py` de volgende regel code in:
 
@@ -75,4 +75,4 @@ Om te testen of alles werkt, en of `hello.py` klopt, voer je het volgende comman
 
     checkpy hello
 
-Kleurt alles groen en zie je alleen maar vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en vraag gerust als je klem zit.
+Kleurt alles groen en zie je alleen maar vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd en vraag gerust als je klem zit. Als er een verdrietige smiley met tekst in het rood staan, dan betekent dat dat het programma wil dat er aan wat de tekst zegt voldaan wordt, maar dat dit niet het geval is. Probeer dus je code te laten doen wat de tekst zegt.

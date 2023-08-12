@@ -4,15 +4,15 @@ In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze op
  
 ![](Balans.png){:.inline}{: style="width:35%"}
  
-Let op: we gaan nu de code uit opdracht 1 en 2 aanpassen. Om te zorgen dat die werkende code bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python bestand aan, `monopoly_realistisch.py`, kopieer de code die je tot nu toe hebt en ga verder in deze nieuwe file.
+Let op: we gaan nu de code uit opdracht 1 en 2 aanpassen. Om te zorgen dat die werkende code bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python bestand aan, `monopoly_realistisch.py`, kopieer de code die je tot nu toe hebt en ga verder in dit nieuwe bestand.
 
 #### [deelopdracht 3a] voordeel van speler 1
 
-Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer daarom 10000 potjes om een goede schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel heeft op speler 2.
+Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer daarom 10,000 potjes om een goede schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel heeft op speler 2.
 
 Het doel is om dit verschil te achterhalen door een groot aantal potjes te simuleren:
 {: .language-python}
-	Monopoly simulator: twee spelers, 1500 euro startgeld, 10000 potjes
+	Monopoly simulator: twee spelers, 1500 euro startgeld, 10,000 potjes
     Gemiddeld heeft speler 1 X.XX meer straten in bezit als alle straten verdeeld zijn
 
 
@@ -20,7 +20,7 @@ Het doel is om dit verschil te achterhalen door een groot aantal potjes te simul
 
   - Aanpassing aan *input* functie `simuleer_potje_monopoly()`
    
-    De functie die een potje Monopoly simuleert heeft nu natuurlijk van beide spelers de hoeveelheid startgeld nodig. Geef beide als input variabalen mee aan de functie:
+    De functie die een potje Monopoly simuleert heeft nu natuurlijk van beide spelers de hoeveelheid startgeld nodig. Geef beide als input variabelen mee aan de functie:
    `simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2)` 
 
  - Aanpassing aan *ouput* functie `simuleer_potje_monopoly()`
@@ -38,24 +38,24 @@ Test de code altijd voor een enkel potje en bekijk goed of het doet wat je denk 
 
 Print uiteindelijk het verschil naar het scherm:
 {: .language-python}
-	Monopoly simulator: twee spelers, 1500 euro startgeld, 10000 potjes
+	Monopoly simulator: twee spelers, 1500 euro startgeld, 10,000 potjes
     Gemiddeld heeft speler 1 X.XX meer straten in bezit als alle straten verdeeld zijn
 
 #### [deelopdracht 3b] nadeel van speler 2 repareren
 
 De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je aan kan draaien in dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn. 
 
-Definieer een nieuwe functie `evenwicht()` waarin je de functie      `simuleer_groot_aantal_potjes_monopoly(aantal_potjes,startgeld_speler_1,startgeld_speler_2)` 
+Definieer een nieuwe functie `evenwicht()` waarin je de functie `simuleer_groot_aantal_potjes_monopoly(aantal_potjes,startgeld_speler_1,startgeld_speler_2)` 
 steeds aanroept met verschillende waardes van startgeld voor speler 2. Speler 1 houdt gewoon 1500 euro startgeld. Probeer dit voor 'extra' geld voor speler 2 van 0, 50, 100, 150, 200 euro en print steeds het gemiddelde verschil als volgt op het scherm:
 
-    Startgeld [1500,1550]: speler 1 gemiddeld X.XX meer straten (speler 2 50 euro extra)
-    Startgeld [1500,1600]: speler 1 gemiddeld X.XX meer straten (speler 2 100 euro extra)
-    Startgeld [1500,1650]: speler 1 gemiddeld X.XX meer straten (speler 2 150 euro extra)
-    Startgeld [1500,1700]: speler 1 gemiddeld X.XX meer straten (speler 2 200 euro extra)
+    Startgeld [1500,1550]: speler 1 gemiddeld X.XX meer straten (speler 2 heeft 50 euro extra)
+    Startgeld [1500,1600]: speler 1 gemiddeld X.XX meer straten (speler 2 heeft 100 euro extra)
+    Startgeld [1500,1650]: speler 1 gemiddeld X.XX meer straten (speler 2 heeft 150 euro extra)
+    Startgeld [1500,1700]: speler 1 gemiddeld X.XX meer straten (speler 2 heeft 200 euro extra)
     
 Als je een paar simulaties hebt gedraaid heb je een kleine data-set waarmee je bovenstaande grafiek kan reproduceren en een goede schatting kan maken van de hoeveelheid extra geld dat we speler 2 moeten geven aan het begin van het spel om het evenwicht te herstellen. 
 
-Er is natuurlijk een bedrag waarbij het voordeel ineens bij speler 2 komt te liggen. Gebruikt dat bedrag (en het bedrag ervoor) om een schatting te maken van het bedrag waar het evenwicht ligt. Gebruik hiervoor een aanname dat het verschil lineair verloopt als functie van het extra geld voor speler 2. Het antwoord moet op 25 euro nauwkeurig zijn.
+Er is natuurlijk een bedrag waarbij het voordeel ineens bij speler 2 komt te liggen. Gebruikt dat bedrag (en het bedrag ervoor) om een schatting te maken van het bedrag waar het evenwicht ligt. Neem zoals gezegd stappen van 50 en kies als schatting het bedrag wat exact tussen deze stappen van 50 in zit (dus als het tussen 0 en 50 ligt is het bedrag 25).
 
 **Let op dat je voor je berekening zoveel iteraties doet dat het programma elke keer hetzelfde antwoord geeft! Anders wordt het foutgerekend door checkpy.**
 

@@ -9,9 +9,9 @@ Een zeer handige bouwsteen in een computer-programma is het *random* getal. In d
 Elke keer dat je de functie aanroept zal het een nieuw getal opleveren. Tien random getallen achter elkaar doe je dus als volgt:
 
     import random
-    for i in range(0,10):
-        x = random.random()
-        print(x)
+    for i in range(0, 10):
+        getal = random.random()
+        print(getal)
 
 > Probeer bovenstaande programma's zelf ook even uit! Pas wel op dat je hiervoor niet een bestand `random.py` maakt. In dat geval zal `import random` proberen jouw eigen bestand te importeren, en dat gaat niet werken.
 
@@ -23,9 +23,9 @@ Voorbeeld: tien random getallen tussen 0 en 3
 
     import random
     for i in range(10):
-        r = random.random()
-        y = 3*r
-        print(y)
+        getal_01 = random.random()
+        getal_03 = 3 * getal_01
+        print(getal_03)
 
 ## Een eigen functie
 
@@ -33,14 +33,14 @@ Schrijf als oefening een functie `random_range()` die een getal genereert tussen
 
     import random
 
-    def random_range(a,b):
-        r = <hier jouw code>
-        return r
+    def random_range(a, b):
+        getal_ab = <hier jouw code>
+        return getal_ab
 
     minimum = 2
     maximum = 5
     for i in range(10):
-        x = random_range(minimum, maximum)
-        print(x)
+        getal = random_range(minimum, maximum)
+        print(getal)
 
 Test je programma uit door het te runnen, en check of elk getal in het juiste bereik zit.

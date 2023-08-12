@@ -2,11 +2,11 @@
 
 Een veel voorkomende toepassing van computerprogramma’s is het inlezen, verwerken en analyseren van grote databestanden. Big data! We zullen in deze module leren hoe we data inlezen, en we gebruiken onze kennis van Python om de data te rubriceren en grafieken te maken van onze resultaten.
 
-## Inlezen files en verwerken van de data
+## Inlezen bestanden en verwerken van de data
 
 ![](VanBastenKlein.jpg){:.inline}
 
-Net zoals je getallen in het decimale, hexadecimale of binaire formaat weer kan geven wordt ook data in verschillende formaten bewaard in data-bases. Hier zullen we data bekijken die is opgeslagen in het zogenaamde CSV formaat (comma separate values): 'platte tekst', waarbij op elke regel verschillende variabelen gescheiden zijn door een komma. Dit is trouwens ook het formaat dat je krijgt als je je banktransacties download of een Excel file wegschrijft.
+Net zoals je getallen in het decimale, hexadecimale of binaire formaat weer kan geven wordt ook data in verschillende formaten bewaard in data-bases. Hier zullen we data bekijken die is opgeslagen in het zogenaamde CSV formaat (Comma Separated Values): 'platte tekst', waarbij op elke regel verschillende variabelen gescheiden zijn door een komma. Dit is trouwens ook het formaat dat je krijgt als je je banktransacties download of een Excel-bestand wegschrijft.
 
 We gaan het inlezen en verwerken van data doen aan de hand van een voorbeeld:  de statistieken van voetballer Marco van Basten. Iemand heeft in een [tekstbestand](VanBasten.txt) bijgehouden hoeveel wedstrijden hij gespeeld heeft en hoeveel doelpunten hij gemaakt heeft. Dit is de tekst van het bestand:
 
@@ -32,14 +32,14 @@ Hieronder gaan we aan de slag met het beantwoorden van enkele vragen met behulp 
 - wat zijn de voetbalseizoenen waarin Van Basten meer dan 20 keer gescoord heeft?
 - wat is het totaal aantal doelpunten dat Van Basten heeft gescoord voor al zijn clubs?
 
-## Stap 1: openen van de file, inlezen van de regels
+## Stap 1: openen van het bestand, inlezen van de regels
 
-Omdat het doorlopen van files in een computertaal een standaard procedure is, zijn er een aantal gemakkelijke commando's beschikbaar. Het `open` commando bijvoorbeeld dat vervolgens gebruikt kan worden om dingen uit die file te lezen of juist in weg te schrijven. Het volgende codefragment opent de file en gebruikt een `for`-loop om steeds de volgende regel in te lezen. De informatie in een regel van de file wordt opgeslagen in de variable `line`. Dit korte programma voert verder geen analyse uit maar print simpelweg `line` naar het scherm.
+Omdat het doorlopen van bestanden in een computertaal een standaard procedure is, zijn er een aantal gemakkelijke commando's beschikbaar. Het `open` commando bijvoorbeeld dat vervolgens gebruikt kan worden om dingen uit dat bestand te lezen of juist in weg te schrijven. Het volgende codefragment opent het bestand en gebruikt een `for`-loop om steeds de volgende regel in te lezen. De informatie in een regel van het bestand wordt opgeslagen in de variable `regel`. Dit korte programma voert verder geen analyse uit maar print simpelweg `regel` naar het scherm.
 
-    input_file = open('VanBasten.txt', 'r')
-    for line in input_file:
-        print(line)
-    input_file.close()
+    input_bestand = open('VanBasten.txt', 'r')
+    for regel in input_bestand:
+        print(regel)
+    input_bestand.close()
 
 > Tip: zorg dat het bestand `VanBasten.txt` in dezelfde directory staan als waar je Python programma staat zodat je programma hem altijd kan vinden. 
 
@@ -49,14 +49,14 @@ De `'r'` bij de functie `open()` betekent 'read', lezen dus. Als je dit programm
 
 ## Stap 2: splitsen van de regel en in een lijst opslaan
 
-Elke regel bestaat uit verschillende elementen die gescheiden zijn door komma's. Toegang tot die verschillende parameters in de regel krijg je door de regel in stukken te ’knippen’. Dit doe je met het Python commando `split()`. Als parameter kan je aan split meegeven waar hij moet knippen. Wij willen dat hij bij elke komma (`,`) knipt, dus we voeren het volgende commando uit: `line.split(',')`. Dit commando produceert een lijst met elementen die de losse stukken bevatten. Hierop kun je afzonderlijke bewerkingen uitvoeren.
+Elke regel bestaat uit verschillende elementen die gescheiden zijn door komma's. Toegang tot die verschillende parameters in de regel krijg je door de regel in stukken te ’knippen’. Dit doe je met het Python commando `split()`. Als parameter kan je aan split meegeven waar hij moet knippen. Wij willen dat hij bij elke komma (`,`) knipt, dus we voeren het volgende commando uit: `regel.split(',')`. Dit commando produceert een lijst met elementen die de losse stukken bevatten. Hierop kun je afzonderlijke bewerkingen uitvoeren.
 
-    input_file = open('VanBasten.txt', 'r')
-    for line in input_file:
-        print(line)
-        data_opgeknipt = line.split(',')
+    input_bestand = open('VanBasten.txt', 'r')
+    for regel in input_bestand:
+        print(regel)
+        data_opgeknipt = regel.split(',')
         print(data_opgeknipt)
-    input_file.close()
+    input_bestand.close()
 
 De regel met 1988 is nu in stukken geknipt en in een lijst gezet:
 
@@ -75,8 +75,8 @@ Die informatie kunnen we nu dus opslaan in een variabele:
 
 ### Probleem 1: uitpakken van variabelen
 
-Zoals je ziet hebben de makers van de file het seizoen 1988-1889 in 1 getal
-weergegeven: 198889. Slim van ze, maar wij zijn alleen geinteresseerd in het
+Zoals je ziet hebben de makers van het bestand het seizoen 1988-1889 in 1 getal
+weergegeven: 198889. Slim van ze, maar wij zijn alleen geïnteresseerd in het
 jaar dat het seizoen is gestart.
 
 Het handige voor ons is dat alle data nog als `string` in de lijst staat. Hoewel `198889` gezien kan worden als getal, behandelen we het nu als stuk tekst. Het eerste jaartal (1988) is verpakt in de eerste 4 karakters van die string. Om alleen die op te vragen kan je dus van element 0 in de lijst alleen de eerste 4 karakters selecteren.
@@ -95,13 +95,13 @@ Je hebt nu dus de informatie tot je beschikking in een variabele. Vervolgens kun
 
 ## Stap 4: het analyseren van de data
 
-We wilden het aantal totaal aantal doelpunten uitreken dat Van Basten voor zijn clubs heeft gescoord en ook aangeven in welke seizoenen hij meer dan 20 doelpunten maakte.
+We wilden het aantal totaal aantal doelpunten uitrekenen dat Van Basten voor zijn clubs heeft gescoord en ook aangeven in welke seizoenen hij meer dan 20 doelpunten maakte.
 
-    input_file = open('VanBasten.txt', 'r')
+    input_bestand = open('VanBasten.txt', 'r')
     totaal_doelpunten = 0
 
-    for line in input_file:
-        data_opgeknipt = line.split(',')
+    for regel in input_bestand:
+        data_opgeknipt = regel.split(',')
 
         seizoen = int(data_opgeknipt[0][0:4])
         doelpunten = int(data_opgeknipt[2])
@@ -112,35 +112,35 @@ We wilden het aantal totaal aantal doelpunten uitreken dat Van Basten voor zijn 
             print(f"In {seizoen} scoorde Van Basten > 20 doelpunten, nl {doelpunten}")
 
     print(f"TOTAAL: In totaal scoorde Van Basten {totaal_doelpunten} clubdoelpunten")
-    input_file.close()
+    input_bestand.close()
 
 Gebruik altijd `close()` om het bestand netjes te sluiten na gebruik.
 
 ## Oefening
 
-Download de file met de doelpunten statistiek van Van Basten en probeer de bovenstaande resultaten te reproduceren.
+Download het bestand met de doelpunten statistiek van Van Basten en probeer de bovenstaande resultaten te reproduceren.
 
 ## Schrijven naar een bestand
 
-Hoewel we dat in deze cursus niet tegen zullen komen is het belangrijk dat je weet hoe je gegevens naar een file schrijft in plaats van ze alleen maar in te lezen. Het is vrij eenvoudig zoals je in de volgende 2 voorbeelden zult zien. Belangrijkste is dat je bij het gebruik van het `open()` commando nu de extra parameter `'w'` (write) meegeeft.
+Hoewel we dat in deze cursus niet tegen zullen komen is het belangrijk dat je weet hoe je gegevens naar een bestand schrijft in plaats van ze alleen maar in te lezen. Het is vrij eenvoudig zoals je in de volgende 2 voorbeelden zult zien. Belangrijkste is dat je bij het gebruik van het `open()` commando nu de extra parameter `'w'` (write) meegeeft.
 
-### Voorbeeld: tekst schrijven naar een file
+### Voorbeeld: tekst schrijven naar een bestand
 
-Dit stuk code opent een file 'outputfile.txt', schrijft daar 1 regel tekst in weg  en sluit de file weer.
+Dit stuk code opent een bestand 'output_bestand.txt', schrijft daar 1 regel tekst in weg en sluit het bestand weer.
 
-    output_file = open('outputfile.txt', 'w')
-    output_file.write("Het vak Inleiding Programmeren is bere-interessant")
-    output_file.close()
+    output_bestand = open('output_bestand.txt', 'w')
+    output_bestand.write("Het vak Inleiding Programmeren is bere-interessant")
+    output_bestand.close()
 
 ### Voorbeeld: extra tekst achter bestaande regel plakken
 
-Dit stuk code opent de file inputfile, plakt voor elke regel de letters "XXX" en schrijft deze nieuwe regel vervolgens weg in een outputfile.
+Dit stuk code opent het bestand input_bestand, plakt voor elke regel de letters "XXX" en schrijft deze nieuwe regel vervolgens weg in een output bestand.
 
-    input_file = open('inputfile.txt', 'r')
-    output_file = open('outputfile.txt', 'w')
-    for line in input_file:
-        newline = "XXX " + line
-        output_file.write(newline)
+    input_bestand = open('input_bestand.txt', 'r')
+    output_bestand = open('output_bestand.txt', 'w')
+    for regel in input_bestand:
+        nieuwe_regel = "XXX " + regel
+        output_bestand.write(nieuwe_regel)
 
-    input_file.close()
-    output_file.close()
+    input_bestand.close()
+    output_bestand.close()

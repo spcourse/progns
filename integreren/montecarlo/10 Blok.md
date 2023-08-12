@@ -27,19 +27,19 @@ Het is mogelijk een integraal te benaderen door gebruik te maken van random geta
 
 3.  Bepaal de integraal
 
-    De integraal is de fractie punten die binnen de grafiek vallen keer de oppervlakte van de totale box. 
+    De integraal is de fractie punten die binnen de grafiek vallen keer de oppervlakte van de totale rechthoek. 
     In het geval van een rechthoek wordt dat gegeven door:
 
     $$
-        \int_a^b f(x)~dx = f_{goed}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
+        \int_a^b f(x)~\text{d}x = f_{goed}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
     $$
 
 ### Voorbeeld
 
-Van de functie $$sin(x)$$ weten we dat het op het domein $$0 < x < \pi$$ tussen de 0 en de 1 ingesloten ligt. We 
-definieren dan ook een box om het integratiegebied heen en 2000 random punten gegooid. Daarvan bleek 63.15% 
+Van de functie $$\sin(x)$$ weten we dat het op het domein $$0 < x < \pi$$ tussen de 0 en de 1 ingesloten ligt. We 
+definiëren dan ook een rechthoek om het integratiegebied heen en 2000 random punten gegooid. Daarvan bleek 63.15% 
 (1263/2000) binnen het integratiegebied te vallen. De schatting die we maken van de integraal met behulp van 
-deze 2000 punten is dan ook: 0.6315$$\pi \approx 1.984$$. Zodra dit werkt kunnen we natuurlijk ook 1 miljoen 
+deze 2000 punten is dan ook: 0.6315 $$\pi \approx$$ 1.984. Zodra dit werkt kunnen we natuurlijk ook 1 miljoen 
 punten gooien in plaats van 2000. 
 
 ![](MonteCarloExample.png)
@@ -74,15 +74,15 @@ Test je procedure met de volgende functie, die je makkelijk analytisch kunt cont
 
 Test ook met de volgende functies. Sommige daarvan zijn "integreerbaar", andere kun je alleen numeriek benaderen.
 
-$$\int_{0}^{1}x^2 dx$$
+$$\int_{0}^{1}x^2 \text{d}x$$
 
-$$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
+$$\int_{0}^{1}x^{x+\frac{1}{2}} ~\text{d}x$$
 
-$$\int_{0}^{\pi}sin(x) dx$$
+$$\int_{0}^{\pi}\sin(x) \text{d}x$$
 
-$$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
+$$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~\text{d}x$$
 
-$$\int_{0}^{\pi} \sin(x^2) ~dx$$
+$$\int_{0}^{\pi} \sin(x^2) ~\text{d}x$$
 
 Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer je `montecarlo()`-functie aanroept, om deze voorbeelden te controleren.
 
@@ -92,7 +92,7 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 - Bij 'negatieve' integratieregio's is het handig om de integratiegebieden splitsen. Denk even na waarom dat zo is.
 
-- In onderzoekstoepassingen wordt voor maximalisatie van de efficientie de rechthoek zo gekozen dat hij de integraal zo nauw mogelijk omsluit.
+- In onderzoekstoepassingen wordt voor maximalisatie van de efficiëntie de rechthoek zo gekozen dat hij de integraal zo nauw mogelijk omsluit.
 
 - Test je functie altijd eerst op een integraal waarvan je de uitkomst kent. Dit is het geval voor een aantal van de functies die hierboven staan weergegeven. Pas als jouw functie die integralen goed uitrekent kan je met vertrouwen de onbekende nieuwe integraal aanpakken.
 
@@ -100,6 +100,6 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 ## Testen
 
-**Let op! Zorg dat je checkpy meerdere keren gebruikt om te kijken of monte carlo elke keer het zelfde antwoord geeft. Dit ligt namelijk aan de verhouding tussen je gekozen integratiegebied en het aantal keer dat je punten "gooit". Tegelijk moet je wel zorgen dat het aantal punten niet veel te groot is, anders riskeer je een time-out.**
+**Let op! Zorg dat je checkpy meerdere keren gebruikt om te kijken of montecarlo elke keer het zelfde antwoord geeft. Dit ligt namelijk aan de verhouding tussen je gekozen integratiegebied en het aantal keer dat je punten "gooit". Tegelijk moet je wel zorgen dat het aantal punten niet veel te groot is, anders riskeer je een time-out.**
 
 	checkpy montecarlo

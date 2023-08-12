@@ -10,7 +10,7 @@ We beginnen met het plotten van wat punten waarvan we de x-waardes $$(0,1,2,3,4,
 
     import matplotlib.pyplot
 
-    # de coordinaten per punt
+    # de coördinaten per punt
     x_coord = [0, 1, 2, 3, 4, 5]
     y_coord = [0, 1, 4, 9, 16, 25]
 
@@ -29,7 +29,7 @@ Je kunt een lange modulenaam ook een kortere naam geven bij het importeren. In h
     # gebruik de afkorting 'plt'
     import matplotlib.pyplot as plt
 
-     # de coordinaten per punt
+     # de coördinaten per punt
     x_coord = [0, 1, 2, 3, 4, 5]
     y_coord = [0, 1, 4, 9, 16, 25]
 
@@ -70,7 +70,7 @@ We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een li
 ## Hogere resolutie
 
 Hierboven hebben we een klein aantal punten gekozen waarbij je de waardes
-zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere grafiek te krijgen kun je de computer gewoon een heleboel y-waardes laten berekenen. Als we bijvoorbeeld de functie $$sin(x)$$ willen plotten in stapjes van $$0.01$$ tussen $$0$$ en $$2\pi$$ dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
+zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere grafiek te krijgen kun je de computer gewoon een heleboel y-waardes laten berekenen. Als we bijvoorbeeld de functie $$\sin(x)$$ willen plotten in stapjes van $$0.01$$ tussen $$0$$ en $$2\pi$$ dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
 
     import numpy as np
     import math
@@ -92,7 +92,7 @@ zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere
     plt.plot(x_waarden, y_waarden, 'b-')
     plt.xlabel('x', fontsize = 20)
     plt.ylabel('sin(x)', fontsize = 20)
-    plt.text(4.00, 0.50, "f(x) = sin(x)", color = 'black', fontsize = 20)
+    plt.text(4.00, 0.50, "$f(x) = \sin(x)$", color = 'black', fontsize = 20)
     plt.savefig('plot.png')
 
 ![](plotje3.png)

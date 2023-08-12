@@ -1,6 +1,6 @@
 # Fractals - Mandelbrot set
 
-Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, *fractals* genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels. Ook in de natuur vinden we vaak simpele onderliggende mechanismes voor complexe fenomenen al is het een enorm lastige klus om daar achter te komen. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
+Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, *fractals* genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels. Ook in de natuur vinden we vaak simpele onderliggende mechanismes voor complexe fenomenen al is het een enorm lastige klus om daar achter te komen. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set). Over deze fractal zijn tal van interessante video's te vinden online. Probeer eens deze van [Veritasium](https://www.youtube.com/watch?v=ovJcsL7vyrk&t=882s&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90) of [Numberphile](https://www.youtube.com/watch?v=FFftmWSzgmk&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90).
 
 <p align="center">
 ![](../assets/mandelbrot.png){: style="width:50%"}
@@ -18,9 +18,9 @@ Complexe getallen hebben een speciale plek in wiskunde en ze komen op veel plekk
    
 Een complex getal (z) bestaat uit twee componenten: een reëel en een imaginair deel.
 
-   - complex getal: z = $$\alpha + \beta i$$
+   - complex getal: z = $$\alpha + \beta i$$,
 
-, met  $$\alpha$$  het reële en  $$\beta i$$  het imaginair deel.
+met  $$\alpha$$  het reële en  $$\beta i$$ het imaginaire deel.
 
 Een gebruikelijke manier om deze getallen voor te stellen is in het zogenaamde *complexe vlak*, een 2-dimensionaal vlak zoals hieronder weergegeven is met een reële-as en een imaginaire-as die het complexe deel van het getal weergeeft. Twee voorbeelden van complexe getallen zijn bijvoorbeeld $$c = -5 + 3i$$ en $$c=-2-4i$$. Deze zijn beide in blauw weergegeven. Alle getallen die wij normaalgesproken gebruiken (0, -3, $$12/67$$, $$\pi$$, $$e$$, 10465, ...) liggen dus allemaal op de reële as. Er zijn ook een aantal complexe getallen in rood weergegeven; daar komen we later nog op terug.
 
@@ -41,9 +41,9 @@ Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in d
 
 Net als voor gewone getallen kunnen we ook functies definiëren voor complexe getallen. In deze opgave gaan we werken met polynomen van de volgende vorm:
 
-   $$f(z) = z^2 + c$$ 
+   $$f(z) = z^2 + c$$, 
 
-, waarbij zowel $$z$$ als $$c$$ een complex getal zijn. De enige vrijheid die we nog hebben is in de keuze van het getal $$c$$. De uitkomst van de functie is weer een complex getal.
+waarbij zowel $$z$$ als $$c$$ een complex getal zijn. De enige vrijheid die we nog hebben is in de keuze van het getal $$c$$. De uitkomst van de functie is weer een complex getal.
 
 **Reeksen:**
 
@@ -74,9 +74,9 @@ Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifie
 
 De Mandelbrot set is gedefiniëerd door de functie die we al eerder gezien hebben met een speciale keuze voor de constante $$c$$, namelijk het startpunt zelf is. Met $$c = z_0$$ krijgen we dan: 
     
-   Mandelbrot: $$f(z) = z^2 + z_0$$ 
+   Mandelbrot: $$f(z) = z^2 + z_0$$, 
     
-, waarbij $$z_0$$ het startpunt is. 
+waarbij $$z_0$$ het startpunt is. 
 
 Voor een gegeven startpunt kan de reeks divergeren of convergeren. Als voorbeeld van beide gevallen staan hieronder de eerste 10 punten in de reeks voor twee startpunten $$z$$ (= $$z_0$$) = $$-0.20 + 0.25i$$ en $$z$$ (= $$z_0$$) = $$0.50 + 0.25i$$.
 
@@ -115,7 +115,7 @@ De resolutie van de grafiek moet de volgende dimensies hebben:
     - imaginaire as: 500 punten tussen -1.50 en 1.50 
 
 
-Als je klaar bent met de opgave en toch meer kleur toe wilt voegen door alsnog de diverentiesnelheid mee te nemen dan houden we je niet tegen natuurlijk.
+Als je klaar bent met de opgave en toch meer kleur toe wilt voegen door alsnog de divergentiesnelheid mee te nemen dan houden we je niet tegen natuurlijk.
 
 ## Checkpy
 

@@ -8,17 +8,17 @@ Na het sporten kan je in
 detail je rit terugkijken: de projectie van de route op een interactieve kaart, de gemiddelde 
 snelheid, het hoogteprofiel, records op vooraf gedefinieerde stukken weg en nog veel meer. 
 We gaan in deze opgave zelf deze informatie uit de sensor-data halen en, niet verder vertellen, 
-proberen de data in de file te manipuleren: digitale doping.
+proberen de data in het bestand te manipuleren: digitale doping.
 
 Onze data is verzameld tijdens een echte fietsrit die een natuurkundige aan de Universiteit 
 van Amsterdam samen met zijn buurman maakte ergens in de buurt van Leiden. Het bestand met 
 de gegevens over de rit zoals die door de app is verzameld is hier te downloaden: 
 [FietsRitData.gpx](FietsRitData.gpx).
 
-De eerste regels van de file bevatten wat algemene tekstuele informatie, maar daarna wordt 
+De eerste regels van het bestand bevatten wat algemene tekstuele informatie, maar daarna wordt 
 het interessant. Elk meetpunt (ongeveer om de seconde) worden drie zaken vastgelegd: positie, 
 hoogte en het tijdstip. Dit is voldoende informatie. In het plaatje hieronder zie je een 
-kleine preview van de eerste drie meetpunten die in de file te vinden zijn:
+kleine preview van de eerste drie meetpunten die in het bestand te vinden zijn:
 
 ![](DataFilePreview.png){: style="width:40%"}
 
@@ -40,7 +40,7 @@ aan de hand van de onderstaande opdrachten.
 
 ## Opdracht 1: teken de route op het scherm
 
-Maak een functie `Fietsrit()` die de file opent, alle metingen doorloopt en de locaties van 
+Maak een functie `Fietsrit()` die het bestand opent, alle metingen doorloopt en de locaties van 
 alle meetpunten opslaat in twee lijsten: de latitude en de longitude. Gebruik deze informatie 
 om de route op het scherm te tekenen. 
 
@@ -125,7 +125,7 @@ lijst opslaat.
 
     - stap 2: maak de lijst met snelheden 
 
-Zodra je vanuit de data-file alle posities en tijden hebt ingelezen kan je de file sluiten. 
+Zodra je vanuit het data-bestand alle posities en tijden hebt ingelezen kan je het bestand sluiten. 
 Je hebt dan immers alle informatie die je nodig hebt om de afgeleide informatie zelf te 
 berekenen zoals de totale afgelegde weg en de lijst met snelheden op elk tijdstip. Immers, 
 als we bij meetpunt *i* zijn aangekomen weten we zowel de afgelegde weg (verschil in positie) 
@@ -174,7 +174,7 @@ te gaan in hun hoogtemeters-in-dit-kalenderjaar klassement besluit de natuurkund
 zijn rit zo te manipuleren dat het lijkt of hij inderdaad een berg zo hoog als de Matterhorn (4478 m) 
 heeft geklommen tijdens hun zondagse ritje. 
 
-Deze opdracht bestaat uit twee stappen. Voor we een nieuwe data-file maken waarin we de hoogte 
+Deze opdracht bestaat uit twee stappen. Voor we een nieuw data-bestand maken waarin we de hoogte 
 van de meetpunten manipuleren gaan we eerste een grafiek maken van het oorspronkelijke 
 hoogteprofiel.
 
@@ -188,7 +188,7 @@ de variabele `plot`: 1 = route, 2 = snelheid, 3 = hoogte.
 
 #### computing tip
 
-**Let op:** het kan erg verleidelijk zijn om op basis van de eerste paar regels in de data-file te 
+**Let op:** het kan erg verleidelijk zijn om op basis van de eerste paar regels in het data-bestand te 
 concluderen dat de hoogte tijdens een rit is opgeslagen in een deel van de regel die maar drie karakters 
 breed is (X.Y) en dat dat correspondeert met X meter en Y decimeter boven of onder zeeniveau. Nou 
 klopt het dat je rond Leiden nooit boven tien meter boven of onder zeeniveau uitkomt, maar als je 
@@ -205,11 +205,11 @@ Zorg dat in bovenstaande syntax goed begrijpt welke letters er van de regel gese
 	
 ### Opdracht 4b: creëer de fake data-set
 
-Maak een nieuwe data-file `Matterhorn.gpx` die bijna identiek is aan de originale `FietsRitData.gpx` 
+Maak een nieuw data-bestand `Matterhorn.gpx` die bijna identiek is aan de originale `FietsRitData.gpx` 
 en die alleen verschilt in de regels die de hoogte aangeven. 
 
-De taak is dus om regel voor regel de originele file in te lezen en die weer gelijk weg te schrijven 
-in de nieuwe file. Alleen voor de regels waar de hoogte is aangegeven moeten voor het wegschrijven de 
+De taak is dus om regel voor regel het originele bestand in te lezen en die weer gelijk weg te schrijven 
+in het nieuwe bestand. Alleen voor de regels waar de hoogte is aangegeven moeten voor het wegschrijven de 
 oorspronkelijke hoogte vervangen door een die we zelf bedacht hebben. 
 
 Het doel is dat het volgende hoogte-profiel ontstaat in de rit:
@@ -221,7 +221,7 @@ Het doel is dat het volgende hoogte-profiel ontstaat in de rit:
 		
 #### computing tip:
 
-	- Volg het voorbeeld in het begin van de module om te hebben we gezien hoe je een file kan 
+	- Volg het voorbeeld in het begin van de module om te hebben we gezien hoe je een bestand kan 
 	  aanmaken en er een regel tekst in weg kan schrijven.  
 	- gebruik de code die je in opdracht 4a geschreven hebt om te verifiëren of het hoogteprofiel 
-	  dat je nu gemaakt hebt inderdaad correct in de file is weggeschreven.
+	  dat je nu gemaakt hebt inderdaad correct in het bestand is weggeschreven.

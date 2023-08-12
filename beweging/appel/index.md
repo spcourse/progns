@@ -48,7 +48,7 @@ Je hebt dan alle informatie berekend over een bepaald punt in de tijd. Vervolgen
 
 ## Hints
 
-- Gebruik bovenstaande formule en start de appel dus op x = $${\rm R_{earth}}$$ + 100 meter. Als je wilt weten hoe hoog de appel is, gebruik dan h = x - $${\rm R_{earth}}$$.
+- Je mag de versimpelde zwaartekrachtsformule voor dichtbij het aardoppervlak gebruiken en hoeft dus niet de massa en straal van de aarde te gebruiken.
 - Let goed op het *teken* van de krachten en snelheden. Je begint bij positieve $$x$$ en beweegt dan naar $$x=0$$ toe.
 - In dit voorbeeld kan je de antwoorden ook zelf uitrekenen met behulp van pen en papier.
 - Bereken alles eerst in m/s en reken dan voor punt 2 de snelheid om naar km/uur.

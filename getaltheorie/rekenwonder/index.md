@@ -38,4 +38,4 @@ Probeer dan de voorbeelden bovenaan de opgave uit. Lijkt alles te werken, dan is
 
 	checkpy rekenwonder
 
-Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Vraag om hulp!
+Zie je verdrietige smileys met tekst in het rood staan, dan betekent dat dat het programma wil dat er aan wat de tekst zegt voldaan wordt, maar dat dit niet het geval is. Probeer dus je code te laten doen wat de tekst zegt. Kom je er niet uit wat er fout gaat? Vraag om hulp!
