@@ -25,4 +25,4 @@ Details voor de animatie:
 
 ## Testen
 
-Dit programma is helemaal visueel en kan niet worden getest met `checkpy`. Je moet het laten aftekenen tijdens het practicum.
+Dit programma is helemaal visueel en kan niet worden getest met `checkpy`. Je moet het laten aftekenen tijdens het practicum. Mocht je nu direct doorgaan met de volgende opdracht (student) wacht dan met aftekenen tot je deze ook gedaan hebt, dan kun je ze zo direct samen laten aftekenen.
