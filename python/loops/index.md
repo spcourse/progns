@@ -72,7 +72,7 @@ In het eerste voorbeeld hadden we maar één instructie in de loop zelf, namelij
 
 In onderstaande voorbeeld tellen we de waarde van getal steeds op bij een variabele die we aan het begin van het programma op nul hebben gezet. Aan het eind van het programma bevat die variabele dan de som van alle getallen van 1 tot en met 10. Het is daarna een peulenschil om met een kleine aanpassing de som van 1 tot en met 712643 op te tellen in plaats van 1 tot en met 10.
 
-Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die getal kan aannemen is de loop 'afgelopen' en gaat het programma gewoon verder. In dit geval laten we het programma de som van alle getallen printen op het scherm. Let ook goed op de indentatie van de laatste regel.
+Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die `getal` kan aannemen is de loop 'afgelopen' en gaat het programma gewoon verder. In dit geval laten we het programma de som van alle getallen printen op het scherm. Let ook goed op de indentatie van de laatste regel.
 
     som = 0
     for getal in range(1, 11):
@@ -81,6 +81,7 @@ Zodra alle instructies zijn uitgevoerd voor de hoogste waarde die getal kan aann
 
     print(f"De som van de getallen van 1 tot en met 10 = {som}")
 
+In plaats van `som = som + getal` hadden we ook de afkorting `som += getal` kunnen gebruiken, zoals in de video is uitgelegd. Dit werkt overigens ook voor andere operatoren (dus `-=` en `%=` werken op dezelfde manier).
 
 **Oefening 1:** Pas bovenstaand programma eens aan door het laatste print-statement verder in te laten springen tot het precies onder de regel 'som = som + getal' staat. Run het programma en probeer te begrijpen wat er gebeurt. Dit is een veelgemaakte fout met loops dus belangrijk om deze 'fout' een keer te zien zodat je het later goed herkent.
 
