@@ -80,8 +80,8 @@ en de Kalverstraat positie 39.
     Na worp 4: ...
 
 Let op: zorg dat je positie altijd tussen de 0 en de 39 zit, ook al heb je
-meerdere rondjes gemaakt. Je zou hiervoor bijvoorbeeld de modulo (`%`) operator
-kunnen gebruiken die je kent uit module 1.
+meerdere rondjes gemaakt. Positie 40 wordt dan dus positie 0, positie 41 wordt positie 1, etc.
+Je zou hiervoor bijvoorbeeld de modulo (`%`) operator kunnen gebruiken die je kent uit module 1.
 
 ## Rondlopen op het 'echte' bord
 
