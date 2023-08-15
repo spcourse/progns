@@ -4,19 +4,19 @@ content:
     Inleiding: .
 
     Nulpunten:
-        Leer over functies in Python: /python/functies
-        Bepaal de nulpunten van een polynoom: nulpunten
+        Functies: /python/functies
+        Nulpunten: nulpunten
 
     Riemannsom:
-        Leer meer over het gebruik van functies als argumenten van andere functies: /python/functies2
-        Gebruik computerkracht voor het bepalen van de Riemannsom: riemann
+        Functies als argumenten: /python/functies2
+        Riemann: riemann
 
     Random:
-        Leer over het gebruik van random getallen: /python/random
-        Random fact: random
-        Bereken de gemiddelde afstand tussen twee punten in een vierkant: afstand
-        Analyseer met een histogram de uitkomst van de `random`-functie: histogram
+        Random getallen: /python/random
+        Interessant feitje over de som van random getallen: random
+        Afstand: afstand
+        Histogram: histogram
 
     Monte Carlo:
-        Gebruik random waarden bij het berekenen van integralen met de Monte-Carlomethode: montecarlo
-        Bereken de oppervlakte van een vreemde vorm: ei
+        Monte-Carlo: montecarlo
+        Twitter-ei: ei

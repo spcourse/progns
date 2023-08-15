@@ -1,4 +1,4 @@
-# Het Twitter-ei!
+# Twitter-ei
 
 Schrijf een functie `twitter()` die de oppervlakte van het Twitter-ei berekent. De omtrek van het ei wordt gegeven door: 
 

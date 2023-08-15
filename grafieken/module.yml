@@ -2,6 +2,6 @@ name: grafieken
 content:
 
     Grafieken:
-        Leer over het gebruiken van modules in Python: /python/modules
-        Zoek op hoe je data kunt plotten: /python/plot
-        Maak data inzichtelijk met grafieken: .
+        Functies uit modules: /python/modules
+        Grafieken: /python/plot
+        Plot: .

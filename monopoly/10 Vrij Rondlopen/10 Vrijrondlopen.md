@@ -1,4 +1,4 @@
-# Monopoly: Donald Trump edition
+# Opdracht 1: Donald Trump edition
 
 Schrijf een programma dat een groot aantal potjes van een vereenvoudigde versie van het spel Monopoly simuleert.
 

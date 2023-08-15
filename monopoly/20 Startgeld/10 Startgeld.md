@@ -1,4 +1,4 @@
-## Opdracht 2: Realisme toevoegen: effect van startgeld
+## Opdracht 2: Startgeld toevoegen
 
 ![](GoldenDollar.png){:.inline}{: style="width:20%"}
 

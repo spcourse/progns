@@ -1,4 +1,4 @@
-# Het duizendste priemgetal
+# Priemgetallen
 
 Implementeer een programma dat op verzoek het $$n$$-de priemgetal genereert.
 

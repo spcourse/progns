@@ -15,7 +15,7 @@ Het vermoeden van Goldbach is een van de oudste onopgeloste problemen in de wisk
 
 *"Elk even getal groter dan 2 kan geschreven worden als de som van twee priemgetallen."*
 
-Een priemgetal mag hierbij ook twee keer gebruikt worden (6 = 3 + 3). Hoewel dit vermoeden inderdaad blijkt te kloppen voor alle getallen tot $$4\cdot10^{18}$$ is er nog altijd geen analytisch bewijs voor de stelling. De computer is ongeschikt om het vermoeden te bewijzen (je kunt immers niet tot oneindig tellen), maar je kan het vermoeden wel ontkrachten door een even getal te identificeren dat niet te schrijven is als de som van twee priemgetallen. We gaan ons steentje bijdragen in deze zoektocht.
+Een priemgetal mag hierbij ook twee keer gebruikt worden (6 = 3 + 3). Hoewel dit vermoeden inderdaad blijkt te kloppen voor alle getallen tot $$4\cdot10^{18}$$ is er nog altijd geen analytisch bewijs voor het vermoeden. De computer is ongeschikt om het vermoeden te bewijzen (je kunt immers niet tot oneindig tellen), maar je kan het vermoeden wel ontkrachten door een even getal te identificeren dat niet te schrijven is als de som van twee priemgetallen. We gaan ons steentje bijdragen in deze zoektocht.
 
 ## Specificatie
 

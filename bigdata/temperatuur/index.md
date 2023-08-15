@@ -1,4 +1,4 @@
-# Klimaatdiscussie
+# Temperatuur
 
 ![](../assets/KaartNederlandKlein.png){:.inline}
 

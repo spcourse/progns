@@ -1,6 +1,6 @@
-# Monte Carlo
+# Monte-Carlo
 
-Schrijf een functie die middels de Monte Carlo-methode de integraal berekent van een willekeurige wiskundige functie  met gespecificeerde integratiegrenzen. Zorgt dat zowel de functie zelf als de gegooide punten (zowel de 'goede' als de 'foute') op het scherm weergegeven worden.
+Schrijf een functie die middels de Monte-Carlo-methode de integraal berekent van een willekeurige wiskundige functie  met gespecificeerde integratiegrenzen. Zorgt dat zowel de functie zelf als de gegooide punten (zowel de 'goede' als de 'foute') op het scherm weergegeven worden.
 
 ## Achtergrond
 
@@ -50,7 +50,7 @@ punten gooien in plaats van 2000.
 
 - Maak een nieuw bestand genaamd `montecarlo.py`.
 
-- Schrijf een functie `montecarlo()` die integralen kan berekenen met behulp van een Monte Carlo simulatie. 
+- Schrijf een functie `montecarlo()` die integralen kan berekenen met behulp van een Monte-Carlo-simulatie. 
 
 - De functie `montecarlo()` moet vijf argumenten accepteren:
 

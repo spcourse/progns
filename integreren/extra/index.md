@@ -1,12 +1,12 @@
-# Fractals - Mandelbrot set
+# Fractals - Mandelbrotset
 
-Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, *fractals* genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels. Ook in de natuur vinden we vaak simpele onderliggende mechanismes voor complexe fenomenen al is het een enorm lastige klus om daar achter te komen. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set). Over deze fractal zijn tal van interessante video's te vinden online. Probeer eens deze van [Veritasium](https://www.youtube.com/watch?v=ovJcsL7vyrk&t=882s&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90) of [Numberphile](https://www.youtube.com/watch?v=FFftmWSzgmk&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90).
+Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, *fractals* genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels. Ook in de natuur vinden we vaak simpele onderliggende mechanismes voor complexe fenomenen al is het een enorm lastige klus om daar achter te komen. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot-set](https://en.wikipedia.org/wiki/Mandelbrot_set). Over deze fractal zijn tal van interessante video's te vinden online. Probeer eens deze van [Veritasium](https://www.youtube.com/watch?v=ovJcsL7vyrk&t=882s&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90) of [Numberphile](https://www.youtube.com/watch?v=FFftmWSzgmk&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90).
 
 <p align="center">
 ![](../assets/mandelbrot.png){: style="width:50%"}
 </p>
 
-De opdracht van deze extra opdracht is dan ook: schrijf een programma `fractal.py` dat de Mandelbrot set op het scherm tekent.
+De opdracht van deze extra opdracht is dan ook: schrijf een programma `fractal.py` dat de Mandelbrot-set op het scherm tekent.
 
 ### Stukje wiskunde: complexe getallen
 
@@ -70,9 +70,9 @@ Voor elke keuze van een functie $$f(z)$$ kunnen we nu de punten in het complexe 
 Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert krijgt elk punt in het complexe vlak een kleur. Door dit te plotten ontstaan de beroemde fractals. 
 
 
-**De Mandelbrot set:**
+**De Mandelbrot-set:**
 
-De Mandelbrot set is gedefiniëerd door de functie die we al eerder gezien hebben met een speciale keuze voor de constante $$c$$, namelijk het startpunt zelf is. Met $$c = z_0$$ krijgen we dan: 
+De Mandelbrot-set is gedefinieerd door de functie die we al eerder gezien hebben met een speciale keuze voor de constante $$c$$, namelijk het startpunt zelf is. Met $$c = z_0$$ krijgen we dan: 
     
    Mandelbrot: $$f(z) = z^2 + z_0$$, 
     
@@ -98,7 +98,7 @@ Nu is het tijd om zelf een fractal te tekenen.
 
 ### Opdracht: 
 
-Bepaal in je programma `fractal.py` voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of divergeert onder de polynoom voor de Mandelbrot set:
+Bepaal in je programma `fractal.py` voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of divergeert onder de polynoom voor de Mandelbrot-set:
 
    $$f(z) = z^2 + z_0$$. 
     

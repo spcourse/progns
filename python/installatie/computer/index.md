@@ -1,4 +1,4 @@
-# Python op je eigen computer
+# Installeer Python
 
 ## Om te beginnen
 
