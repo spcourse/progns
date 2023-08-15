@@ -1,6 +1,6 @@
 # Monte-Carlo
 
-Schrijf een functie die middels de Monte-Carlo-methode de integraal berekent van een willekeurige wiskundige functie  met gespecificeerde integratiegrenzen. Zorgt dat zowel de functie zelf als de gegooide punten (zowel de 'goede' als de 'foute') op het scherm weergegeven worden.
+Schrijf een functie die middels de Monte-Carlo-methode de integraal berekent van een willekeurige wiskundige functie  met gespecificeerde integratiegrenzen. Zorg dat zowel de functie zelf als de gegooide punten (zowel de 'goede' als de 'foute') op het scherm weergegeven worden.
 
 ## Achtergrond
 
@@ -8,9 +8,11 @@ Het is mogelijk een integraal te benaderen door gebruik te maken van random geta
 
 ![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_rouef2qo&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_er3r5kip)
 
-1.  Definieer rechthoek dat het integratiegebied omsluit
+Voor positieve integratiegebieden gebruik je het volgende stappenplan.
 
-    Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit. Kies dus 
+1.  Definieer een rechthoek die het integratiegebied omsluit
+
+    Definieer een gebied (vaak een rechthoek) dat de integraalregio omsluit. Kies dus 
     een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt 
 
       - $$x_{min} \leq a$$ en $$x_{max} \geq b$$
@@ -21,7 +23,7 @@ Het is mogelijk een integraal te benaderen door gebruik te maken van random geta
 
 2.  Gooi random punten in de rechthoek
 
-    Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en 
+    Gooi een groot aantal random punten $$(x_i, y_i)$$ in de rechthoek die het integratiegebied om sluit en 
     bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke 
     fractie van de punten in het integratiegebied valt: $$f_{goed}$$.
 
@@ -60,7 +62,7 @@ punten gooien in plaats van 2000.
 	- `x2` de tweede x waarde
 	- `y2` de tweede y waarde
 
-- De functie `montecarlo()` moet de oppervlakte onder de grafiek teruggeven als resultaat.
+- De functie `montecarlo()` moet de integraal van de gegeven functie teruggeven als resultaat.
 
 - De functie `montecarlo()` moet de functie plotten en de punten *in* het integratiegebied (de 'goede' punten) in groen en de 'foute' punten in rood tekenen.
 
@@ -90,7 +92,7 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 - Kijk goed naar de grafiek van de rode en groene punten die je maakt zodat je duidelijk ziet welk gebied je aan het integreren bent. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in één keer terwijl je daar anders uren naar moet zoeken in de code zelf.
 
-- Bij 'negatieve' integratieregio's is het handig om de integratiegebieden splitsen. Denk even na waarom dat zo is.
+- Als je ook negatieve integratieregio's hebt, moet je die niet gewoon bij de positieve regio's optellen (waarom ook alweer niet?) maar is het handig om de integratiegebieden splitsen.
 
 - In onderzoekstoepassingen wordt voor maximalisatie van de efficiëntie de rechthoek zo gekozen dat hij de integraal zo nauw mogelijk omsluit.
 
