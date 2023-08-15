@@ -12,6 +12,6 @@ Lever `hello.py` in onderaan deze pagina om te laten zien dat je gestart bent me
 
     - `print precies: Hello, world!`. Heb je een `:(` of een `:|`? Check dan of je programma wel echt exact deze letters print. Vergeet je bijvoorbeeld het uitroepteken, dan wordt het afgekeurd.
 
-    - `print precies 1 regel`. Heb je hier een `:(` of een `:|`? Check dan of je programma misschien toch nog een extra regel print of een foutmelding geeft. Je programma mag alléén maar `Hello, world!` printen en niets anders.
+    - `print precies één regel`. Heb je hier een `:(` of een `:|`? Check dan of je programma misschien toch nog een extra regel print of een foutmelding geeft. Je programma mag alléén maar `Hello, world!` printen en niets anders.
 
 - Mocht je problemen hebben bij het inleveren, vraag dan een assistent tijdens het laptopcollege of mail direct naar <progns@mprog.nl>.

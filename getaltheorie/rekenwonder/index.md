@@ -39,3 +39,5 @@ Probeer dan de voorbeelden bovenaan de opgave uit. Lijkt alles te werken, dan is
 	checkpy rekenwonder
 
 Zie je verdrietige smileys met tekst in het rood staan, dan betekent dat dat het programma wil dat er aan wat de tekst zegt voldaan wordt, maar dat dit niet het geval is. Probeer dus je code te laten doen wat de tekst zegt. Kom je er niet uit wat er fout gaat? Vraag om hulp!
+
+Checkpy is de manier waarop je code nagekeken wordt, dus niet handmatig door de student-assistenten. Als je wil weten of je een goede beoordeling gaat krijgen voor je code, kun je dat dus zelf nagaan met checkpy.

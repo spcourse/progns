@@ -6,7 +6,7 @@ Programmacode is bij voorkeur goed leesbaar, niet alleen voor jezelf, maar ook v
 
 Om te beginnen een paar dingen over terminologie:
 
-- We hebben het vaak over "programma's". Een *programma* is een op zichzelf staand geheel, een stuk software dat een taak kan uitvoeren. Denk aan een rekenmachine op je telefoon. Of Microsoft Word. Python zelf is ook een programma. En jij schrijft in deze cursus dus een heleboel verschillende programma's.
+- We hebben het vaak over "programma's". Een *programma* is een op zichzelf staand geheel, een stuk software dat een taak kan uitvoeren. Denk aan een rekenmachine op je telefoon. Of Microsoft Word. Visual Studio Code is ook een programma, waarin je schrijft in de 'programmeertaal' Python. Jij zal in deze cursus een heleboel verschillende bestanden aanmaken die een taak uitvoeren, dat zijn ook allemaal programma's.
 
 - We hebben het ook vaak over "code". Een stuk *code* is een fragment, vaak onderdeel van een programma. Het woord code is niet telbaar, dat wil zeggen dat je niet kunt spreken van "een code" of "twee codes". Je kunt wel zeggen "mijn code werkt niet", dan gaat het kennelijk over het stuk code dat je zojuist geschreven hebt.
 
@@ -193,4 +193,4 @@ We zien hier een belangrijke vuistregel in actie: splits de code op in blokjes, 
     hypotenusa_kwadraat = x * x + y * y
     c = (a + b) * (a - b)
 
-Let ook op dat we in het voorbeeld van de energieën bij "Variabelen" ("tegen de regels in") `(v_1 + v_2)**2` schrijven in plaats van '(v_1 + v_2) ** 2'. Dit hebben we gedaan om meer eenheid te creëren in deze factor van de vergelijking. Soms is het handig om dit te doen, omdat het de leesbaarheid van de vergelijking ten gunste kan komen. Naarmate je beter wordt in programmeren en meer code hebt gezien, zul je steeds handiger worden in het maken van keuzes in dit soort grijze gebieden.
+Let ook op dat we in het voorbeeld van de energieën bij "Variabelen" ("tegen de regels in") `(v_1 + v_2)**2` schrijven in plaats van '(v_1 + v_2) ** 2'. Dit hebben we gedaan om meer eenheid te creëren in dit onderdeel van de vergelijking. Soms is het handig om dit te doen, omdat het de leesbaarheid van de vergelijking ten gunste kan komen. Naarmate je beter wordt in programmeren en meer code hebt gezien, zul je steeds handiger worden in het maken van keuzes in dit soort grijze gebieden.

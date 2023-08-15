@@ -51,3 +51,5 @@ Nu werkt deze `range`-functie alleen met gehele getallen. In wiskundige toepassi
 
     for x in numpy.arange(2.0, 9.0, 0.1):
         print(x)
+
+Je kunt de `arange`-functie natuurlijk ook gebruiken om over gehele getallen te loopen, maar hier kun je beter de `range`-functie voor gebruiken want die is sneller voor gehele getallen.

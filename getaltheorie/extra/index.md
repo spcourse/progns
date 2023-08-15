@@ -71,9 +71,9 @@ Specificaties:
 
 Een van de dingen die we nodig hebben, het trekken van een willekeurig getal, is iets waar we pas in module 2 mee gaan werken. In dit geval is het nog specifieker, namelijk een willekeurig *geheel* getal. 
 
-Plaats bovenaan je programma de volgende regel die je in staat stelt de `random-bibliotheek` te gebruiken in je programma. Deze bibliotheek bevat allerlei functies die random getallen maken.
+Plaats bovenaan je programma de volgende regel die je in staat stelt een specifiek onderdeel uit de `random-bibliotheek` te gebruiken in je programma. Deze bibliotheek bevat allerlei functies die random getallen maken.
  
-        from random import *
+        from random import randint
         
 De functie die wij nodig hebben is `randint(Nmin, Nmax)` die een random geheel getal teruggeeft tussen `Nmin` en `Nmax`. In onze opgave gebruiken we Nmin = 10000 en Nmax = 100000. Om in je code een random geheel getal `n` te krijgen gebruik je de volgende regel: 
 

@@ -44,7 +44,7 @@ Bij een niet-priemgetal, zoals 36, moet geprint worden:
 
 	Het getal 36 is geen priemgetal
 
-Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen een deler zijn van `x`. Als je dit bijhoudt in de loop (tellen!), kun je na afloop van de loop bepalen of het getal een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm, zoals in het voorbeeld hierboven.
+Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen een deler zijn van `mogelijke_priem`. Als je dit bijhoudt in de loop (tellen!), kun je na afloop van de loop bepalen of het getal een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm, zoals in het voorbeeld hierboven. Als rekenen met `%` nog wat nieuw voor je is, kijk dan nog eens [hier](/python/basiselementen) bij het stukje over operatoren.
 
 ## Stap 2: check een hele lijst
 
