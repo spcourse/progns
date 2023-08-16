@@ -1,15 +1,15 @@
-# Monopoly: Donald Trump edition
+# Opdracht 1: Donald Trump edition
 
 Schrijf een programma dat een groot aantal potjes van een vereenvoudigde versie van het spel Monopoly simuleert.
 
-    Monopoly simulator: 1 speler, Trump mode
-    We hebben 10000 potjes gesimuleerd
+    Monopoly simulator: 1 speler, Trump-mode
+    We hebben 10,000 potjes gesimuleerd
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
 
 ## Achtergrond
 
-We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, er is geen concurrentie. Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
+We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem straten laten kopen. We spelen in de zogenaamde Trump-mode. De speler heeft oneindig veel geld, er is geen concurrentie. Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
 waarna alle straten zijn verkocht.
 
 
@@ -32,12 +32,12 @@ Elke beurt in het spel begint met het gooien van twee dobbelstenen. Dat zijn dus
 
 {: .language-python}
     import random
-    dobbelsteen = random.randint(1,6)
+    dobbelsteen = random.randint(1, 6)
 
 **Schrijf** een functie `worp_met_twee_dobbelstenen()` zonder parameters die een worp met twee dobbelstenen teruggeeft. In je code zou je deze functie als volgt willen gebruiken:
 
       resultaat = worp_met_twee_dobbelstenen()
-      print("Totaal aantal ogen van twee dobbelstenen: {}".format(resultaat))
+      print(f"Totaal aantal ogen van twee dobbelstenen: {resultaat}")
 
 **Schrijf** om te testen een functie `oefenen_met_de_dobbelstenen()` die duizend
 worpen simuleert en voor elke worp steeds twee dobbelstenen gooit. Zorg dat op
@@ -56,7 +56,7 @@ het eind van het programma op het scherm.
     ..
     worp 1000: totaal van 2 dobbelstenen = 3
 
-    print "Het percentage dubbele worpen = xx,xx procent"
+    print "Het percentage dubbele worpen = xx.xx procent"
 
 Let op: de functie `oefenen_met_de_dobbelstenen()` heb je in de rest van de
 opgave niet meer nodig. Je kunt hem in je programma laten staan of gewoon
@@ -64,7 +64,7 @@ helemaal weghalen.
 
 ## Rondlopen op een leeg bord
 
-We beginnen nu onze simulatie door een nieuwe functie te definieren:
+We beginnen nu onze simulatie door een nieuwe functie te definiëren:
 `simuleer_potje_monopoly()` Deze functie zullen we langzaam uitbreiden tot we
 een 'echt' potje Monopoly simuleren. We beginnen simpel door eerst een rondje
 te lopen met één speler op een Monopolybord en steeds te kijken op welke
@@ -80,8 +80,8 @@ en de Kalverstraat positie 39.
     Na worp 4: ...
 
 Let op: zorg dat je positie altijd tussen de 0 en de 39 zit, ook al heb je
-meerdere rondjes gemaakt. Je zou hiervoor bijvoorbeeld de modulo (`%`) operator
-kunnen gebruiken die je kent uit module 1.
+meerdere rondjes gemaakt. Positie 40 wordt dan dus positie 0, positie 41 wordt positie 1, etc.
+Je zou hiervoor bijvoorbeeld de modulo (`%`) operator kunnen gebruiken die je kent uit module 1.
 
 ## Rondlopen op het 'echte' bord
 
@@ -140,7 +140,7 @@ dan gooien we gewoon opnieuw en wandelen we verder. Zorg dat je na elke worp
 waarbij je op een veld komt dat nog te koop is het op het scherm geprint wordt
 en ook gelijk hoeveel velden je in totaal in je bezit hebt na die aankoop.
 
-    Na worp 1: positie  3 (straat).
+    Na worp 1: positie 3 (straat).
                speler 1 heeft 1 huis in zijn/haar bezit. Er staan nu nog 27 velden te koop.
 
 Omdat je weet hoeveel straten er in totaal te koop zijn in het spel weet je nu ook wanneer je alle straten in je bezit hebt. Stop met gooien als dat gebeurt en print op het scherm hoeveel beurten je nodig had:
@@ -159,7 +159,7 @@ In je code moet het dus als volgt werken:
 {: .language-python}
 
     aantal_worpen = simuleer_potje_monopoly()
-    print("Klaar! Na worp {} had de speler alle straten in zijn bezit".format(aantal_worpen))
+    print(f"Klaar! Na worp {aantal_worpen} had de speler alle straten in zijn bezit")
 
 ## Meerdere potjes en gemiddeld aantal worpen
 
@@ -170,7 +170,7 @@ Schrijf een functie `simuleer_groot_aantal_potjes_monopoly(aantal_potjes)` die e
     for potje in range(0, aantal_potjes):
         aantal_worpen = simuleer_potje_monopoly()
 
-1.  Begin met 1 potje en voer dat dan op naar 2, 10 en uiteindelijk naar 10000 als je er zeker van bent dat je programma goed werkt.
+1.  Begin met 1 potje en voer dat dan op naar 2, 10 en uiteindelijk naar 10,000 als je er zeker van bent dat je programma goed werkt.
 
 2.  Hou voor elk potje bij (in een lijst) hoeveel worpen er nodig waren om alle straten in bezit te krijgen.
 
@@ -178,8 +178,8 @@ Schrijf een functie `simuleer_groot_aantal_potjes_monopoly(aantal_potjes)` die e
 
 4.  Bepaal dan ook het gemiddeld aantal worpen dat nodig was om alle straten in bezit te krijgen en print het resultaat op het scherm, in het format dat aan het begin van de opgave gespecificeerd was:
 
-        Monopoly simulator: 1 speler, Trump mode
-        We hebben 10000 potjes gesimuleerd
+        Monopoly simulator: 1 speler, Trump-mode
+        We hebben 10,000 potjes gesimuleerd
         Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
 Tip: als je een groot aantal potjes simuleert is het handig als het programma laat zien waar het mee bezig is. Aan de andere kant moet er niet teveel informatie over het scherm scrollen. Een manier om dat op te lossen is bijvoorbeeld door elke 500 potjes even naar het scherm te printen dat je nu Monopoly-potje X van in totaal Y potjes aan het simuleren bent.

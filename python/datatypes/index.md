@@ -81,7 +81,7 @@ Oplossing 2:
 In Module 1 hebben we de for-loop gebruikt om een variabele steeds met 1 op te hogen. In de for-loop constructie gebruikten we daarvoor de `range()` functie. De getallen 1 tot (en niet tot en met) 10, printen op het scherm, ze in een lijst stoppen en die printen aan het eind van het programma deden we als volgt.
 
     L_x = []
-    for x in range(1,10):
+    for x in range(1, 10):
 	   print "x heeft nu de waarde %d" % (x)
 	   L_x.append(x)
 	print L_x
@@ -94,7 +94,7 @@ In Module 1 hebben we tijdens het tekenen van grafieken gezien hoe we punten (ee
     L_y = []
     
 	# x loopt van 0 tot 2pi in stapjes van 0.01
-    for x in np.arange(0,2*math.pi, 0.01):
+    for x in np.arange(0, 2*math.pi, 0.01):
         y = math.sin(x)
         L_x.append(x)
         L_y.append(y)		  

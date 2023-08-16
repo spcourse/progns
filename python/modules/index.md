@@ -12,7 +12,7 @@ Het gaat om de laatste regel van die foutmelding. Deze is in zo normaal mogelijk
 
 Om gebruik te maken van de `sin`-functie moet je zorgen dat de `math`-bibliotheek en alle functies daarin beschikbaar komen in jouw programma:
 
-    import math         # importeer de wiskunde-bibliotheek
+    import math         <-- importeer de wiskunde-bibliotheek
 
     x = 0.5
     print(math.sin(x))
@@ -38,11 +38,11 @@ Een voorbeeld van een uitgebreidere wiskundebibliotheek is de `numpy`-library. E
 Van de `for`-loops ken je nog de opdracht `range`. Dit blijkt ook een functie te zijn, namelijk ééntje die reeksen opeenvolgende nummers genereert. Zo zijn deze twee stukken code equivalent:
 
     # versie 1
-    for i in range(1,10):
+    for i in range(1, 10):
         print(i)
 
     # versie 2
-    for i in [1,2,3,4,5,6,7,8,9]:
+    for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
         print(i)
 
 Nu werkt deze `range`-functie alleen met gehele getallen. In wiskundige toepassingen willen we vaak veel kleinere stapjes nemen. Denk aan het berekenen van een integraal op kleine intervallen. Met behulp van `numpy.arange()` kan dat net zo makkelijk als met gehele getallen:
@@ -51,3 +51,5 @@ Nu werkt deze `range`-functie alleen met gehele getallen. In wiskundige toepassi
 
     for x in numpy.arange(2.0, 9.0, 0.1):
         print(x)
+
+Je kunt de `arange`-functie natuurlijk ook gebruiken om over gehele getallen te loopen, maar hier kun je beter de `range`-functie voor gebruiken want die is sneller voor gehele getallen.

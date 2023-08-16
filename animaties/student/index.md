@@ -13,7 +13,7 @@ programma afgelopen is.
 
 Een dronken student neemt elke seconde een stap. De grootte van de stap is steeds hetzelfde ($$R = 1$$), maar de richting waarin hij die stap neemt is volledig willekeurig. Kies bij elke stap in de tijd een random hoek $$\alpha$$ en bepaalt vervolgens de nieuwe $$x$$-positie en $$y$$-positie. Dit staat bekend als een *random walk*.
 
-Je zou eens kunnen proberen of je ook met pen en papier iets kan zeggen over de gemiddelde afstand die de studenten van elkaar verwijderd zijn als functie van het aantal stappen dat ze nemen. Je hoeft dit niet in te leveren, maar overleg eens met je collega-studenten hoe je dit zou aanpakken.
+Je zou eens kunnen proberen of je ook met pen en papier iets kan zeggen over de gemiddelde afstand die één student van zijn startpunt verwijderd is als functie van het aantal stappen deze ze neemt. Je hoeft dit niet in te leveren, maar overleg eens met je collega-studenten hoe je dit zou aanpakken.
 
 
 ## Hints

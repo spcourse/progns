@@ -10,12 +10,12 @@ We beginnen met het plotten van wat punten waarvan we de x-waardes $$(0,1,2,3,4,
 
     import matplotlib.pyplot
 
-    # de coordinaten per punt
-    x_coords = [0,1,2,3,4,5]
-    y_coords = [0,1,4,9,16,25]
+    # de coördinaten per punt
+    x_coord = [0, 1, 2, 3, 4, 5]
+    y_coord = [0, 1, 4, 9, 16, 25]
 
-    # plot punten (y tegen x) met groene rondjes
-    matplotlib.pyplot.plot(x_coords, y_coords, 'go')
+    # plot punten (x tegen y) met groene rondjes
+    matplotlib.pyplot.plot(x_coord, y_coord, 'go')
     matplotlib.pyplot.savefig('plot.png')
 
 We kiezen voor groene rondjes als 'markers', waarmee elk punt in de grafiek wordt weergegeven: dat is wat `'go'` betekent. Met het laatste commando wordt de plot opgeslagen als een bestand `plot.png`. Deze vind je na uitvoeren van het programma als los bestand bij je code.
@@ -29,12 +29,14 @@ Je kunt een lange modulenaam ook een kortere naam geven bij het importeren. In h
     # gebruik de afkorting 'plt'
     import matplotlib.pyplot as plt
 
-    # de coordinaten per punt
-    x_coords = [0,1,2,3,4,5]
-    y_coords = [0,1,4,9,16,25]
+     # de coördinaten per punt
+    x_coord = [0, 1, 2, 3, 4, 5]
+    y_coord = [0, 1, 4, 9, 16, 25]
 
-    plt.plot(x_coords, y_coords, 'go')
+    plt.plot(x_coord, y_coord, 'go')
     plt.savefig('plot.png')
+
+Het is wel zo prettig om alleen afkortingen te gebruiken die logisch zijn of veel gebruikt worden. Bijvoorbeeld 'numpy as np' of 'math as mt' zijn prima.
 
 ## Meerdere grafieken en bijschriften
 
@@ -42,22 +44,22 @@ We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een li
 
     import matplotlib.pyplot as plt
 
-    x_values  = [0,1,2,3,4,5]
-    x_squared = [0,1,4,9,16,25]
-    x_cubed   = [0,1,8,27,64,125]
+    x_waarden = [0, 1, 2, 3, 4, 5]
+    x_kwadraat = [0, 1, 4, 9, 16, 25]
+    x_derde_macht = [0, 1, 8, 27, 64, 125]
 
-    # let op: grafiek met twee datasets: x_squared en x_cubed
-    plt.plot(x_values, x_squared, 'go', x_values, x_cubed, 'r-')
+    # let op: grafiek met twee datasets: x_kwadraat en x_derde_macht
+    plt.plot(x_waarden, x_kwadraat, 'go', x_waarden, x_derde_macht, 'r-')
 
     # voeg labels toe aan de assen
     plt.xlabel('de x-as is klein')
     plt.ylabel('de y-as is groot', fontsize = 25)
 
     # voeg losse tekst toe in de grafiek
-    plt.text(1.00,100., "mijn eerste plotje", color = 'blue', fontsize = 20)
+    plt.text(1.00, 100., "mijn eerste plotje", color = 'blue', fontsize = 20)
 
     # voeg losse tekst toe met LaTeX
-    plt.text(4.00,100., "$x^3$", color = 'red', fontsize = 20)
+    plt.text(4.00, 100., "$x^3$", color = 'red', fontsize = 20)
 
     plt.savefig('plot.png')
 
@@ -68,14 +70,14 @@ We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een li
 ## Hogere resolutie
 
 Hierboven hebben we een klein aantal punten gekozen waarbij je de waardes
-zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere grafiek te krijgen kun je de computer gewoon een heleboel y-waardes laten berekenen. Als we bijvoorbeeld de functie $$sin(x)$$ willen plotten in stapjes van $$0.01$$ tussen $$0$$ en $$2\pi$$ dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
+zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere grafiek te krijgen kun je de computer gewoon een heleboel y-waardes laten berekenen. Als we bijvoorbeeld de functie $$\sin(x)$$ willen plotten in stapjes van $$0.01$$ tussen $$0$$ en $$2\pi$$ dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
 
     import numpy as np
     import math
     import matplotlib.pyplot as plt
 
-    x_values = []
-    y_values = []
+    x_waarden = []
+    y_waarden = []
 
     # x loopt van 0 tot 2pi in stapjes van 0.01
     for x in np.arange(0, 2*math.pi, 0.01):
@@ -83,14 +85,14 @@ zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere
         y = math.sin(x)
 
         # voeg data toe aan de lijsten
-        x_values.append(x)
-        y_values.append(y)
+        x_waarden.append(x)
+        y_waarden.append(y)
 
     # teken de hele grafiek
-    plt.plot(x_values, y_values, 'b-')
+    plt.plot(x_waarden, y_waarden, 'b-')
     plt.xlabel('x', fontsize = 20)
     plt.ylabel('sin(x)', fontsize = 20)
-    plt.text(4.00, 0.50, "f(x) = sin(x)", color = 'black', fontsize = 20)
+    plt.text(4.00, 0.50, "$f(x) = \sin(x)$", color = 'black', fontsize = 20)
     plt.savefig('plot.png')
 
 ![](plotje3.png)
@@ -109,25 +111,20 @@ Dit is de code die daarbij hoort:
     import numpy as np
     import matplotlib.pyplot as plt
 
-    l_x    = []
-    l_x2   = []
-    l_sinx = []
-    l_cosx = []
+    L_x    = []
+    L_x2   = []
+    L_sinx = []
+    L_cosx = []
 
-    for x in np.arange(0.,2*math.pi,0.01):
-        l_x.append(x)
-        l_x2.append(x*x)
-        l_sinx.append(math.sin(x))
-        l_cosx.append(math.cos(x))
+    for x in np.arange(0., 2*math.pi, 0.01):
+        L_x.append(x)
+        L_x2.append(x*x)
+        L_sinx.append(math.sin(x))
+        L_cosx.append(math.cos(x))
 
-    # gemeenschappelijke figuur (bevat beide sub-figuren)
-    plt.figure(1)
-
-    plt.subplot(121)  # ga naar subplot 1
-    plt.plot(l_x, l_sinx, 'b-', l_x, l_cosx, 'r--')
-
-    plt.subplot(122)  # ga naar subplot 2
-    plt.plot(l_x, l_x2, 'g-')
-
-    # teken beide grafieken op het scherm
-    plt.savefig('plot.png')
+    plt.figure(1) <-- gemeenschappelijke figuur (bevat beide sub-figuren)
+    plt.subplot(121)  <-- ga naar subplot 1
+    plt.plot(L_x, L_sinx, 'b-', L_x, L_cosx, 'r--')
+    plt.subplot(122)  <-- ga naar subplot 2
+    plt.plot(L_x, L_x2, 'g-')
+    plt.savefig('plot.png') <-- teken beide grafieken op het scherm

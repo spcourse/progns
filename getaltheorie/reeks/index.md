@@ -1,9 +1,9 @@
 # Reeks
 
-Schrijf een programma dat de *langste aaneengesloten reeks niet-priemgetallen* bepaalt onder de 10.000 en daar een korte samenvatting van geeft.
+Schrijf een programma dat de *langste aaneengesloten reeks niet-priemgetallen* bepaalt onder de 10,000 en daar een korte samenvatting van geeft.
 
 	# python reeks.py
-	De langste reeks niet-priemgetallen onder de 10.000 begint op ... en eindigt bij ...
+	De langste reeks niet-priemgetallen onder de 10,000 begint op ... en eindigt bij ...
 	De reeks is ... lang.
 	
 Lees goed wat er gevraagd wordt. Onder het getal 100 moet het antwoord zijn:
@@ -11,7 +11,7 @@ Lees goed wat er gevraagd wordt. Onder het getal 100 moet het antwoord zijn:
 	De langste reeks niet-priemgetallen onder de 100 begint op 90 en eindigt bij 96
 	De reeks is 7 lang.
 
-De opdracht luidt om de langste reeks te vinden onder het getal 10.000.
+De opdracht luidt om de langste reeks te vinden onder het getal 10,000.
 
 ## Achtergrond
 
@@ -21,7 +21,7 @@ Om het idee van de reeks niet-priemgetallen goed te begrijpen, schrijf je bijvoo
 
 ## Specificatie
 
-- Maak een programma genaamd `reeks.py` en zorg dat het volgens bovenstaand voorbeeld de juiste informatie uitprint. Gebruik je bestaande priem-zoek programma als basis, en pas het zodanig aan dat het programma eerst een *lijst* priemgetallen genereert die kleiner zijn dan het getal 10.000. Omdat je in dat geval weet waar het eindigt, kun je nu beter een `for-loop` gebruiken dan een `while-loop`.
+- Maak een programma genaamd `reeks.py` en zorg dat het volgens bovenstaand voorbeeld de juiste informatie uitprint. Gebruik je bestaande priem-zoek programma als basis, en pas het zodanig aan dat het programma eerst een *lijst* priemgetallen genereert die kleiner zijn dan het getal 10,000. Omdat je in dat geval weet waar het eindigt, kun je nu beter een `for-loop` gebruiken dan een `while-loop`.
 
 - Stap (loop) vervolgens door de lijst priemgetallen heen en bepaal telkens hoe lang de reeks niet-priemgetallen is tussen het huidige en het vorige priemgetal. Houd bij wat de langste reeks is in een aparte variabele.
 
@@ -29,7 +29,7 @@ Om het idee van de reeks niet-priemgetallen goed te begrijpen, schrijf je bijvoo
 
 ## Testen
 
-Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is. Test zelf met 100 en met 10.000.
+Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is. Test zelf met 100 en met 10,000.
 
 Nu ben je klaar om te testen:
 

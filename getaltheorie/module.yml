@@ -4,16 +4,16 @@ content:
     Inleiding: .
 
     Aan de slag:
-        Oefen met de basiselementen van Python: /python/basiselementen
-        Gebruik de computer als rekenwonder: rekenwonder
+        Basiselementen: /python/basiselementen
+        Rekenwonder: rekenwonder
 
     Priemgetallen:
-        Leer meer over algoritmen: /python/algoritmen
-        Code herhalen met loops: /python/loops
-        Ga op zoek naar priemgetallen: priemgetallen
+        Algoritmen: /python/algoritmen
+        Loops: /python/loops
+        Priemgetallen: priemgetallen
 
     Resultaten uit de getaltheorie:
-        Sla je data op in een lijst: /python/lijsten
-        Ga op zoek naar de langste reeks niet-priemgetallen: reeks
-        Begrijp hoe je "mooie code" kunt schrijven: /python/stijl
-        Vind (g)een tegenbewijs voor het vermoeden van Goldbach: goldbach
+        Lijsten: /python/lijsten
+        Reeks: reeks
+        Stijl: /python/stijl
+        Goldbach: goldbach

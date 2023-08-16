@@ -1,4 +1,4 @@
-# Python op je eigen computer
+# Installeer Python
 
 ## Om te beginnen
 
@@ -52,4 +52,4 @@ Om te testen of alles werkt, kun je `hello.py` testen. Als je die nog niet gemaa
 
 	checkpy hello
 
-Kleurt alles groen en zie je alleen maar vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en mail gerust als je klem zit.
+Kleurt alles groen en zie je alleen maar vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd en mail gerust als je klem zit. Als er een verdrietige smiley met tekst in het rood staan, dan betekent dat dat het programma wil dat er aan wat de tekst zegt voldaan wordt, maar dat dit niet het geval is. Probeer dus je code te laten doen wat de tekst zegt.

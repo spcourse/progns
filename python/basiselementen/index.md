@@ -87,7 +87,7 @@ Hieronder vind je een lijstje van operators die je kunt gebruiken om formules sa
 | `2 % 1`  | modulus (rest bij deling) |  
 | `2 ** 1` | machtsverheffen           |  
 
-Let op: als je twee gehele getallen deelt met de `//`-operator, zal er altijd een geheel getal uitkomen. Dan is `3 // 2` niet `1.5`, maar `1`. Dat is waarom de `%`-operator er mooi bijpast; die geeft de "rest", ofwel wat overblijft.
+Let op: als je twee gehele getallen deelt met de `//`-operator, zal er altijd een geheel getal uitkomen. Dan is `3 // 2` niet `1.5`, maar `1`. Dat is waarom de `%`-operator (modulo-operator) er mooi bijpast; die geeft de "rest", ofwel wat overblijft. Bijvoorbeeld `print(20 % 3)` geeft `1`, want als je alle veelvouden van `3` uit `20` haalt, hou je `1` over. Als `a % b` (spreek uit: 'a modulo b') gelijk is aan `0` dan is `b` dus een deler van `a`.
 
 ## Variabelen
 
