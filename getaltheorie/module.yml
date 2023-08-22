@@ -4,16 +4,16 @@ content:
     Inleiding: .
 
     Aan de slag:
-        Basiselementen: /python/basiselementen
-        Rekenwonder: rekenwonder
+        Basiselementen: /python/basiselementen ["theorie"]
+        Rekenwonder: rekenwonder ["opdracht"]
 
     Priemgetallen:
-        Algoritmen: /python/algoritmen
-        Loops: /python/loops
-        Priemgetallen: priemgetallen
+        Algoritmen: /python/algoritmen ["theorie"]
+        Loops: /python/loops ["theorie"]
+        Priemgetallen: priemgetallen ["opdracht"]
 
     Resultaten uit de getaltheorie:
-        Lijsten: /python/lijsten
-        Reeks: reeks
-        Stijl: /python/stijl
-        Goldbach: goldbach
+        Lijsten: /python/lijsten ["theorie"]
+        Reeks: reeks ["opdracht"]
+        Stijl: /python/stijl ["theorie"]
+        Goldbach: goldbach ["opdracht"]
