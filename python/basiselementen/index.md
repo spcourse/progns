@@ -141,8 +141,8 @@ Nu komt uit `input` altijd een string. Maar soms wil je natuurlijk dat de gebrui
 
 We hebben al gezien hoe je variabelen kan printen. Bijvoorbeeld:
 
-    temperature = 1000
-    print("De temperatuur is", temperature, "graden.")
+    temperatuur = 1000
+    print("De temperatuur is", temperatuur, "graden.")
 
 Je kan dit ook op een andere manier te doen:
 
@@ -152,9 +152,9 @@ Let op die `f` voor de string (men noemt dit meestal een f-string!). Deze maakt 
 
 Dit kan vooral handig zijn voor het printen van meerdere variabelen:
 
-    temperature = 1000
-    pressure = 1.013
-    print(f"Het is {temperature} graden en de luchtdruk is {pressure} bar.")
+    temperatuur = 1000
+    druk = 1.013
+    print(f"Het is {temperatuur} graden en de luchtdruk is {druk} bar.")
 
 
 ## Commentaar
@@ -162,18 +162,18 @@ Dit kan vooral handig zijn voor het printen van meerdere variabelen:
 Als je in één bestand redelijk wat Python-code hebt geschreven, dan is het handig om duidelijk te maken *wat waar staat* (voor de lezer van de code zelf, niet voor de gebruiker van het programma). Daarom kun je regels commentaar toevoegen in je code. Die zien er zo uit:
 
     # berekening
-    x = x + 1
+    getal = getal + 1
 
 of
 
     # uitvoer
-    print(x)
+    print(getal)
 
 Met zo'n hekje (`#`) laat je zien dat het geen instructie betreft, maar een stukje tekst waar de computer niets mee hoeft te doen. Het is gebruikelijk om een regeltje commentaar te zetten *boven* het stuk code waar het naar verwijst.
 
 Naast commentaar voor een stukje code is het ook handig om helemaal bovenaan een bestand duidelijk te vermelden waar het voor dient. Voor **oefening.py** kun je denken aan het volgende:
 
-    # Oefeningen met Python module 1
+    # oefeningen met Python module 1
     # M. Stegeman
     # 24-8-2018
 
