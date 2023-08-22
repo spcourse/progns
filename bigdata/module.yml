@@ -3,8 +3,7 @@ content:
 
     Inleiding: .
     
-    Big data: /python/files
-
-    Autorit: autorit
-
-    Klimaatdiscussie: temperatuur
+    Bestanden inlezen en analyseren: 
+        Van Basten: /python/files
+        Autorit: autorit
+        Temperatuur: temperatuur

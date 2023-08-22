@@ -20,7 +20,7 @@ Er zijn talloze manieren om je code netter te maken, maar voor deze cursus richt
 
 1. Ga met je review-partner achter jullie laptops zitten. Eén van jullie gaat, op de computer van de ander, bladeren door de uitwerkingen van deze module.
 
-2. Je gaat alleen de verplichte, individuele opgaven verbeteren. De extra opgaven kun je niet nogmaals inleveren en worden ook niet verder beoordeeld.
+2. Je gaat alleen de verplichte, individuele opgaven verbeteren. De uitdagende opgaven kun je niet nogmaals inleveren en worden ook niet verder beoordeeld.
 
 3. Tijdens het bladeren ga je hardop denken over de code. Wat begrijp je niet? Hoe denk je dat het in elkaar zit? Vraag je je af waarom iets op een bepaalde manier gedaan is? Zou je het anders doen? Noem het allemaal.
 

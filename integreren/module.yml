@@ -13,10 +13,10 @@ content:
 
     Random:
         Random getallen: /python/random
-        Interessant feitje over de som van random getallen: random
+        Feitje over de som van random getallen: random
         Afstand: afstand
         Histogram: histogram
 
-    Monte Carlo:
+    Monte-Carlo:
         Monte-Carlo: montecarlo
         Twitter-ei: ei

@@ -1,4 +1,4 @@
-# Interessant feitje over de som van random getallen 
+# Feitje over de som van random getallen 
 
 Schrijf een functie die het gemiddeld aantal random getallen (uniform verdeeld tussen 0 en 1) bepaalt die je moet trekken om te zorgen dat de som van die getallen groter is dan 1.00.
 

@@ -7,7 +7,7 @@ Schrijf een programma `onderlingpriem.py` dat de kans berekent dat twee willekeu
         - voorspelling (wiskunde): 0.xxx
 	    - empirisch (Python): 0.xxx 
 
-Hoewel we jullie in deze extra opdrachten zoveel mogelijk vrij willen laten (er is ook geen `checkpy`) zullen we voor deze eerste extra opdracht nog een aantal tussenstappen aangeven. 
+Hoewel we jullie in deze uitdagende opdrachten zoveel mogelijk vrij willen laten (er is ook geen `checkpy`) zullen we voor deze eerste uitdagende opdracht nog een aantal tussenstappen aangeven. 
 
 ### Definitie van onderling-priem en voorspelling vanuit getaltheorie
 	    

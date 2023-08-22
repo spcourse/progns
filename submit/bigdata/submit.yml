@@ -3,7 +3,7 @@ files:
     required:
         - autorit.py
         - temperatuur.py
-    extra:
+    uitdagend:
         - mijndata.py
         - mijnverhaal.pdf
         - data.txt

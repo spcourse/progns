@@ -8,8 +8,8 @@ files:
         - histogram.py
         - montecarlo.py
         - twitter.py
-    extra:
-        - extra.py
+    uitdagend:
+        - fractal.py
 check:
     tool: checkpy
     repo: uva/progns
