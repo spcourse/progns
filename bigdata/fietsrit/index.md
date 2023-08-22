@@ -100,7 +100,7 @@ Zorg dat je programma nu ook de volgende samenvatting van de rit print (in dit f
 	Rit: maximum snelheid was xx.x km/uur en werd gereden x seconde na de start van de rit
         
 **Het tekenen van de snelheidsgrafiek:**<br>
-Zorg dat de functie `Fietsrit()` een extra input variabale krijgt `plot` (1 = route, 2 = snelheid) en zorg dat de volgende elementen terugkomen in de grafiek van de snelheid als functie van de tijd:
+Zorg dat de functie `Fietsrit()` een extra input variabele krijgt `plot` (1 = route, 2 = snelheid) en zorg dat de volgende elementen terugkomen in de grafiek van de snelheid als functie van de tijd:
 	- Geef met een groene stip aan waar de maximale snelheid werd bereikt 
 	  en geef die snelheid ook weer als tekst
 	- Teken met een stippellijn de gemiddelde snelheid

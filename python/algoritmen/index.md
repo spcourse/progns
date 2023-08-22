@@ -44,11 +44,11 @@ Mocht je meer nodig hebben dan de vergelijkingsoperatoren hierboven:
 
 Je kunt verschillende voorwaarden combineren. Als je wilt weten of een getal zich in een bepaald bereik bevindt (bijvoorbeeld tussen de 3 en de 39) dan kun je dat doen met `and`:
 
-    x = 15
-    x_min = 3
-    x_max = 39
-    if x > x_min and x < x_max:
-        print(f"het getal {x} bevindt zich tussen {x_min} en {x_max}")
+    getal = 15
+    getal_min = 3
+    getal_max = 39
+    if getal > getal_min and getal < getal_max:
+        print(f"het getal {getal} bevindt zich tussen {getal_min} en {getal_max}")
 
 Hier zijn de drie operators om voorwaarden te combineren:
 

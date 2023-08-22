@@ -6,7 +6,7 @@ files:
         - reeks.py
         - goldbach.py
         - plot.py
-    extra:
+    uitdagend:
         - onderlingpriem.py
 check:
     tool: checkpy

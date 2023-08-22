@@ -88,7 +88,7 @@ Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaa
   1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
   {: start="6" reversed=""}
 
-* **Extra** --- (telt voor 1/9 deel) Als je de extra opdracht hebt gedaan levert dit je je laatste punt voor de module op.
+* **Uitdaging** --- (telt voor 1/9 deel) Als je de uitdagende opdracht hebt gedaan levert dit je je laatste punt voor de module op.
 
 
 ## Dagelijks ritme

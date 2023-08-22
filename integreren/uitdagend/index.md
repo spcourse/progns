@@ -6,7 +6,7 @@ Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zi
 ![](../assets/mandelbrot.png){: style="width:50%"}
 </p>
 
-De opdracht van deze extra opdracht is dan ook: schrijf een programma `fractal.py` dat de Mandelbrot-set op het scherm tekent.
+De opdracht van deze uitdagende opdracht is dan ook: schrijf een programma `fractal.py` dat de Mandelbrot-set op het scherm tekent.
 
 ### Stukje wiskunde: complexe getallen
 
