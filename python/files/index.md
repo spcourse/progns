@@ -2,7 +2,7 @@
 
 Een veel voorkomende toepassing van computerprogramma’s is het inlezen, verwerken en analyseren van grote databestanden. Big data! We zullen in deze module leren hoe we data inlezen, en we gebruiken onze kennis van Python om de data te rubriceren en grafieken te maken van onze resultaten.
 
-## Inlezen bestanden en verwerken van de data
+## Van Basten
 
 ![](VanBastenKlein.jpg){:.inline}
 
@@ -134,7 +134,7 @@ Dit stuk code opent een bestand 'output_bestand.txt', schrijft daar 1 regel teks
 
 ### Voorbeeld: extra tekst achter bestaande regel plakken
 
-Dit stuk code opent het bestand input_bestand, plakt voor elke regel de letters "XXX" en schrijft deze nieuwe regel vervolgens weg in een output bestand.
+Dit stuk code opent het bestand input_bestand, plakt voor elke regel de letters "XXX" en schrijft deze nieuwe regel vervolgens weg in een output-bestand.
 
     input_bestand = open('input_bestand.txt', 'r')
     output_bestand = open('output_bestand.txt', 'w')

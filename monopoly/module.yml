@@ -4,6 +4,6 @@ content:
     Monopoly:
         Over Monopoly: inleiding
         Controleren en debuggen: /python/debuggen
-        Opdracht 1: Donald Trump edition: vrij-rondlopen
-        Opdracht 2: Startgeld toevoegen: startgeld
-        Opdracht 3: Twee spelers: twee-spelers
+        Donald Trump editie: vrij-rondlopen [opdracht]
+        Startgeld toevoegen: startgeld [opdracht]
+        Twee spelers: twee-spelers [opdracht]

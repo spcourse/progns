@@ -3,8 +3,8 @@
 Een zeer handige bouwsteen in een computer-programma is het *random* getal. In de bibliotheek `random` zit een functie `random()` die een random getal produceert tussen 0 en 1. In Python gebruik je de functie als volgt:
 
     import random
-    x = random.random()
-    print(x)
+    getal = random.random()
+    print(getal)
 
 Elke keer dat je de functie aanroept zal het een nieuw getal opleveren. Tien random getallen achter elkaar doe je dus als volgt:
 

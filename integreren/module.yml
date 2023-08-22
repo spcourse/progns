@@ -5,18 +5,18 @@ content:
 
     Nulpunten:
         Functies: /python/functies
-        Nulpunten: nulpunten
+        Nulpunten: nulpunten [opdracht]
 
     Riemannsom:
         Functies als argumenten: /python/functies2
-        Riemann: riemann
+        Riemann: riemann [opdracht]
 
     Random:
         Random getallen: /python/random
-        Feitje over de som van random getallen: random
-        Afstand: afstand
-        Histogram: histogram
+        Feitje over de som van random getallen: random [opdracht]
+        Afstand: afstand [opdracht]
+        Histogram: histogram [opdracht]
 
     Monte-Carlo:
-        Monte-Carlo: montecarlo
-        Twitter-ei: ei
+        Monte-Carlo: montecarlo [opdracht]
+        Twitter-ei: ei [opdracht]
