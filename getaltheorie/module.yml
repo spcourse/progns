@@ -5,15 +5,15 @@ content:
 
     Aan de slag:
         Basiselementen: /python/basiselementen
-        Rekenwonder: rekenwonder [opdracht]
+        Rekenwonder [opdracht]: rekenwonder
 
     Priemgetallen:
         Algoritmen: /python/algoritmen
         Loops: /python/loops
-        Priemgetallen: priemgetallen [opdracht]
+        Priemgetallen [opdracht]: priemgetallen
 
     Resultaten uit de getaltheorie:
         Lijsten: /python/lijsten
-        Reeks: reeks [opdracht]
+        Reeks [opdracht]: reeks
         Stijl: /python/stijl
-        Goldbach: goldbach [opdracht]
+        Goldbach [opdracht]: goldbach

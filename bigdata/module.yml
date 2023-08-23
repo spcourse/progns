@@ -2,8 +2,8 @@ name: bigdata-nl
 content:
 
     Inleiding: .
-    
-    Bestanden inlezen en analyseren: 
+
+    Bestanden inlezen en analyseren:
         Van Basten: /python/files
-        Autorit: autorit [opdracht]
-        Temperatuur: temperatuur [opdracht]
+        Autorit [opdracht]: autorit
+        Temperatuur [opdracht]: temperatuur

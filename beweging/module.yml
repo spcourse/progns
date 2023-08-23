@@ -3,6 +3,6 @@ content:
 
     Beweging door zwaartekracht:
 
-        Appel: appel [opdracht]
+        Appel [opdracht]: appel
         Meerdere grafieken naast elkaar: /python/plot
-        Vrije val bij een basejump: basejump [opdracht]
+        Vrije val bij een basejump [opdracht]: basejump
