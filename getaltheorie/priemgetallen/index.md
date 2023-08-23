@@ -2,8 +2,8 @@
 
 Implementeer een programma dat op verzoek het $$n$$-de priemgetal genereert.
 
-	Naar het hoeveelste priemgetal bent u op zoek? 1000
-	7919
+    Naar het hoeveelste priemgetal bent u op zoek? 1000
+    7919
 
 ## Achtergrond
 
@@ -42,7 +42,7 @@ Als de gebruiker het getal 37 invult, moet aan het eind van het programma geprin
 
 Bij een niet-priemgetal, zoals 36, moet geprint worden:
 
-	Het getal 36 is geen priemgetal
+    Het getal 36 is geen priemgetal
 
 Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen een deler zijn van `mogelijke_priem`. Als je dit bijhoudt in de loop (tellen!), kun je na afloop van de loop bepalen of het getal een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm, zoals in het voorbeeld hierboven. Als rekenen met `%` nog wat nieuw voor je is, kijk dan nog eens [hier](/python/basiselementen) bij het stukje over operatoren.
 
@@ -60,7 +60,7 @@ Klopt je antwoord? Check het op internet!
 
 We gaan nu terug naar de opdracht: op zoek naar het n-de priemgetal. We geven een voorzetje voor de strategie van het programma:
 
-- Nu zoeken we het `n`-de priemgetal; we willen niet weten of `n` een priemgetal is (zie je het verschil met stap 2?) Je kunt nu niet meer met een `for`-loop simpelweg tot `n` loopen. Immers, bij een `for`-loop weet je van tevoren hoe vaak er geïtereerd wordt en dat weten we nu niet. Je moet dus in je programma gaan bijhouden *hoeveel* priemgetallen je al gevonden hebt. Gebruik hiervoor een variabele.
+- Nu zoeken we het `n`-de priemgetal; we willen niet weten of `n` een priemgetal is (zie je het verschil met stap 2?) Je kunt nu niet meer met een `for`-loop simpelweg tot `n` loopen. Immers, bij een `for`-loop weet je van tevoren hoe vaak er geïtereerd wordt en dat weten we nu niet. Je moet dus in je programma gaan bijhouden *hoeveel* priemgetallen je al gevonden hebt. Gebruik hiervoor een variabele, net als bij het bijhouden van de hoeveelheid delers in Stap 1. Merk op dat dit bijhouden van informatie in een variabele (bv. een 'teller') nu al een paar keer handig blijkt. We zullen dit meerdere keren terug zien komen bij de rest van het vak, dus oefen er goed mee!
 
 - Begin klein. Zorg dat je programma eerst de priemgetallen tot 10 kan vinden. Dat is klein genoeg om te zien of het programma precies doet wat de bedoeling is, en kun al snel ontdekken wat er mis gaat.
 
@@ -74,7 +74,7 @@ Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma 
 
 Dan ben je klaar om te testen:
 
-	checkpy priemgetal
+    checkpy priemgetal
 
 ## Stap 5: kleine optimalisaties
 
@@ -106,4 +106,4 @@ Je kunt dit programma schrijven met alleen de Python-onderdelen die je tot nu to
 
 Test voor de zekerheid nog een keer of je programma werkt volgens `checkpy`:
 
-	checkpy priemgetal
+    checkpy priemgetal

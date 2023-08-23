@@ -4,7 +4,7 @@ Een mobiele telefoon bevat veel delicate sensoren die informatie verzamelen over
 
 ![Kaartje van de route](../assets/KaartAmsterdamKlein.png)
 
-De sensordata is beschikbaar in het bestand `AutoRitData.csv` en is te downloaden  via de volgende link:
+De sensordata is beschikbaar in het bestand `AutoRitData.csv` en is te downloaden via de volgende link:
 
 [AutoRitData.csv](../data/AutoRitData.csv)
 
@@ -14,7 +14,7 @@ Schrijf een programma **autorit.py** dat het bestand doorloopt, de data verwerkt
 
 ## Afgelegde afstand
 
-Maak een grafiek van de snelheid van de auto (in km/uur) als functie van de tijd en gebruik de data om een schatting te maken van de totaal afgelegde weg.
+Maak een grafiek van de snelheid van de auto (in km/uur) als functie van de tijd en gebruik de data om een schatting te maken van de totaal afgelegde weg. Vergeet natuurlijk niet de grootheden en eenheden in het juiste format toe te voegen.
 
 ## De afgelegde route
 

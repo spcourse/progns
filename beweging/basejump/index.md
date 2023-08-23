@@ -32,7 +32,7 @@ De volgende grafieken moet je laten **aftekenen** bij je assistent. Als in een g
 
 2. Plot een grafiek van de hoogte als functie van de tijd. 
 
-    Teken twee lijnen in dezelfde figuur: in groen/blauw de situatie als we de luchtweerstand wel/niet verwaarlozen.
+    Teken twee lijnen in dezelfde figuur: in groen/blauw de situatie als we de luchtweerstand wel/niet verwaarlozen. Voeg ook een legenda toe (zoek eventueel online hoe dit moet).
 
 ### Simulatie
 

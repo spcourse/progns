@@ -20,8 +20,9 @@ aangegeven.
 
 Details voor de animatie:
 
-- hoek $$\alpha$$ varieert van $$0$$ tot $$20$$ radialen in stappen van $$0.1$$ (hoeveel radialen is één rondje?)
-- straal $$R$$ hangt af van $$\alpha$$, namelijk $$R=10-0.5\alpha$$
+- De hoek $$\alpha$$ varieert van $$0$$ tot $$20$$ radialen in stappen van $$0.1$$ (hoeveel radialen is één rondje?)
+- De straal $$R$$ hangt af van $$\alpha$$, namelijk $$R=10-0.5\alpha$$
+- De y-as en x-as kun je even lang maken (als ze dat niet al zijn) met `gca().set_aspect()`. Dit is niet verplicht, maar als je het leuk vindt, zoek dan online hoe dit werkt.
 
 ## Testen
 

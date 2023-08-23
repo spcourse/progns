@@ -6,7 +6,7 @@ Als twee studenten dronken zijn en ze elkaar uit het oog verliezen wordt het erg
 
 ## Specificatie
 
-Schrijf een programma `student.py` waarin je de animatie van de **twee** studenten op het scherm laat zien. Geef op het scherm aan hoe lang de gebruiker van je programma nog moet wachten tot het
+Schrijf een programma `student.py` waarin je de animatie van de **twee** studenten op het scherm laat zien, mét de verbindingslijn ertussen. Geef op het scherm aan hoe lang de gebruiker van je programma nog moet wachten tot het
 programma afgelopen is.
 
 ## Analyse
@@ -18,9 +18,11 @@ Je zou eens kunnen proberen of je ook met pen en papier iets kan zeggen over de 
 
 ## Hints
 
-Start, om klein te beginnen, met een animatie van een enkele student:
+- Start, om klein te beginnen, met een animatie van een enkele student:
 
 ![](../assets/AnimationRandomWalk.gif)
+
+- Een verbindingslijn plotten tussen twee punten lijkt nieuw, maar heb je al een aantal keer gedaan. Als je een grafiek plot met Matplotlib, verbind je namelijk ook allemaal punten met hele kleine lijnstukjes. Kijk nog eens hoe je dit gedaan hebt en probeer te achterhalen hoe het werkt.
 
 ## Tip
 

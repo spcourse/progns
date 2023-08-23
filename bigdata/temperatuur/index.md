@@ -34,7 +34,7 @@ Wat is de langste periode dat het aaneengesloten heeft gevroren (maximumtemperat
 
 ### Opdracht 3: zomerse en tropische dagen
 
-We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celsius was. Op een tropische dag is het in De Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt.
+We spreken van een zomerse dag als de maximumtemperatuur meer dan 25 graden Celsius was. Op een tropische dag is het in De Bilt zelfs 30 graden. Maak een grafiek waarin voor elk jaar zowel het aantal zomerse als het aantal tropische dagen weergegeven wordt. Zorg dat duidelijk is wat de data betekent: vergeet niet de juiste assenlabels en een legenda toe te voegen.
 
 ### Opdracht 4: Eerste hittegolf
 

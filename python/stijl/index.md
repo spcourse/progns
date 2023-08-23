@@ -134,8 +134,8 @@ De `return` staat een stukje extra naar rechts, maar in feite is het één tab. 
 
 Oh, en misschien goed om nog even te herhalen. Als een regel eindigt op een dubbele punt (`:`), dan moeten alle regels eronder geïndenteerd worden. Tenminste, de regels die er inderdaad bij horen.
 
-    # sommeert de waarden van een lijst getallen
-    def sum(lijst_getallen):
+    # sommeer de waarden van een lijst getallen
+    def som(lijst_getallen):
         resultaat = 0
         for getal in lijst_getallen:
             resultaat = resultaat + getal
@@ -146,7 +146,7 @@ Hier zie je dat de regel `resultaat = resultaat + getal` bij de `for`-loop hoort
 Ook comments moet je een indentatie geven. Kijk naar dit voorbeeld:
 
     def print_is_het_fruit(naam_van_eten):
-        # bepaal of het fruit is
+        # vergelijk het eten met alle soorten fruit
         antwoord = False
         for fruitsoort in fruitsoorten:
             if fruitsoort == naam_van_eten:
@@ -171,7 +171,7 @@ Zoals hierboven beschreven bij "Commentaar", en zoals toegepast bij "Indentatie"
     while getal < 0:
         getal = int(input("Voer een *positief* getal in: "))
 
-    # checkt of het getal even is
+    # check of het getal even is
     if getal % 2 == 0:
         even = 'Ja!'
     else:
@@ -193,4 +193,4 @@ We zien hier een belangrijke vuistregel in actie: splits de code op in blokjes, 
     hypotenusa_kwadraat = x * x + y * y
     c = (a + b) * (a - b)
 
-Let ook op dat we in het voorbeeld van de energieën bij "Variabelen" ("tegen de regels in") `(v_1 + v_2)**2` schrijven in plaats van '(v_1 + v_2) ** 2'. Dit hebben we gedaan om meer eenheid te creëren in dit onderdeel van de vergelijking. Soms is het handig om dit te doen, omdat het de leesbaarheid van de vergelijking ten gunste kan komen. Naarmate je beter wordt in programmeren en meer code hebt gezien, zul je steeds handiger worden in het maken van keuzes in dit soort grijze gebieden.
+Let ook op dat we in het voorbeeld van de energieën bij "Variabelen" (als het ware tegen de regels in) `(v_1 + v_2)**2` schrijven in plaats van `(v_1 + v_2) ** 2`. Dit hebben we gedaan om meer eenheid te creëren in dit onderdeel van de vergelijking. Soms is het handig om dit te doen, omdat het de leesbaarheid van de vergelijking ten gunste kan komen. Naarmate je beter wordt in programmeren en meer code hebt gezien, zul je steeds handiger worden in het maken van keuzes in dit soort grijze gebieden.
