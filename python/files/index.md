@@ -34,12 +34,11 @@ Hieronder gaan we aan de slag met het beantwoorden van enkele vragen met behulp 
 
 ## Stap 1: openen van het bestand, inlezen van de regels
 
-Omdat het doorlopen van bestanden in een computertaal een standaard procedure is, zijn er een aantal gemakkelijke commando's beschikbaar. Het `open` commando bijvoorbeeld dat vervolgens gebruikt kan worden om dingen uit dat bestand te lezen of juist in weg te schrijven. Het volgende codefragment opent het bestand en gebruikt een `for`-loop om steeds de volgende regel in te lezen. De informatie in een regel van het bestand wordt opgeslagen in de variable `regel`. Dit korte programma voert verder geen analyse uit maar print simpelweg `regel` naar het scherm.
+Omdat het doorlopen van bestanden in een computertaal een standaard procedure is, zijn er een aantal gemakkelijke commando's beschikbaar. Het `open` commando bijvoorbeeld dat vervolgens gebruikt kan worden om dingen uit dat bestand te lezen of juist in weg te schrijven. Het volgende codefragment opent het bestand en gebruikt een `for`-loop om steeds de volgende regel in te lezen. De informatie in een regel van het bestand wordt opgeslagen in de variable `regel`. Dit korte programma voert verder geen analyse uit maar print simpelweg `regel` naar het scherm. Wanneer alles wat geïndenteerd staat onder het `with`-commando is uitgevoerd wordt het bestand automatisch weer gesloten door achterliggende code behorend bij het `with`-commando.
 
-    input_bestand = open('VanBasten.txt', 'r')
-    for regel in input_bestand:
-        print(regel)
-    input_bestand.close()
+    with open('VanBasten.txt', 'r') as input_bestand:
+        for regel in input_bestand:
+            print(regel)
 
 > Tip: zorg dat het bestand `VanBasten.txt` in dezelfde directory staan als waar je Python programma staat zodat je programma hem altijd kan vinden. 
 
@@ -51,12 +50,11 @@ De `'r'` bij de functie `open()` betekent 'read', lezen dus. Als je dit programm
 
 Elke regel bestaat uit verschillende elementen die gescheiden zijn door komma's. Toegang tot die verschillende parameters in de regel krijg je door de regel in stukken te ’knippen’. Dit doe je met het Python commando `split()`. Als parameter kan je aan split meegeven waar hij moet knippen. Wij willen dat hij bij elke komma (`,`) knipt, dus we voeren het volgende commando uit: `regel.split(',')`. Dit commando produceert een lijst met elementen die de losse stukken bevatten. Hierop kun je afzonderlijke bewerkingen uitvoeren.
 
-    input_bestand = open('VanBasten.txt', 'r')
-    for regel in input_bestand:
-        print(regel)
-        data_opgeknipt = regel.split(',')
-        print(data_opgeknipt)
-    input_bestand.close()
+    with open('VanBasten.txt', 'r') as input_bestand:
+        for regel in input_bestand:
+            print(regel)
+            data_opgeknipt = regel.split(',')
+            print(data_opgeknipt)
 
 De regel met 1988 is nu in stukken geknipt en in een lijst gezet:
 
@@ -97,24 +95,21 @@ Je hebt nu dus de informatie tot je beschikking in een variabele. Vervolgens kun
 
 We wilden het aantal totaal aantal doelpunten uitrekenen dat Van Basten voor zijn clubs heeft gescoord en ook aangeven in welke seizoenen hij meer dan 20 doelpunten maakte.
 
-    input_bestand = open('VanBasten.txt', 'r')
-    totaal_doelpunten = 0
+    with open('VanBasten.txt', 'r') as input_bestand:
+        totaal_doelpunten = 0
 
-    for regel in input_bestand:
-        data_opgeknipt = regel.split(',')
+        for regel in input_bestand:
+            data_opgeknipt = regel.split(',')
 
-        seizoen = int(data_opgeknipt[0][0:4])
-        doelpunten = int(data_opgeknipt[2])
+            seizoen = int(data_opgeknipt[0][0:4])
+            doelpunten = int(data_opgeknipt[2])
 
-        totaal_doelpunten = totaal_doelpunten + doelpunten   
+            totaal_doelpunten = totaal_doelpunten + doelpunten   
 
-        if(doelpunten > 20):
-            print(f"In {seizoen} scoorde Van Basten > 20 doelpunten, nl {doelpunten}")
+            if(doelpunten > 20):
+                print(f"In {seizoen} scoorde Van Basten > 20 doelpunten, nl. {doelpunten}")
 
     print(f"TOTAAL: In totaal scoorde Van Basten {totaal_doelpunten} clubdoelpunten")
-    input_bestand.close()
-
-Gebruik altijd `close()` om het bestand netjes te sluiten na gebruik.
 
 ## Oefening
 
@@ -128,19 +123,15 @@ Hoewel we dat in deze cursus niet tegen zullen komen is het belangrijk dat je we
 
 Dit stuk code opent een bestand 'output_bestand.txt', schrijft daar 1 regel tekst in weg en sluit het bestand weer.
 
-    output_bestand = open('output_bestand.txt', 'w')
-    output_bestand.write("Het vak Inleiding Programmeren is bere-interessant")
-    output_bestand.close()
+    with open('output_bestand', 'w') as output_bestand:
+        output_bestand.write("Het vak Inleiding Programmeren is bere-interessant")
 
 ### Voorbeeld: extra tekst achter bestaande regel plakken
 
 Dit stuk code opent het bestand input_bestand, plakt voor elke regel de letters "XXX" en schrijft deze nieuwe regel vervolgens weg in een output-bestand.
 
-    input_bestand = open('input_bestand.txt', 'r')
-    output_bestand = open('output_bestand.txt', 'w')
-    for regel in input_bestand:
-        nieuwe_regel = "XXX " + regel
-        output_bestand.write(nieuwe_regel)
-
-    input_bestand.close()
-    output_bestand.close()
+    with open('input_bestand.txt', 'r') as input_bestand:
+        with open('output_bestand.txt', 'w') as output_bestand:
+            for regel in input_bestand:
+                nieuwe_regel = "XXX " + regel
+                output_bestand.write(nieuwe_regel)
