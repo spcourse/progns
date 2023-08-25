@@ -143,4 +143,6 @@ Dit programma heeft als output
 
 ## Oefenen en debuggen
 
-Als je ergens in de cursus een for-loop tegenkomt die je niet goed begrijpt, lees dan nog een keer deze pagina door. Laatste tip: gebruik print-statements om te controleren of de loops wel echt doen wat jij denkt dat je geïmplementeerd hebt.
+Als je ergens in de cursus een for-loop tegenkomt die je niet goed begrijpt, lees dan nog een keer deze pagina door.
+
+**Laatste tip:** gebruik print-statements om te controleren of de loops wel echt doen wat jij denkt dat je geïmplementeerd hebt.

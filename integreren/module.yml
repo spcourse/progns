@@ -3,8 +3,10 @@ content:
 
     Inleiding: .
 
+    "":
+        - grafieken
+
     Nulpunten:
-        Functies: /python/functies
         Nulpunten [opdracht]: nulpunten
 
     Riemannsom:

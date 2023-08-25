@@ -8,8 +8,9 @@ content:
         Rekenwonder [opdracht]: rekenwonder
 
     Priemgetallen:
-        Algoritmen: /python/algoritmen
+        Algoritmen en logica: /python/algoritmen
         Loops: /python/loops
+        Functies: /python/functies
         Priemgetallen [opdracht]: priemgetallen
 
     Resultaten uit de getaltheorie:

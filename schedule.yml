@@ -6,7 +6,6 @@ Module 1 - Getaltheorie:
   Submit Hello: /submit/hello
   "":
     - getaltheorie
-    - grafieken
     - getaltheorie-uitdagend
   Submit:
     Inleveren van de opdrachten: /submit/getaltheorie
