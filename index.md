@@ -91,6 +91,8 @@ Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaa
 * **Uitdaging** --- (telt voor 1/9 deel) Als je de uitdagende opdracht hebt gedaan levert dit je je laatste punt voor de module op.
 
 
+
+
 ## Dagelijks ritme
 
 De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok ruim een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicum maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!

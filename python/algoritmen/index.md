@@ -16,9 +16,10 @@ Daarnaast heb je kennis gemaakt met operatoren die gebruikt worden om expressies
     2. Loops
     3. Functies
 
-Deze drie onderdelen maken voorwaardelijke instructies en herhaling en hergebruik van code mogelijk. Het zijn bouwstenen van coderen in Python.
+Deze drie onderdelen maken voorwaardelijke instructies en herhaling en hergebruik van code mogelijk. Het leren van deze bouwstenen van coderen in Python zal de komende uren even wat tijd kosten, maar als je ze goed begrijpt wordt programmeren een stuk makkelijker en leuker!
 
-## Logica: voorwaardelijke instructies
+
+## Bouwsteen 1: Logica (voorwaardelijke instructies)
 
 In de voorgaande programma's schreven we scriptjes die regel voor regel van boven naar beneden werden uitgevoerd. Een soort stapsgewijze handleiding. Programma's worden interessanter als we *uitzonderingen* willen beschrijven.
 

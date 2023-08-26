@@ -11,11 +11,11 @@ Hoewel we jullie in deze uitdagende opdrachten zoveel mogelijk vrij willen laten
 
 ### Definitie van onderling-priem en voorspelling vanuit getaltheorie
 	    
-In de informatie over de definitie van [co-primes](https://en.wikipedia.org/wiki/Coprime_integers) op wikipedia lezen we dat we kunnen uitrekenen wat de kans is dat *n* willekeurige getallen géén gemeenschappelijke deler hebben. 
+In de informatie over de definitie van [co-primes](https://en.wikipedia.org/wiki/Coprime_integers) op wikipedia lezen we dat we kunnen uitrekenen wat de kans is dat $$n$$ willekeurige getallen géén gemeenschappelijke deler hebben. 
 
-Deze kans is: $$1/\zeta(n)$$, waarbij $$\zeta(n)$$ de beroemde [Riemann zeta functie](https://en.wikipedia.org/wiki/Riemann_zeta_function) is.
+Deze kans is: $$1/\zeta(n)$$, waarbij $$\zeta(n)$$ de beroemde [Riemann zeta-functie](https://en.wikipedia.org/wiki/Riemann_zeta_function) is.
 
-**Specifiek geval: twee getallen (n=2)**:
+**Specifiek geval: twee getallen ** $$n=2$$:
 
 De kans dat twee willekeurige getallen géén gemeenschappelijke deler hebben is: 
 
@@ -27,7 +27,7 @@ In deze opdracht gaan we controleren of dit wel klopt. We gaan eerst uitzoeken h
 
 Er zijn verschillende manieren om dit problem aan te pakken. Volg voor deze opdracht de onderstaande oplossingsmethode en tussenstappen, omdat we daarmee tijdens het nakijken goed kunnen zien hoe ver je bent gekomen.
 
-#### stap 1: lijst met priemfactoren
+#### Stap 1: lijst met priemfactoren
 
 Elk getal is op een unieke manier te schrijven als het product van priemgetallen:
 
@@ -37,18 +37,18 @@ Elk getal is op een unieke manier te schrijven als het product van priemgetallen
 
 Schrijf een functie `priemfactoren(getal)` die voor een bepaald getal de lijst met de priemfactoren (de delers) vindt en op het scherm kan printen.
 
-    python> priemfactoren(79220) 
-            priemfactoren  79220  =  [2, 2, 5, 17, 233]
+    python> priemfactoren(79220)
+            [2, 2, 5, 17, 233]
 
 Zorg ook dat de functie de lijst met priemgetallen als output teruggeeft (als return). In de rest van het programma zullen we deze functie meer gaan gebruiken
  
-#### stap 2: op zoek naar gemeenschappelijke delers van twee getallen
+#### Stap 2: op zoek naar gemeenschappelijke delers van twee getallen
 
 Schrijf een functie `aantal_delers(n1, n2)` die voor twee getallen aangeeft of er een gemeenschappelijke deler is of niet. Gebruik hierbij de functie `priemfactoren()` om voor elk van de getallen eerst de priemfactor-lijst te vinden en ga vervolgens op zoek naar getallen die in beide lijsten voorkomen.
 
 Op dit moment is het niet van belang om het precieze aantal gemeenschappelijke delers te bepalen. Voor deze opgave is het alleen belangrijk om te weten of er *géén* gemeenschappelijke delers zijn. De functie moet dan als return argument 0 teruggeven.
 
-#### stap 3: hypothese testen voor groot aantal paren
+#### Stap 3: hypothese testen voor groot aantal paren
 
 Om de fractie van paren te bepalen waarin er geen gemeenschappelijke deler is moeten we:
 
@@ -80,11 +80,11 @@ De functie die wij nodig hebben is `randint(Nmin, Nmax)` die een random geheel g
          n = randint(Nmin, Nmax)        
         
 
-#### stap 4: theoretische voorspelling
+#### Stap 4: theoretische voorspelling
 
-Schrijf een functie `voorspelling(n)` die de theoretisch voorspelde kans uitrekent dat er geen gemeenschappelijke deler is voor `n` getallen. Dit is niet veel meer dan zelf de Riemann zeta functie uitrekenen en daarmee de kans bepalen. Geef deze kans terug als returnwaarde.
+Schrijf een functie `voorspelling(n)` die de theoretisch voorspelde kans uitrekent dat er geen gemeenschappelijke deler is voor `n` getallen. Dit is niet veel meer dan zelf de Riemann zeta-functie uitrekenen en daarmee de kans bepalen. Geef deze kans terug als returnwaarde.
 
-#### stap 5: Gooi alles bij elkaar
+#### Stap 5: Gooi alles bij elkaar
 
 Door nou de twee functies `experiment()` en `voorspelling()` aan te roepen valt alles samen. Op het scherm moet dan verschijnen (met drie decimalen):
 

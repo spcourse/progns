@@ -1,4 +1,4 @@
-# Functies
+# Bouwsteen 3: Functies
 
 Nu we logica en loops hebben gezien komen we aan bij functies. Een *functie* is een stukje code
 waar je een naam aan geeft, zodat het hergebruikt kan worden. Functies die je eerder al gebruikt
@@ -98,11 +98,13 @@ niet opnieuw te typen. Het gebruik van functies bevordert ook de leesbaarheid va
 gekozen namen voor deze functies kun je snel een overzicht krijgen van wat het geheel doet. Je
 leest dan bijvoorbeeld eerst alleen even snel de functienamen in een programma.
 
-Het is vaak handig om bijna al je code in een programma in functies te schrijven, afgezien van een
-paar globale variabelen die je in veel functies nodig hebt of die dusdanig essentieel zijn voor
-het programma dat ze het beste bovenaan gedefinieerd staan en dus makkelijk gezien en aangepast
-kunnen worden. Het programma noemen we dan *modulair* want het bestaat uit losse *modules*
-(namelijk de functies). Dit soort programma's lezen vaak prettig en zijn fijn om mee te werken.
+Het is vaak handig om bijna al je code in een programma in functies te schrijven. Er zijn wel
+uitzonderingen: packages importeren en het definiëren van andere functies doe je niet in een
+functie. Het komt ook voor dat je programma globale variabelen bevat die essentieel zijn voor
+het programma en makkelijk aangepast moeten kunnen worden. Die definieer je het beste bovenaan
+onder het importeren van de packages, dus ook buiten functies. Het programma noemen we dan
+*modulair* want het bestaat uit losse *modules* (namelijk de functies). Dit soort programma's
+lezen vaak prettig en zijn fijn om mee te werken.
 
 **Oefening 6:** Neem de onderstaande code over in je bestand.
 
@@ -126,4 +128,5 @@ Schrijf nu boven deze functie `N = 20` en onder deze functie definiëren we een 
 Roep nu de functie aan met `vind_even(N)`. Kijk eens aan! We hebben nu een programma geschreven
 waarin alles in functies staat, afgezien van globale variabelen en het aanroepen van sommige
 functies. Je kunt de code zelfs nog compacter maken door de variabele `is_het_getal_even` weg te
-halen.
+halen. Het is opnieuw een keuze hier of je de data direct wil gebruiken of hem eerst wil opslaan
+in een variabele voor eventueel later gebruik.
