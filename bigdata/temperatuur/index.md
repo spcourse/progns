@@ -45,3 +45,7 @@ We spreken in Nederland van een hittegolf als de maximumtemperatuur ten minste v
 Zorg dat de code van alle opdrachten in een functie of in functies staat. Gebruik geen globale variabelen (vraag indien nodig wat dit is)!
 
 Je ziet hierboven dat je een aantal dingen moet uitprinten en één grafiek maken. Zorg dat de gevraagde informatie op losse regels wordt uitgeprint, in de juiste volgorde.
+
+## Testen
+
+    checkpy temperatuur

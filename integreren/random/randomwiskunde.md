@@ -28,7 +28,7 @@ Gebruik de volgende strategie:
 
 ### Testen
 
-	checkpy randomwiskunde.py
+	checkpy randomwiskunde
 	
 
 

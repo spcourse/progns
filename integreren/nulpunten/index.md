@@ -48,6 +48,6 @@ Je **programma** moet gebruik maken van een zelfgeschreven **functie** `nulpunte
 
 Als je hier `checkpy` gebruikt, dan wordt niet meer getest of je programma de juiste uitvoer geeft, maar of de functie `nulpunten()` het juiste resultaat geeft.
 
-    checkpy nulpunten.py
+    checkpy nulpunten
 
 (Werkt het niet? Update dan nog eens met `checkpy -u`.)

@@ -20,3 +20,6 @@ Maak een grafiek van de snelheid van de auto (in km/uur) als functie van de tijd
 
 Maak een grafiek van de positie van de auto en kleur de route groen (rood) op de stukken van de route waar de snelheid van de auto meer (minder) was dan 50 km/uur. Vergelijk met de kaart om te bepalen of je plaatje goed georiënteerd is. Onthoud daarbij: het is noorder- of zuiderbreedte en wester- of oosterlengte. Dus de breedtegraad beschrijft de y-as en de lengtegraad de x-as.
 
+## Testen
+
+    checkpy autorit
