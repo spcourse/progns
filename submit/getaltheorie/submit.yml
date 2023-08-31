@@ -5,7 +5,7 @@ files:
         - priemgetal.py
         - reeks.py
         - goldbach.py
-    uitdagend:
+    optionele:
         - onderlingpriem.py
 check:
     tool: checkpy

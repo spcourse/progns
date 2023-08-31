@@ -9,7 +9,7 @@ files:
         - histogram.py
         - montecarlo.py
         - twitter.py
-    uitdagend:
+    optionele:
         - fractal.py
 check:
     tool: checkpy
