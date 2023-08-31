@@ -1,5 +1,7 @@
 # Inleveren
 
+In de installatie-instructies word je gevraagd om `hello.py` te maken.
+
 Lever `hello.py` in onderaan deze pagina om te laten zien dat je gestart bent met de cursus.
 
 - Zorg dat je alle ingeleverde programma's precies de juiste naam hebt gegeven. Als je bijvoorbeeld `hello.py` moet inleveren dan wordt `hello (1).py` of `priemtest.py` niet geaccepteerd!
