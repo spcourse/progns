@@ -1,4 +1,4 @@
-# Fractals - Mandelbrotset
+# Fractals - Mandelbrot-set
 
 Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, *fractals* genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels. Ook in de natuur vinden we vaak simpele onderliggende mechanismes voor complexe fenomenen al is het een enorm lastige klus om daar achter te komen. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot-set](https://en.wikipedia.org/wiki/Mandelbrot_set). Over deze fractal zijn tal van interessante video's te vinden online. Probeer eens deze van [Veritasium](https://www.youtube.com/watch?v=ovJcsL7vyrk&t=882s&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90) of [Numberphile](https://www.youtube.com/watch?v=FFftmWSzgmk&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90).
 
@@ -15,7 +15,7 @@ Om iets te begrijpen van de wiskunde achter de fractals moeten we eerst een nieu
 Complexe getallen hebben een speciale plek in wiskunde en ze komen op veel plekken in de wis- en natuurkunde terug. Jullie zullen tijdens verschillende colleges veel meer eigenschappen bekijken, maar hier introduceren we het absolute minimum.
 
    - definitie: we definiëren $$ i = \sqrt{-1}$$
-   
+
 Een complex getal (z) bestaat uit twee componenten: een reëel en een imaginair deel.
 
    - complex getal: z = $$\alpha + \beta i$$,
@@ -37,11 +37,11 @@ Als voorbeeld: $$(2+i)^2 = 3+4i$$. Als je hierbij het oorspronkelijke getal $$(2
 Dit is alle wiskundige achtergrond over complexe getallen die je nodig hebt in deze opgave. Nu kunnen we aan de slag.
 
 
-### Functies van complexe getallen, reeksen en fractals 
+### Functies van complexe getallen, reeksen en fractals
 
 Net als voor gewone getallen kunnen we ook functies definiëren voor complexe getallen. In deze opgave gaan we werken met polynomen van de volgende vorm:
 
-   $$f(z) = z^2 + c$$, 
+   $$f(z) = z^2 + c$$,
 
 waarbij zowel $$z$$ als $$c$$ een complex getal zijn. De enige vrijheid die we nog hebben is in de keuze van het getal $$c$$. De uitkomst van de functie is weer een complex getal.
 
@@ -50,14 +50,14 @@ waarbij zowel $$z$$ als $$c$$ een complex getal zijn. De enige vrijheid die we n
 Door het getal dat de uitkomst van de operatie (functie) is weer opnieuw als argument in de functie in te vullen krijgen we een reeks getallen.
 
    - stap 1: kies een complex getal $$z_0$$
-   
-   - stap 2: bereken $$f(z_0) = z_0^2 + c$$. Dit getal noemen we $$z_1$$.   
 
-   - stap 3: bereken $$f(z_1) = z_1^2 + c$$. Dit getal noemen we $$z_2$$.   
+   - stap 2: bereken $$f(z_0) = z_0^2 + c$$. Dit getal noemen we $$z_1$$.
+
+   - stap 3: bereken $$f(z_1) = z_1^2 + c$$. Dit getal noemen we $$z_2$$.
 
    - stap 4: ...
 
-Meer algemeen noteren we dit $$n$$ keer uitvoeren van de functie als volgt: $$z_n = f^{(n)}(z_0)$$. Voor elk startpunt in het complexe vlak kunnen we nu kijken hoe de reeks zich ontwikkelt. 
+Meer algemeen noteren we dit $$n$$ keer uitvoeren van de functie als volgt: $$z_n = f^{(n)}(z_0)$$. Voor elk startpunt in het complexe vlak kunnen we nu kijken hoe de reeks zich ontwikkelt.
 
 **Fractals (algemeen):**
 
@@ -67,16 +67,16 @@ Voor elke keuze van een functie $$f(z)$$ kunnen we nu de punten in het complexe 
 
    - de reeks divergeert: $$\rightarrow$$ $$z_0$$ is **geen** onderdeel van de set
 
-Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert krijgt elk punt in het complexe vlak een kleur. Door dit te plotten ontstaan de beroemde fractals. 
+Door vervolgens een kleurcode toe te kennen aan de snelheid waarmee een specifiek startpunt in het complexe vlak divergeert dan wel convergeert krijgt elk punt in het complexe vlak een kleur. Door dit te plotten ontstaan de beroemde fractals.
 
 
 **De Mandelbrot-set:**
 
-De Mandelbrot-set is gedefinieerd door de functie die we al eerder gezien hebben met een speciale keuze voor de constante $$c$$, namelijk het startpunt zelf is. Met $$c = z_0$$ krijgen we dan: 
-    
-   Mandelbrot: $$f(z) = z^2 + z_0$$, 
-    
-waarbij $$z_0$$ het startpunt is. 
+De Mandelbrot-set is gedefinieerd door de functie die we al eerder gezien hebben met een speciale keuze voor de constante $$c$$, namelijk het startpunt zelf is. Met $$c = z_0$$ krijgen we dan:
+
+   Mandelbrot: $$f(z) = z^2 + z_0$$,
+
+waarbij $$z_0$$ het startpunt is.
 
 Voor een gegeven startpunt kan de reeks divergeren of convergeren. Als voorbeeld van beide gevallen staan hieronder de eerste 10 punten in de reeks voor twee startpunten $$z$$ (= $$z_0$$) = $$-0.20 + 0.25i$$ en $$z$$ (= $$z_0$$) = $$0.50 + 0.25i$$.
 
@@ -94,14 +94,14 @@ Voor een gegeven startpunt kan de reeks divergeren of convergeren. Als voorbeeld
     z8 = -0.195 + 0.180 i      z8 = -110956.038 + 369424.274 i
     z9 = -0.195 + 0.180 i      z9 = -124163052007.623 + -81979707256.034 i
 
-Nu is het tijd om zelf een fractal te tekenen. 
+Nu is het tijd om zelf een fractal te tekenen.
 
-### Opdracht: 
+### Opdracht:
 
 Bepaal in je programma `fractal.py` voor elk punt $$z_0$$ in het complexe vlak of de reeks convergeert of divergeert onder de polynoom voor de Mandelbrot-set:
 
-   $$f(z) = z^2 + z_0$$. 
-    
+   $$f(z) = z^2 + z_0$$.
+
 Als de reeks convergeert teken je het punt blauw, als het divergeert teken je het wit.
 
 Hoewel je in deze opdracht zelf zult moeten bepalen welke definitie je gaat hanteren om te bepalen of een reeks wel of niet convergeert zullen we de snelheid waarmee dat gebeurt in deze opgave verder negeren. Onze plot zal daarmee maar uit twee kleuren bestaan. Iets saaier dan de officiële plot natuurlijk, maar genoeg voor deze opdracht.

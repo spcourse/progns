@@ -28,4 +28,4 @@ Dit is een typisch voorbeeld van een duidelijk en ogenschijnlijk simpel probleem
 
 ## Testen
 
-	checkpy afstand.py
+	checkpy afstand

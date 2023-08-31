@@ -1,4 +1,4 @@
-# Loops
+# Bouwsteen 2: Loops
 
 Het komt heel vaak voor dat je een aantal instructies een groot aantal keer wilt uitvoeren. De manier om dat te sturen is met behulp van loops. Op deze pagina vind je uitleg en vooral ook een aantal voorbeelden van waar loops nuttig voor kunnen zijn.
 
@@ -28,7 +28,7 @@ De loop begint door de waarde van getal op 1 te zetten en gaat vervolgens *alle*
 
 Er zijn een paar belangrijke dingen om te noemen:
 
--   **Let op:** dat Python telt *tot* het eindgetal in de functie range(): range(1,11) loopt dus van 1 *tot en met* 10. Dit is een veelgemaakte fout als je begint te programmeren in Python. Het voelt onlogisch, maar that's just the way it is.
+-   **Let op:** dat Python telt *tot* het eindgetal in de functie range(): range(1, 11) loopt dus van 1 *tot en met* 10. Dit is een veelgemaakte fout als je begint te programmeren in Python. Het voelt onlogisch, maar that's just the way it is.
 
 -   Je kunt met range ook de stapgrootte opgeven. Standaard neemt hij stapjes van 1, maar als je stapjes van 10 wilt nemen gebruik je de volgende syntax:
 
@@ -133,7 +133,7 @@ Dit programma heeft als output
 
 **Oefening 6:** Pas bovenstaand programma zo aan dat de printregel alleen geprint wordt als `i + j` groter is dan 6.
 
-**Oefening 7:** Pas het bovenstaande programma zo aan dat vlak voor er een nieuwe waarde aan `i` wordt toegekend, dus net nadat de loop over `j` klaar is, op het scherm geprint wordt: 'de waarde van i = ... en we zijn net klaar met de loop over j'.  
+**Oefening 7:** Pas het bovenstaande programma zo aan dat vlak voor er een nieuwe waarde aan `i` wordt toegekend, dus net nadat de loop over `j` klaar is, op het scherm geprint wordt: 'de waarde van i = ... en we zijn net klaar met de loop over j'.
 
 **Oefening 8:** Pas bovenstaand programma zo aan dat `j` niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van `i`.
 
@@ -143,4 +143,8 @@ Dit programma heeft als output
 
 ## Oefenen en debuggen
 
-Als je ergens in de cursus een for-loop tegenkomt die je niet goed begrijpt, lees dan nog een keer deze pagina door. Laatste tip: gebruik print-statements om te controleren of de loops wel echt doen wat jij denkt dat je geïmplementeerd hebt.
+Als je ergens in de cursus een for-loop tegenkomt die je niet goed begrijpt, lees dan nog een keer deze pagina door.
+
+**Laatste tip:** gebruik print-statements om te controleren of de loops wel echt doen wat jij denkt dat je geïmplementeerd hebt.
+
+**Opmerking:** Een loop kan voortijding worden afgebroken door het commando `break`. Je mag dit nu wel uitproberen en het is een handig commando, maar tijdens deze cursus gebruiken we `break` niet (behalve in de uitdagende opdracht als je wil). Gebruik het later zoveel je wil, maar bij dit vak zijn we handig en slim genoeg om het zonder te kunnen!

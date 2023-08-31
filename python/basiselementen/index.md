@@ -73,9 +73,9 @@ Je kunt dus ook rekenen. Het *resultaat* van de berekening wordt naar het scherm
 
 > Krijg je een foutmelding als je je programma uitvoert? Dan is de kans groot dat je een tikfout hebt gemaakt waardoor Python niet meer begrijpt wat de bedoeling is. Kijk goed waar je de fout hebt gemaakt en probeer deze op te lossen. Kom je er niet uit, vraag dan vooral om hulp. Foutmeldingen leren begrijpen is een belangrijk onderdeel van deze cursus. Dat is ook waarom we heel graag willen dat je tijdens het oefenen fouten maakt!
 
-## Operators
+## Operatoren
 
-Hieronder vind je een lijstje van operators die je kunt gebruiken om formules samen te stellen.
+Hieronder vind je een lijstje van operatoren die je kunt gebruiken om formules samen te stellen.
 
 | operator | uitleg                    |  
 | -------- | ------------------------- |  

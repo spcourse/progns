@@ -65,6 +65,11 @@ Er is natuurlijk een bedrag waarbij het voordeel ineens bij speler 2 komt te lig
 
 **Let op dat je voor je berekening zoveel iteraties doet dat het programma elke keer hetzelfde antwoord geeft! Anders wordt het foutgerekend door checkpy.**
 
+## Testen
+
+    checkpy monopoly_realistisch
+
+
 ## Samenvatting
 
 De simulatie die we hier gedaan hebben is een versimpelde versie van de vaak zeer complexe 

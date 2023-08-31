@@ -1,6 +1,6 @@
 # Spiraal
 
-Schrijf een programma dat een spiraliserende stip animeert met behulp van Matplotlib. De stip draait met een bepaalde hoeksnelheid rond en met elke stap in de tijd verandert niet alleen de hoek, maar wordt ook de straal steeds kleiner tot hij uiteindelijk precies in het midden stilstaat:
+Schrijf een programma dat een spiraliserende stip animeert met behulp van matplotlib. De stip draait met een bepaalde hoeksnelheid rond en met elke stap in de tijd verandert niet alleen de hoek, maar wordt ook de straal steeds kleiner tot hij uiteindelijk precies in het midden stilstaat:
 
 ![](../assets/AnimationInspiral.gif)
 
@@ -20,8 +20,9 @@ aangegeven.
 
 Details voor de animatie:
 
-- hoek $$\alpha$$ varieert van $$0$$ tot $$20$$ radialen in stappen van $$0.1$$ (hoeveel radialen is één rondje?)
-- straal $$R$$ hangt af van $$\alpha$$, namelijk $$R=10-0.5\alpha$$
+- De hoek $$\alpha$$ varieert van $$0$$ tot $$20$$ radialen in stappen van $$0.1$$ (hoeveel radialen is één rondje?)
+- De straal $$R$$ hangt af van $$\alpha$$, namelijk $$R=10-0.5\alpha$$
+- De y-as en x-as kun je even lang maken (als ze dat niet al zijn) met `gca().set_aspect()`. Dit is niet verplicht, maar als je het leuk vindt, zoek dan online hoe dit werkt.
 
 ## Testen
 

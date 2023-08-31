@@ -1,12 +1,11 @@
 Welkom:
     Studiewijzer: /syllabus
-    Installeer Python: /python/installatie/computer
+    Installeer Python [opdracht]: /python/installatie/computer
 
 Module 1 - Getaltheorie:
   Submit Hello: /submit/hello
   "":
     - getaltheorie
-    - grafieken
     - getaltheorie-uitdagend
   Submit:
     Inleveren van de opdrachten: /submit/getaltheorie
@@ -14,6 +13,8 @@ Module 1 - Getaltheorie:
 Module 2 - Numeriek integreren:
   Review vorige module:
     Code review: /review/getaltheorie
+  "":
+    - grafieken
   "Integreren":
     - integreren2
     - integreren-uitdagend

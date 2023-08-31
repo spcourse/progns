@@ -35,5 +35,9 @@ Gebruik het verschil tussen het gemiddeld aantal worpen met 1000 euro of 2000 eu
    2. Je kan je code testen door de speler een enorme hoeveelheid startgeld mee te geven. Met een miljoen euro creëer je namelijk effectief eenzelfde situatie als in opdracht 1 waarin geld geen rol speelt.
 
 
-<br>
+## Testen
+
+Je kunt je programma testen met dezelfde checkpy als bij opdracht 1.
+
+    checkpy monopoly
 	

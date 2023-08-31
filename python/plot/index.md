@@ -29,7 +29,7 @@ Je kunt een lange modulenaam ook een kortere naam geven bij het importeren. In h
     # gebruik de afkorting 'plt'
     import matplotlib.pyplot as plt
 
-     # de coördinaten per punt
+    # de coördinaten per punt
     x_coord = [0, 1, 2, 3, 4, 5]
     y_coord = [0, 1, 4, 9, 16, 25]
 
@@ -40,7 +40,7 @@ Het is wel zo prettig om alleen afkortingen te gebruiken die logisch zijn of vee
 
 ## Meerdere grafieken en bijschriften
 
-We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een lijngrafiek en we voegen aslabels toe en een los tekstje:
+We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een lijngrafiek en we voegen as-labels toe en een los tekstje:
 
     import matplotlib.pyplot as plt
 

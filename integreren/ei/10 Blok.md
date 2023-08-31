@@ -24,5 +24,5 @@ Je programma moet vier dingen doen:
 
 Je kunt ook bij deze functie `checkpy` gebruiken om te testen of je progamma het juiste resultaat geeft.
 
-    checkpy twitter.py
+    checkpy twitter
 

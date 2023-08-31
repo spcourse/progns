@@ -3,20 +3,22 @@ content:
 
     Inleiding: .
 
+    "":
+        - grafieken
+
     Nulpunten:
-        Functies: /python/functies
-        Nulpunten: nulpunten
+        Nulpunten [opdracht]: nulpunten
 
     Riemannsom:
         Functies als argumenten: /python/functies2
-        Riemann: riemann
+        Riemann [opdracht]: riemann
 
     Random:
         Random getallen: /python/random
-        Feitje over de som van random getallen: random
-        Afstand: afstand
-        Histogram: histogram
+        Feitje over de som van random getallen [opdracht]: random
+        Afstand [opdracht]: afstand
+        Histogram [opdracht]: histogram
 
     Monte-Carlo:
-        Monte-Carlo: montecarlo
-        Twitter-ei: ei
+        Monte-Carlo [opdracht]: montecarlo
+        Twitter-ei [opdracht]: ei

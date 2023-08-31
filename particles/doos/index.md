@@ -69,8 +69,7 @@ afmeting geven en de deeltjes te laten botsen.
 
 ![](collidingballs_4.gif){: style="width:50%"}{:.inline}
 
-Je mag in deze opdracht zelf weten waar je de deeltjes neerzet in de doos op het startmoment en met hoeveel deeltjes je begint. Begin met twee deeltjes om alles te testen en breid het aantal deeltjes pas uit op het moment dat alles werkt. Omdat de animatie nu met cirkels (afmeting) in plaats van puntjes is, wordt het wel iets lastiger. Daarom hebben we een voorbeeld template gemaakt dat jullie als basis kunnen gebruiken en zelf aan kunnen passen.
-[animation_template_circles.py](https://www.nikhef.nl/~ivov/Python/DeeltjesInDoos/animation_template_circles.py)
+Je mag in deze opdracht zelf weten waar je de deeltjes neerzet in de doos op het startmoment en met hoeveel deeltjes je begint. Begin met twee deeltjes om alles te testen en breid het aantal deeltjes pas uit op het moment dat alles werkt. Omdat de animatie nu met cirkels (afmeting) in plaats van puntjes is, wordt het wel iets lastiger. Daarom hebben we een voorbeeld [template](animation_template_circles.py) gemaakt dat jullie als basis kunnen gebruiken en zelf aan kunnen passen. Dit bestand bevat nogal wat informatie, maar dit hoef je niet allemaal te begrijpen om ermee te kunnen werken. Je hoeft alleen de natuurkunde uit de pdf hieronder te begrijpen en te implementeren in het gedeelte waar `YOUR CODE COMES HERE` staat.
 
 
 ### Opdracht 3: deeltjes: met afmeting en met botsen
