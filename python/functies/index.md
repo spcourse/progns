@@ -15,9 +15,9 @@ aangegeven met `def`, daarna komt de functienaam (die je zelf mag kiezen), en ve
 haakjes met daartussen mogelijke parameters:
 
     def zeg_hallo():
-        print("Hallo Python")
+        print("Hallo, Python!")
 
-Dit is een functie die de string `Hallo Python` naar je terminal print. Als je bovenstaande
+Dit is een functie die de string `Hallo, Python!` naar je terminal print. Als je bovenstaande
 *definitie* (vandaar "def") in een Python-bestand zet weet de computer dat er nu een functie is
 met de naam `zeg_hallo`. Maar de functie is nog niet *uitgevoerd*! Dit moet je zelf nog doen door
 de functie expliciet *aan te roepen*. Dit doe je zo:

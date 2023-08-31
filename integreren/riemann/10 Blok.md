@@ -73,7 +73,7 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 ## Hints
 
-- Als je de functie `riemann()` de argumenten `a`, `b` en `N` meegeeft kun je direct de constante $$\delta x$$ definiëren (het interval $$(a,b)$$ opgedeeld in $$N$$ stukjes). Hoe?
+- Als je de functie `riemann()` de argumenten `a`, `b` en `N` meegeeft kun je direct de constante $$\Delta x$$ definiëren (het interval $$(a,b)$$ opgedeeld in $$N$$ stukjes). Hoe?
 
 - Het is niet verplicht, maar het is ontzettend handig om een plot te maken van de grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent. Dat kan in een apart programmaatje, maar je zou ook een stukje code op kunnen nemen in de `riemann()`-functie zelf.
 

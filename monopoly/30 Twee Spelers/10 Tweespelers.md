@@ -1,4 +1,4 @@
-## Opdracht 3: Twee spelers
+# Opdracht 3: Twee spelers
 
 In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze opdracht is om eerst te evalueren wat het voordeel is van de speler die begint met gooien en vervolgens te bestuderen hoe we in het spel dit nadeel voor speler 2 kunnen herstellen.
  
@@ -6,7 +6,7 @@ In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze op
  
 Let op: we gaan nu de code uit opdracht 1 en 2 aanpassen. Om te zorgen dat die werkende code bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python-bestand aan, `monopoly_realistisch.py`, kopieer de code die je tot nu toe hebt en ga verder in dit nieuwe bestand.
 
-#### [deelopdracht 3a] voordeel van speler 1
+## [deelopdracht 3a] voordeel van speler 1
 
 Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer daarom 10,000 potjes om een goede schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel heeft op speler 2.
 
@@ -41,7 +41,7 @@ Print uiteindelijk het verschil naar het scherm:
 	Monopoly simulator: twee spelers, 1500 euro startgeld, 10,000 potjes
     Gemiddeld heeft speler 1 X.XX meer straten in bezit als alle straten verdeeld zijn
 
-#### [deelopdracht 3b] nadeel van speler 2 repareren
+## [deelopdracht 3b] nadeel van speler 2 repareren
 
 De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je aan kan draaien in dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn. 
 
