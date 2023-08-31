@@ -1,6 +1,6 @@
-# Algoritmen
+# Algoritmen en logica
 
-Computers laten pas echt zien wat ze kunnen als de oplossing van een probleem niet goed uitgedrukt kan worden door een formule. Bij programmeren werken we aan het verzinnen en uitschrijven van *algoritmes*, die precies specificeren hoe een probleem stap-voor-stap opgelost moet worden. Een belangrijk aspect van algoritmen is dat ze werken voor verschillende invoer. In het filmpje hieronder moet het algoritme het juiste antwoord opleveren als er 0, 1, 2, 3, 4, enz. mensen in de kamer zijn.
+Computers laten pas echt zien wat ze kunnen als de oplossing van een probleem niet goed uitgedrukt kan worden door een formule. Bij programmeren werken we aan het verzinnen en uitschrijven van *algoritmen*, die precies specificeren hoe een probleem stap-voor-stap opgelost moet worden. Een belangrijk aspect van algoritmen is dat ze werken voor verschillende invoer. In het filmpje hieronder moet het algoritme het juiste antwoord opleveren als er 0, 1, 2, 3, 4, enz. mensen in de kamer zijn.
 
 ![embed](https://www.youtube.com/embed/6hfOvs8pY1k)
 
@@ -10,9 +10,16 @@ In het hoofdstuk [basiselementen](/python/basiselementen) heb je een aantal **in
 - de `input`-instructie, om informatie van de gebruiker op te vragen
 - de `=`-operator, om variabelen te definiëren of te wijzigen
 
-Daarnaast heb je kennis gemaakt met operators die gebruikt worden om expressies samen te stellen. Dit was al genoeg om een werkend programma te schrijven. We gaan het nu interessanter maken door uitzonderingen en herhaling toe te staan.
+Daarnaast heb je kennis gemaakt met operatoren die gebruikt worden om expressies samen te stellen. Dit was al genoeg om een werkend, maar niet zo krachtig programma te schrijven. Aan het eind van dit subonderdeel gaan we een opdracht over **priemgetallen** maken, die een stuk meer kan dan alleen getallen vermenigvuldigen en printen. Om deze te kunnen maken gaan we drie belangrijke onderdelen van programmeren in Python leren:
 
-## Voorwaardelijke instructies
+    1. Logica
+    2. Loops
+    3. Functies
+
+Deze drie onderdelen maken voorwaardelijke instructies en herhaling en hergebruik van code mogelijk. Het leren van deze bouwstenen van coderen in Python zal de komende uren even wat tijd kosten, maar als je ze goed begrijpt wordt programmeren een stuk makkelijker en leuker!
+
+
+## Bouwsteen 1: Logica (voorwaardelijke instructies)
 
 In de voorgaande programma's schreven we scriptjes die regel voor regel van boven naar beneden werden uitgevoerd. Een soort stapsgewijze handleiding. Programma's worden interessanter als we *uitzonderingen* willen beschrijven.
 
@@ -50,7 +57,7 @@ Je kunt verschillende voorwaarden combineren. Als je wilt weten of een getal zic
     if getal > getal_min and getal < getal_max:
         print(f"het getal {getal} bevindt zich tussen {getal_min} en {getal_max}")
 
-Hier zijn de drie operators om voorwaarden te combineren:
+Hier zijn de drie operatoren om voorwaarden te combineren:
 
 - `not` ontkenning
 - `and` combinatie (allebei moeten `True` zijn)

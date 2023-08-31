@@ -1,6 +1,7 @@
 name: module2
 files:
     required:
+        - plot.py
         - nulpunten.py
         - riemann.py
         - randomwiskunde.py

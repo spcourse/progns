@@ -2,27 +2,27 @@
 
 Het kan nuttig zijn om functies mee te geven als een argument aan een andere functie. Dit kan er, in eerste instantie, wat verwarrend uitzien. Neem het volgende voorbeeld:
 
-	def optellen(a, b):
-		return a + b
+    def optellen(a, b):
+        return a + b
 
-	def vermenigvuldig(a, b):
-		return a * b
+    def vermenigvuldig(a, b):
+        return a * b
 
-	def herhaal(mijn_functie, x, y, z):
-		totaal = mijn_functie(x, y)
-		totaal = mijn_functie(totaal, z)
-		return totaal
+    def herhaal(mijn_functie, x, y, z):
+        totaal = mijn_functie(x, y)
+        totaal = mijn_functie(totaal, z)
+        return totaal
 
-	opgeteld = herhaal(optellen, 4, 3, 2)
-	print(opgeteld)
+    opgeteld = herhaal(optellen, 4, 3, 2)
+    print(opgeteld)
 
-	vermenigvuldigd = herhaal(vermenigvuldig, 4, 3, 2)
-	print(vermenigvuldigd)
+    vermenigvuldigd = herhaal(vermenigvuldig, 4, 3, 2)
+    print(vermenigvuldigd)
 
 Dit geeft de volgende output:
 
-	9
-	24
+    9
+    24
 
 Hier wordt de functie `herhaal()` gebruikt voor twee verschillende doeleindes. In de eerste aanroep worden alle getallen opgeteld. In de tweede aanroep worden ze vermenigvuldigd.
 

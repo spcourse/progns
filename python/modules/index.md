@@ -21,7 +21,7 @@ Als je de functie `sin()` wilt gebruiken moet je aangeven in welke bibliotheek P
 
 ## Documentatie
 
-- De functies die beschikbaar zijn in de math library kan je vinden in de documentatie:
+- De functies die beschikbaar zijn in de math bibliotheek kan je vinden in de documentatie:
 
   <https://docs.python.org/3/library/math.html>
 
@@ -29,11 +29,11 @@ Als je de functie `sin()` wilt gebruiken moet je aangeven in welke bibliotheek P
 
   <https://docs.python.org/3/library/>
 
-- Voor elk vakgebied of toepassing is wel een aparte library te vinden. Zodra je zelf in je studie aan grotere programma's gaat werken, zal het misschien ook handig zijn om je eigen standaardcode in een library onder te brengen. Het komt de overzichtelijkheid ten goede en je kan je code zo ook makkelijk delen met andere mensen.
+- Voor elk vakgebied of toepassing is wel een aparte bibliotheek te vinden. Zodra je zelf in je studie aan grotere programma's gaat werken, zal het misschien ook handig zijn om je eigen standaardcode in een bibliotheek onder te brengen. Het komt de overzichtelijkheid ten goede en je kan je code zo ook makkelijk delen met andere mensen.
 
 ## Numpy en arange
 
-Een voorbeeld van een uitgebreidere wiskundebibliotheek is de `numpy`-library. Een overzicht, documentatie en voorbeelden kan je vinden op <http://www.numpy.org>. We noemen meteen een handige functie die we in deze cursus een paar keer zullen gebruiken: `arange`.
+Een voorbeeld van een uitgebreidere wiskundebibliotheek is de `numpy`-bibliotheek. Een overzicht, documentatie en voorbeelden kan je vinden op <http://www.numpy.org>. We noemen meteen een handige functie die we in deze cursus een paar keer zullen gebruiken: `arange`.
 
 Van de `for`-loops ken je nog de opdracht `range`. Dit blijkt ook een functie te zijn, namelijk ééntje die reeksen opeenvolgende nummers genereert. Zo zijn deze twee stukken code equivalent:
 
@@ -52,4 +52,6 @@ Nu werkt deze `range`-functie alleen met gehele getallen. In wiskundige toepassi
     for x in numpy.arange(2.0, 9.0, 0.1):
         print(x)
 
-Je kunt de `arange`-functie natuurlijk ook gebruiken om over gehele getallen te loopen, maar hier kun je beter de `range`-functie voor gebruiken want die is sneller voor gehele getallen.
+Je kunt de `arange`-functie natuurlijk ook gebruiken om over gehele getallen te loopen, maar hier kun je beter de `range`-functie voor gebruiken want die is sneller voor gehele getallen (kun je bedenken/opzoeken waarom?).
+
+- **Belangrijk!:** Een functie uit een bibliotheek mag je in de opdrachten alleen gebruiken als dat expliciet vermeld staat of als we (soortgelijke) functies eerder hebben gebruikt (dat geldt ook voor `len()`, `sum()`, `max()` etc.). Je mag dus niet zomaar allerlei functies uit de numpy- of math-bibliotheek gebruiken, omdat het idee is dat je bij dit vak leert en nadenkt over hoe je het een en ander zelf kunt doen, zonder functies die al het werk voor je doen. Er zijn uitzonderingen: uit matplotlib mag je zeker alles halen om je plots mooier en spectaculairder te maken. Bij de uitdagende opdracht mag je ook helemaal los: hier zijn geen beperkingen!

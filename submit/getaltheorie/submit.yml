@@ -5,7 +5,6 @@ files:
         - priemgetal.py
         - reeks.py
         - goldbach.py
-        - plot.py
     uitdagend:
         - onderlingpriem.py
 check:

@@ -8,16 +8,16 @@ Het is mogelijk een integraal te benaderen door gebruik te maken van random geta
 
 ![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_rouef2qo&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_er3r5kip)
 
-Voor positieve integratiegebieden gebruik je het volgende stappenplan.
+Voor *positieve* integratiegebieden gebruik je het volgende stappenplan.
 
 1.  Definieer een rechthoek die het integratiegebied omsluit
 
-    Definieer een gebied (vaak een rechthoek) dat de integraalregio omsluit. Kies dus 
+    Definieer een gebied (vaak een rechthoek) die de integraalregio omsluit. Kies dus 
     een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt 
 
-      - $$x_{min} \leq a$$ en $$x_{max} \geq b$$
+      - voorwaarde 1: $$x_{min} \leq a$$ en $$x_{max} \geq b$$
 
-      - voor $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
+      - voorwaarde 2: voor $$a \leq x \leq b: ~ y_{min} \leq f(x)  \leq y_{max}$$
 
     Kies de meest smalle rechthoek met $$x_{min} = a$$ en $$x_{max} = b$$.
 
@@ -30,7 +30,7 @@ Voor positieve integratiegebieden gebruik je het volgende stappenplan.
 3.  Bepaal de integraal
 
     De integraal is de fractie punten die binnen de grafiek vallen keer de oppervlakte van de totale rechthoek. 
-    In het geval van een rechthoek wordt dat gegeven door:
+    In het geval van een rechthoek wordt die waarde gegeven door:
 
     $$
         \int_a^b f(x)~\text{d}x = f_{goed}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
@@ -92,13 +92,11 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 
 - Kijk goed naar de grafiek van de rode en groene punten die je maakt zodat je duidelijk ziet welk gebied je aan het integreren bent. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in één keer terwijl je daar anders uren naar moet zoeken in de code zelf.
 
-- Als je ook negatieve integratieregio's hebt, moet je die niet gewoon bij de positieve regio's optellen (waarom ook alweer niet?) maar is het handig om de integratiegebieden splitsen.
+- Als je ook negatieve integratieregio's hebt, moet je die niet gewoon bij de positieve regio's optellen (waarom ook alweer niet?) maar is het handig om de integratiegebieden splitsen. Hoe verandert voorwaarde 2 uit stap 1 van het stappenplan voor positieve integratieregio's? Hoe verandert de waarde van de integraal uit stap 3?
 
 - In onderzoekstoepassingen wordt voor maximalisatie van de efficiëntie de rechthoek zo gekozen dat hij de integraal zo nauw mogelijk omsluit.
 
 - Test je functie altijd eerst op een integraal waarvan je de uitkomst kent. Dit is het geval voor een aantal van de functies die hierboven staan weergegeven. Pas als jouw functie die integralen goed uitrekent kan je met vertrouwen de onbekende nieuwe integraal aanpakken.
-
-- Denk goed na over hoe je omgaat met het deel van het integratiegebied dat onder de y-as valt.
 
 ## Testen
 
