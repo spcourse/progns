@@ -23,7 +23,10 @@ Om het idee van de reeks niet-priemgetallen goed te begrijpen, schrijf je bijvoo
 
 - Maak een programma genaamd `reeks.py` en zorg dat het volgens bovenstaand voorbeeld de juiste informatie uitprint. 
 
-- Zorg dat je programma drie functies definieert: 1. `priem_of_niet()` (de functie die je schreef in `priemgetal.py`), 2. `alle_priems()`, een functie met één argument, `N`, die alle priemgetallen kleiner `N` vindt en in een lijst zet en *twee* outputs returnt: die lijst en de lengte van die lijst. 3. `reeks_niet_priem()` een functie met als argument het maximale getal waaronder we de reeks moeten vinden. Deze functie output niets, maar print de informatie over de langste reeks in het format zoals bovenaan deze pagina staat.
+- Zorg dat je programma drie functies definieert:
+	1. `priem_of_niet()`, de functie die je schreef in `priemgetal.py`
+	2. `alle_priems()`, een functie met één argument, `N`, die alle priemgetallen kleiner `N` vindt en in een lijst zet en *twee* outputs returnt: die lijst en de lengte van die lijst.
+	3. `reeks_niet_priem()` een functie met als argument het maximale getal waaronder we de reeks moeten vinden. Deze functie output niets, maar print de informatie over de langste reeks in het format zoals bovenaan deze pagina staat.
 
 - Gebruik in de functie `alle_priems()` de functie `priem_of_niet()` om te bepalen of een getal een priemgetal is. Je mag om de lengte van de lijst (met priemgetallen) te bepalen *niet* de functie `len()` gebruiken. Na deze opdracht mag dat voortaan wel.
 

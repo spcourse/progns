@@ -91,7 +91,7 @@ Let op: als je twee gehele getallen deelt met de `//`-operator, zal er altijd ee
 
 ## Variabelen
 
-Een **waarde** is een van de basale onderdelen in een programma. In de voorbeelden hierboven heb je bijvoorbeeld al reeksen letters en ook cijfers gezien. Tot nu toe zijn we alleen bezig geweest met **constante waarden**, die bij het schrijven van het programma al uitgespeld worden (in het bovenstaande geval ging het bijvoorbeeld om een tekstje `"Hello, world!"`). Maar als we bij het programmeren al weten wat het antwoord wordt, dan hebben we natuurlijk eigenlijk geen computer nodig! Laten we dus doen waar computers goed in zijn: rekenen.
+Een **waarde** is een van de basale onderdelen in een programma. In de voorbeelden hierboven heb je bijvoorbeeld al reeksen letters en ook cijfers gezien. Tot nu toe zijn we alleen bezig geweest met **constante waarden**, die bij het schrijven van het programma al uitgespeld worden (in het bovenstaande geval ging het bijvoorbeeld om een tekstje `"Hello, Python!"`). Maar als we bij het programmeren al weten wat het antwoord wordt, dan hebben we natuurlijk eigenlijk geen computer nodig! Laten we dus doen waar computers goed in zijn: rekenen.
 
 Om resultaten van berekeningen te kunnen gebruiken in andere berekeningen, moeten we deze tijdelijk op zien te slaan. Als oplossing laat Python je namen toekennen aan waardes. Deze naam-waarde combinaties noemen we **variabelen**. Door middel van de `=` operator kunnen we een naam toekennen aan een waarde, en deze vervolgens ergens anders gebruiken.
 
@@ -103,7 +103,7 @@ Er zijn verschillende soorten waardes in Python; we noemen dat een **type**. In 
 
 | voorbeeld         | type  |                                                          |  
 | ----------------- | ----- | -------------------------------------------------------- |  
-| `'Hello, World!'` | str   | een reeks letters: een **string**                        |  
+| `'Hello, Python!'` | str   | een reeks letters: een **string**                        |  
 | `'3.2'`           | str   | wederom een string, want er staan aanhalingstekens       |  
 | `17`              | int   | een geheel getal: een **integer**                        |  
 | `3.2`             | float | een kommagetal: een **float**, een floating point number |  
