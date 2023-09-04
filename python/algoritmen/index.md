@@ -28,13 +28,20 @@ In de voorgaande programma's schreven we scriptjes die regel voor regel van bove
 ### Details
 
 Een `if`-statement in Python kent de volgende structuur:
+    balans = 100
+    uitgave = 75
 
-    if conditie:
-        code
+    if uitgave < balans:
+        balans = balans - uitgave
+        print(f"Transactie van bedrag €{uitgave} voltooid.")
 
-Een **voorwaarde (condition)** kent uiteindelijk maar twee mogelijke opties. In Python zijn dit `True` en `False` (dit noemen we "boolean" waardes, naar [George Boole](https://en.wikipedia.org/wiki/Boolean_algebra#Values)). In de code hierboven is deze boolean het resultaat de expressie `balance - expense > 0`. Hier wordt gebruik gemaakt van de vergelijkingsoperator `>`. Deze operator vergelijkt twee waarden, in dit geval de uitkomst van `balance - expense` en `0`, en produceert een boolean. Afhankelijk van de uitkomst, dat kan dus zijn `True` of `False`, wordt de code die bij de `if`-statement hoort uitgevoerd.
+    print(f"Uw balans is {balans}.")
 
-De `:` op regel 5 hierboven laat zien dat bij de `if` een **codeblok** hoort. Dat is dus precies het deel van de code dat slechts wordt uitgevoerd als aan de voorwaarde is voldaan. Zo'n blok bestaat vaak uit meerdere regels code, en om duidelijk te maken welke regels dat zijn, gebruik je **indentatie**. Dat is een aantal spaties of tabs van de kantlijn af. In de code hierboven hebben we vier spaties gebruikt om aan te geven dat regel 6 bij het `if`-statement hoort. Omdat regel 8 weer meer naar links staat, is die regel niet meer afhankelijk van de uitkomst van de conditie op regel 5. Die regel wordt dus *onvoorwaardelijk* uitgevoerd.
+Een **voorwaarde (condition)** kent uiteindelijk maar twee mogelijke opties. In Python zijn dit `True` en `False` (dit noemen we "boolean" waardes, naar [George Boole](https://en.wikipedia.org/wiki/Boolean_algebra#Values)). In de code hierboven is deze boolean het resultaat de expressie `uitgave < balans`. Hier wordt gebruik gemaakt van de vergelijkingsoperator `<`. Deze operator vergelijkt twee waarden, in dit geval de uitkomst van `uitgave` en `balans`, en produceert een boolean. Afhankelijk van de uitkomst, dat kan dus zijn `True` of `False`, wordt de code die bij de `if`-statement hoort uitgevoerd.
+
+De `:` op regel 4 hierboven laat zien dat bij de `if` een **codeblok** hoort. Dat is dus precies het deel van de code dat slechts wordt uitgevoerd als aan de voorwaarde is voldaan. Zo'n blok bestaat vaak uit meerdere regels code, en om duidelijk te maken welke regels dat zijn, gebruik je **indentatie (inspringen)**. Dat is een aantal spaties of tabs van de kantlijn af. In de code hierboven hebben één tab gebruikt om aan te geven dat regels 5 en 6 bij het `if`-statement horen. Omdat regel 8 weer meer naar links staat, is die regel niet meer afhankelijk van de uitkomst van de conditie op regel 4. Die regel wordt dus *onvoorwaardelijk* uitgevoerd.
+
+**Tip:** Als je meerdere regels tegelijk wil indenteren, kun je die regels selecteren (met Shift bv.) en vervolgens ze met Tab allemaal in laten springen. Als je 'Shift + Tab' gebruikt, spring je juist weer een regel terug. Met dit soort handigheidjes programmeer je een stuk sneller!
 
 ### Meer operatoren
 
