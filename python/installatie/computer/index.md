@@ -12,7 +12,7 @@ Zit je vast? Vraag je assistent!
 
 ### Stap 1: Anaconda
 
-Dit pakket kunt je downloaden op de [website](https://www.anaconda.com/download/). Kies daar voor de "**Anaconda Individual Edition**". De download is vrij groot, het kan dus even duren voordat het klaar is!
+Dit pakket kunt je downloaden op de [website](https://www.anaconda.com/download#downloads). De download is vrij groot, het kan dus even duren voordat het klaar is! (Als je het via Wifi Amsterdam Science Park doet zal het **heel** langzaam gaan.)
 
 Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatieinstructies en kies waar nodig voor "Install for me only"; als het goed is hoef je verder niks te veranderen.
 
