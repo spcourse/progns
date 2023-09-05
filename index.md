@@ -1,7 +1,7 @@
 # Studiewijzer
 
 *Inleiding programmeren voor Natuur- en Sterrenkunde*  
-*September 2022*
+*September 2023*
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
 
@@ -42,7 +42,7 @@ Jouw **eerste aanspreekpunt** punt zijn jouw medestudenten. Juist als je bezig b
 - laptop werkt niet meer
 - installatieproblemen voor de benodigde software
 - loop langs tussen 10 en 16 uur in lokaal B1.19A
-- vanaf 26 september alleen nog dinsdag en donderdag 12--13 uur in B1.27A
+- vanaf 25 september alleen nog dinsdag en donderdag 12--13 uur in B1.27A
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -102,10 +102,10 @@ Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever je van zov
 
 | opdracht  | deadline        |  verbeterd       |  
 | --------- |---------------- |  --------------- |  
-| module 1  | ma 19 sep 10:59 |  wo 21 sep 19:59 |  
-| module 2  | ma  3 okt 10:59 |  wo  5 okt 19:59 |  
-| module 3  | ma 17 okt 10:59 |  wo 19 okt 19:59 |  
-| module 4  | ma 24 okt 10:59 |  -               |  
+| module 1  | ma 18 sep 10:59 |  wo 20 sep 19:59 |  
+| module 2  | ma  2 okt 10:59 |  wo  4 okt 19:59 |  
+| module 3  | ma 16 okt 10:59 |  wo 18 okt 19:59 |  
+| module 4  | ma 23 okt 10:59 |  -               |  
 
 
 ## Tentamen
@@ -125,11 +125,11 @@ Het eindcijfer wordt dan als volgt berekend:
 
 | onderdeel | gewicht |  
 | --------- | ------: |
-| module 1  |     14% |  
-| module 2  |     14% |  
-| module 3  |     14% |  
-| module 4  |      8% |
-| tentamen  |     50% |  
+| module 1  |     10% |  
+| module 2  |     10% |  
+| module 3  |     10% |  
+| module 4  |     10% |
+| tentamen  |     60% |  
 
 
 ## Samenwerken, fraude en plagiaat

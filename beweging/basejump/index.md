@@ -1,4 +1,4 @@
-# Vrije val bij een basejump
+# Basejump
 
 Schrijf een programma waarin de val wordt doorgerekend van een basejumper die van de top van de Burj Khalifa in Dubai (828m) naar beneden springt. Neem hierbij aan dat de basejumper 72 kilo weegt.
 
@@ -20,7 +20,7 @@ Zoals altijd heb je ook hier mensen die het [randje opzoeken](https://en.wikiped
 
 ## Specificatie
 
-Maak een bestand `basejump.py` met daarin een functie `basejump()`. Volg dezelfde strategie als in de opdracht **Appel**, maar neem nu ook de luchtweerstand mee zoals gegeven in bovenstaande formule.
+Maak een bestand `basejump.py` met daarin een functie `basejump()`. Volg dezelfde strategie als in de vorige opdracht met de appel, maar neem nu ook de luchtweerstand mee zoals gegeven in bovenstaande formule.
 
 ### Grafieken
 

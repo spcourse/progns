@@ -12,11 +12,11 @@ In het hoofdstuk [basiselementen](/python/basiselementen) heb je een aantal **in
 
 Daarnaast heb je kennis gemaakt met operatoren die gebruikt worden om expressies samen te stellen. Dit was al genoeg om een werkend, maar niet zo krachtig programma te schrijven. Aan het eind van dit subonderdeel gaan we een opdracht over **priemgetallen** maken, die een stuk meer kan dan alleen getallen vermenigvuldigen en printen. Om deze te kunnen maken gaan we drie belangrijke onderdelen van programmeren in Python leren:
 
-    1. Logica
-    2. Loops
-    3. Functies
+1. Logica
+2. Loops
+3. Functies
 
-Deze drie onderdelen maken voorwaardelijke instructies en herhaling en hergebruik van code mogelijk. Het leren van deze bouwstenen van coderen in Python zal de komende uren even wat tijd kosten, maar als je ze goed begrijpt wordt programmeren een stuk makkelijker en leuker!
+Deze drie bouwstenen maken voorwaardelijke instructies en herhaling en hergebruik van code mogelijk. Het leren ervan zal de komende uren even wat tijd kosten, maar als je ze goed begrijpt wordt programmeren een stuk makkelijker en leuker!
 
 
 ## Bouwsteen 1: Logica (voorwaardelijke instructies)
@@ -45,7 +45,7 @@ Een **voorwaarde (condition)** kent uiteindelijk maar twee mogelijke opties. In 
 
 De `:` op regel 5 hierboven laat zien dat bij de `if` een **codeblok** hoort. Dat is dus precies het deel van de code dat slechts wordt uitgevoerd als aan de voorwaarde is voldaan. Zo'n blok bestaat vaak uit meerdere regels code, en om duidelijk te maken welke regels dat zijn, gebruik je **indentatie**. Dat is een aantal spaties of tabs van de kantlijn af. In de code hierboven hebben we vier spaties gebruikt om aan te geven dat regel 6 bij het `if`-statement hoort. Omdat regel 8 weer meer naar links staat, is die regel niet meer afhankelijk van de uitkomst van de conditie op regel 5. Die regel wordt dus *onvoorwaardelijk* uitgevoerd.
 
-## Meer operatoren
+### Meer operatoren
 
 Mocht je meer nodig hebben dan de vergelijkingsoperatoren hierboven:
 
@@ -56,7 +56,7 @@ Mocht je meer nodig hebben dan de vergelijkingsoperatoren hierboven:
 - `<` 	kleiner dan
 - `<=`	kleiner dan of gelijk aan
 
-## Combinaties van voorwaarden
+### Combinaties van voorwaarden
 
 Je kunt verschillende voorwaarden combineren. Als je wilt weten of een getal zich in een bepaald bereik bevindt (bijvoorbeeld tussen de 3 en de 39) dan kun je dat doen met `and`:
 
