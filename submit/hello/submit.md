@@ -10,10 +10,8 @@ Lever `hello.py` in onderaan deze pagina om te laten zien dat je gestart bent me
 
 - Bij dit programma zijn er twee tests. Je kunt zelf `checkpy` gebruiken vóór je je programma instuurt, of je bekijkt de `checkpy`-resultaten op deze website.
 
-- Wordt je programma niet goedgekeurd? Bekijk dan de check-resultaten. Er zijn twee checks:
+- Wordt je programma niet goedgekeurd? Bekijk dan de check-resultaten.
 
-    - `print precies: Hallo Python`. Heb je een `:(` of een `:|`? Check dan of je programma wel echt exact deze letters print. Vergeet je bijvoorbeeld het uitroepteken, dan wordt het afgekeurd.
-
-    - `print precies één regel`. Heb je hier een `:(` of een `:|`? Check dan of je programma misschien toch nog een extra regel print of een foutmelding geeft. Je programma mag alléén maar `Hallo Python` printen en niets anders.
+    - Heb je een `:(` of een `:|`? Check dan of je programma wel echt exact de gevraagde letters print. Vergeet je bijvoorbeeld de hoofdletters, dan wordt het afgekeurd.
 
 - Mocht je problemen hebben bij het inleveren, vraag dan een assistent tijdens het laptopcollege of mail direct naar <progns@mprog.nl>.
