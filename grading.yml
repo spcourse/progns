@@ -4,7 +4,7 @@ grades:
         subgrades:
             correct: boolean
         automatic:
-            correct: correctness_score == 2 && -1 || 0
+            correct: correctness_score == 1 && -1 || 0
         calculation: correct
         auto_publish: true
         hide_calculated: true
