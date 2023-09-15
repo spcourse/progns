@@ -14,7 +14,7 @@ grades:
             checks: integer
         automatic:
             checks: correctness_score.floor
-        calculation: checks == 16 && -1 || 0
+        calculation: 0
         auto_publish: true
         hide_calculated: true
     module2:
