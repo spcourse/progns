@@ -15,7 +15,7 @@ grades:
         automatic:
             checks: correctness_score.floor
         calculation: checks < 17 && 0 || 0
-        auto_publish: true
+        # auto_publish: true
         hide_calculated: true
     module2:
         type: float
