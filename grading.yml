@@ -15,7 +15,7 @@ grades:
             checks: integer
         automatic:
             checks: correctness_score.floor
-        calculation: (checks/17.0*100).round
+        calculation: (checks/16.0*100).round
         # auto_publish: true
         hide_calculated: true
     module2:
