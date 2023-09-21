@@ -98,7 +98,7 @@ opdrachten:
         module1: 1
         module2: 1
         module3: 1
-        module4: 1
+        # module4: 1
 
 cijfers:
     show_progress: true
