@@ -92,7 +92,7 @@ calculation:
         cijfers: 60
 
 opdrachten:
-    # show_progress: true
+    show_progress: true
     submits:
         hello: 0
         module1: 1
