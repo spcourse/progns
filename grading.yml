@@ -55,7 +55,7 @@ grades:
             checks: integer
             stijl: integer
             uitdagend: float
-        calculation: (checks/12.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
+        calculation: (checks/16.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     module2-reviewed:
         type: float
         deadline: 4/10/23 20:00
