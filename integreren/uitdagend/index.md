@@ -1,5 +1,7 @@
 # Fractals - Mandelbrot-set
 
+> De eerdere opdrachten van deze module zou je binnen de tijd af moeten kunnen krijgen. Onderstaande opdracht is een extra uitdaging voor studenten die veel ervaring hebben of afgelopen weken sneller gaan. De opdracht telt voor het laatste punt van de module; zie de studiewijzer voor uitleg over de beoordeling.
+
 Jullie kennen vast wel die prachtige en veelkleurige plaatjes waarin patronen zich tot een oneindige diepte patronen herhalen. Deze zeer complexe patronen, *fractals* genaamd, komen gek genoeg voort uit een kleine set simpele (wiskundige) regels. Ook in de natuur vinden we vaak simpele onderliggende mechanismes voor complexe fenomenen al is het een enorm lastige klus om daar achter te komen. In deze opgave gaan we iets meer in op de wiskunde achter de fractals en gaan we proberen daarmee zelf de meest bekende fractal te reconstrueren en te tekenen: de [Mandelbrot-set](https://en.wikipedia.org/wiki/Mandelbrot_set). Over deze fractal zijn tal van interessante video's te vinden online. Probeer eens deze van [Veritasium](https://www.youtube.com/watch?v=ovJcsL7vyrk&t=882s&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90) of [Numberphile](https://www.youtube.com/watch?v=FFftmWSzgmk&pp=ygUVdmVyaXRhc2l1bSBtYW5kZWxicm90).
 
 <p align="center">
