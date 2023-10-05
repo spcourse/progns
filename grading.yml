@@ -58,7 +58,7 @@ grades:
         calculation: (checks/16.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     module2-reviewed:
         type: float
-        deadline: 4/10/23 20:00
+        deadline: 04/10/23 20:00
         subgrades:
             checks: integer
             stijl: integer
