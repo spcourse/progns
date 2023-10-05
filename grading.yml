@@ -20,7 +20,7 @@ grades:
         hide_calculated: true
     module2:
         type: float
-        deadline: 2/10/23 11:00
+        deadline: 02/10/23 11:00
         subgrades:
             checks: integer
         automatic:
