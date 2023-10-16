@@ -1,9 +1,7 @@
 # Simulaties
 
-<div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://player.vimeo.com/video/233508920)
-</div>
-
 Na een korte kennismaking met animaties in Python gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Daarnaast gaan we simulaties toepassen in de natuurkunde om beweging bij vallen te bestuderen.
 
-Kijk eerst eens naar het filmpje hiernaast. Anne Kroon en Damian Trilling zijn communicatiewetenschappers bij de UvA, en gespecialiseerd in het maken en gebruiken van programma's om interessante informatie uit teksten te halen.
+Kijk eerst eens naar het filmpje hieronder. Anne Kroon en Damian Trilling zijn communicatiewetenschappers bij de UvA, en gespecialiseerd in het maken en gebruiken van programma's om interessante informatie uit teksten te halen.
+
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_67tq0ce5&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_mtjix154)
