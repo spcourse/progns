@@ -76,7 +76,7 @@ grades:
         type: float
         subgrades:
             punten: float
-        calculation: (punten.to_f / 9.5 * 9 + 1).round(1)
+        calculation: (punten.to_f / 10 * 9 + 1).round(1)
     hertentamen:
         type: float
         subgrades:
