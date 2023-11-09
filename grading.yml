@@ -47,7 +47,7 @@ grades:
         automatic:
             checks: correctness_score.floor
         calculation: (checks/5.0*8 + uitdagend + 1).round(1)
-        hide_calculated: true
+        # hide_calculated: true
     module1-reviewed:
         type: float
         deadline: 20/9/23 20:00
