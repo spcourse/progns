@@ -111,7 +111,7 @@ Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever je van zov
 ## Tentamen
 
 Hoewel het niet toegestaan is zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
-een medestudent tijdens het maken van de practica. Doe dit alsjeblieft niet. De regels wat betreft plagiaat zijn erg streng en we voeren controles uit, dus kom gewoon langs als je moeite hebt met de stof en wat extra hulp nodig hebt, dan helpen we je. Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald sluiten we het vak af met een (individueel) tentamen. Het tentamen telt voor 50% mee voor je eindcijfer en om het vak te halen is er een extra eis dat het tentamen zelf ook met een voldoende afgesloten moet worden.
+een medestudent tijdens het maken van de practica. Doe dit alsjeblieft niet. De regels wat betreft plagiaat zijn erg streng en we voeren controles uit, dus kom gewoon langs als je moeite hebt met de stof en wat extra hulp nodig hebt, dan helpen we je. Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald sluiten we het vak af met een (individueel) tentamen. Het tentamen telt voor 60% mee voor je eindcijfer en om het vak te halen is er een extra eis dat het tentamen zelf ook met een voldoende afgesloten moet worden.
 
 
 ## Eindcijfer
