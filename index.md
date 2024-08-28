@@ -98,7 +98,15 @@ De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook
 
 ## Deadline inleveren opdrachten
 
-Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever je van zoveel mogelijk opdrachten jouw oplossing in, waarna deze automatisch wordt gecontroleerd op werking met `checkpy`. Dan volgt een werkcollege waarin je een code review gaat doen, en dan kun je nog verbeterde versies inleveren van dezelfde programma's. Dat zijn dan de versies die door de assistenten worden nagekeken.
+Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever
+je van zoveel mogelijk opdrachten jouw oplossing in, waarna deze
+automatisch wordt gecontroleerd op werking met `checkpy`. We 
+controleren hierbij dus of je code het juiste antwoord geeft. Daarna
+volgt een werkcollege waarin je een code review gaat doen, waarbij de
+focus ligt op de stijl van het programma. Je kunt daarna een
+verbeterde versie inleveren van dezelfde programma's. Let wel, het
+gaat hierbij om de stijl van het programma. Er wordt dus niet opnieuw
+naar de antwoorden van je code gekregen. Deze tweede versie wordt door de assistenten nagekeken.
 
 | opdracht  | deadline        |  verbeterd       |  
 | --------- |---------------- |  --------------- |  
