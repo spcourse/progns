@@ -44,7 +44,7 @@ Er zijn een paar belangrijke dingen om te noemen:
 
 ## Soorten loops
 
-Er zijn in Python, net als in bijna elke programmeertaal, twee standaard constructies om te loopen: de **for-loop** en de **while-loop**.
+Er zijn in Python, net als in bijna elke programmeertaal, twee standaard constructies om te loopen: de **for-loop** en de **while-constructie**.
 
 Een for-loop gebruik je als je precies weet hoe vaak je een instructie uit wilt/moet voeren. In gevallen waar je dat niet weet, en bij elke stap wilt kunnen besluiten of je nog verder gaat tellen, gebruik je een while-loop. Net zoals bij de for-loop worden alle instructies in het blok uitgevoerd voor een bepaalde waarde van de variabele. Daarna wordt geëvalueerd of het nogmaals uitgevoerd moet worden. While betekent immers 'zolang als'.
 
@@ -137,7 +137,7 @@ Dit programma heeft als output
 
 **Oefening 8:** Pas bovenstaand programma zo aan dat `j` niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van `i`.
 
-**Oefening 9:** Pas bovenstaand programma zo aan dat `j` niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van `i`. Gebruik nu de while-constructie voor de waarden van .
+**Oefening 9:** Pas bovenstaand programma zo aan dat `j` niet van 1 tot 4 loopt, maar van 1 tot en met de waarde van `i`. Gebruik nu de while-constructie voor de waarden van i.
 
 **Oefening 10:** Pas bovenstaand programma zo aan dat de loop over `j` alleen uitgevoerd wordt als `i` groter is dan 3. Zorg dat in de loop over `i` gewoon range(1, 7) blijft staan, maar verzin een ander oplossing met behulp van een if-statement.
 
