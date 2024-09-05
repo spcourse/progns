@@ -113,7 +113,7 @@ naar de antwoorden van je code gekregen. Deze tweede versie wordt door de assist
 | module 1  | ma 16 sep 10:59 |  wo 18 sep 19:59 |  
 | module 2  | ma 30 sep 10:59 |  wo  2 okt 19:59 |  
 | module 3  | ma 14 okt 10:59 |  wo 16 okt 19:59 |  
-| module 4  | ma 28 okt 10:59 |  -               |  
+| module 4  | ma 21 okt 10:59 |  -               |  
 
 
 ## Tentamen
