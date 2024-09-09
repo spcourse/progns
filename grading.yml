@@ -1,3 +1,13 @@
+templates:
+    1: &module
+        type: integer
+        subgrades:
+            percentage_correct: integer
+        automatic:
+            percentage_correct: correctness_score*100
+        calculation: percentage_correct
+        hide_calculated: true
+
 grades:
     hello:
         type: pass
@@ -9,45 +19,17 @@ grades:
         auto_publish: true
         hide_calculated: true
     module1:
-        type: integer
+        <<: *module
         deadline: 16/9/24 11:00
-        subgrades:
-            percentage_correct: integer
-        automatic:
-            percentage_correct: correctness_score*100
-        calculation: percentage_correct
-        # auto_publish: true
-        hide_calculated: true
     module2:
-        type: float
+        <<: *module
         deadline: 30/9/24 11:00
-        subgrades:
-            checks: integer
-        automatic:
-            checks: correctness_score.floor
-        calculation: (checks/21.0*100).round
-        # auto_publish: true
-        hide_calculated: true
     module3:
-        type: float
+        <<: *module
         deadline: 14/10/24 11:00
-        subgrades:
-            checks: integer
-        automatic:
-            checks: correctness_score.floor
-        calculation: (checks/15.0*100).round(1)
-        # auto_publish: true
-        hide_calculated: true
     module4:
-        type: float
+        <<: *module
         deadline: 21/10/23 11:00
-        subgrades:
-            checks: integer
-            uitdagend: float
-        automatic:
-            checks: correctness_score.floor
-        calculation: (checks/5.0*8 + uitdagend + 1).round(1)
-        # hide_calculated: true
     module1-reviewed:
         type: float
         deadline: 20/9/23 20:00
