@@ -12,10 +12,10 @@ grades:
         type: integer
         deadline: 16/9/24 11:00
         subgrades:
-            checks: integer
+            percentage_correct: integer
         automatic:
-            checks: correctness_score
-        calculation: (checks*100).round
+            percentage_correct: correctness_score*100
+        calculation: percentage_correct
         # auto_publish: true
         hide_calculated: true
     module2:
