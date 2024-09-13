@@ -5,7 +5,7 @@ templates:
             percentage_correct: integer
         automatic:
             percentage_correct: correctness_score*100
-        calculation: percentage_correct
+        calculation: percentage_correct == 100 && -1 || 0
         hide_calculated: true
 
 grades:
