@@ -1,3 +1,3 @@
 # Code review
 
-- [Getaltheorie](/review/getaltheorie)
+<!-- - [Getaltheorie](/review/getaltheorie) -->
