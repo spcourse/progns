@@ -90,6 +90,7 @@ Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaa
 
 * **Uitdaging** --- (telt voor 1/9 deel) Als je de uitdagende opdracht hebt gedaan levert dit je je laatste punt voor de module op.
 
+Formule voor module 1 t/m 3: `checks / 100 * 5 + stijl / 6 * 3 + uitdagend + 1`
 
 ## Dagelijks ritme
 
