@@ -39,7 +39,7 @@ grades:
             checks: integer
             stijl: integer
             uitdagend: float
-        calculation: (checks/16.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
+        calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     module2-reviewed:
         type: float
         deadline: 2/10/24 20:00
@@ -47,7 +47,7 @@ grades:
             checks: integer
             stijl: integer
             uitdagend: float
-        calculation: (checks/21.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
+        calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     module3-reviewed:
         type: float
         deadline: 16/10/23 20:00
@@ -55,7 +55,7 @@ grades:
             checks: integer
             stijl: integer
             uitdagend: float
-        calculation: (checks/15.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
+        calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     tentamen:
         type: float
         subgrades:
