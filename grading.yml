@@ -56,6 +56,11 @@ grades:
             stijl: integer
             uitdagend: float
         calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
+    oefententamen:
+        type: float
+        subgrades:
+            punten: float
+        calculation: (punten.to_f / 10 * 9 + 1).round(1)
     tentamen:
         type: float
         subgrades:
