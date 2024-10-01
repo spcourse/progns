@@ -30,7 +30,15 @@ grades:
         <<: *module
         deadline: 14/10/24 11:00
     module4:
-        <<: *module
+        type: integer
+        subgrades:
+            checks: integer
+        automatic:
+            checks: correctness_score*100
+        calculation: checks/100*9+1
+        hide_calculated: true
+        auto_publish: true
+        allow_resubmit: true
         deadline: 21/10/24 11:00
     module1-reviewed:
         type: float
