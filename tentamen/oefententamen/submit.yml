@@ -1,0 +1,9 @@
+name: oefententamen
+files:
+    required:
+        - opgave1.py
+        - opgave2.py
+        - opgave3.py
+        - opgave4.py
+        - opgave5.py
+exam: true
