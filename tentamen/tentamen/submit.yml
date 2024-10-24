@@ -1,4 +1,10 @@
 name: tentamen
+exam: true
 files:
     required:
-        - tentamen.py
+        opgave1.py: ''
+        opgave2.py: ''
+        opgave3.py: ''
+        opgave4.py: ''
+        opgave5.py: ''
+        klad.py: ''
