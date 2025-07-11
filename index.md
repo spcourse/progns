@@ -1,11 +1,11 @@
 # Studiewijzer
 
 *Inleiding programmeren voor Natuur- en Sterrenkunde*  
-*September 2024*
+*September 2025*
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
 
-De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren en bestaat uit vier afzonderlijke modules. Gedurende de cursus leren we steeds meer over programmeren en de manier waarop we complexe problemen gestructureerd aan kunnen pakken. Elke module is opgedeeld in vier dagdelen en per module zijn er een aantal opgaven die digitaal ingeleverd moeten worden. 
+De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren en bestaat uit vier afzonderlijke modules. Gedurende de cursus leren we steeds meer over programmeren en de manier waarop we complexe problemen gestructureerd aan kunnen pakken. Elke module is opgedeeld in vier dagdelen en per module zijn er een aantal opgaven die ingeleverd kunnen  worden. 
 
 ## Docenten en assistenten
 
@@ -69,76 +69,23 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee
 voor een programma naar werkende Python-code. Per module doe je eerst wat kleine
 oefeningen om de nieuwe programmeerelementen onder de knie te krijgen en ga je 
-daarna aan de slag met wat grotere opdrachten. Aan het eind van de module lever 
-je alles digitaal in.
+daarna aan de slag met wat grotere opdrachten. Aan het eind van de module kun je 
+de opdrachten digitaal inleveren. Je kunt de werking van je code controleren met behulp 
+van het programma `checkpy`.
 
-Voor elke module kun je een cijfer tussen 1 en 10 krijgen. De beoordeling bestaat uit meerdere delen:
+Aan het begin van elke module starten we met een zogenaamde code review: een korte sessie waarbij je samen met een medestudent elkaars code bespreekt.
 
-* **Omvang** --- (telt voor 5/9 deel) Heb je alle opdrachten geprobeerd of heb je dingen overgeslagen? Heb je alles precies gedaan zoals de omschrijving vereist? Met `checkpy` bepalen we hoe groot het aandeel correcte opdrachten is.
+Let op: je eindcijfer voor dit vak wordt volledig gebaseerd op je score tijdens het tentamen.
 
-* **Stijl** --- (telt voor 3/9 deel) Hoe ordelijk en leesbaar is je code? Je assistent kijkt je werk na en beoordeelt de kwaliteit. De wijze van beoordelen staat hieronder.
-
-  De stijl wordt beoordeeld met hulp van een aantal aspecten, die je in de [Stijlgids](/python/stijl) kunt vinden. Om te helpen het begrip van deze aspecten te ontwikkelen krijg je na elke module bovendien feedback op de toepassing hiervan. De beoordeling gaat vervolgens zo:
-
-  6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
-  5. zeer goede kwaliteit, beperkt ruimte voor verbetering
-  4. degelijke kwaliteit op de genoemde aspecten, met ruimte voor verbetering
-  3. net voldoende aandacht voor de genoemde aspecten, erg veel ruimte voor verbetering
-  2. enige zichtbare aandacht voor een beperkt aantal aspecten
-  1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
-  {: start="6" reversed=""}
-
-* **Uitdaging** --- (telt voor 1/9 deel) Als je de uitdagende opdracht hebt gedaan levert dit je je laatste punt voor de module op.
-
-Formule voor module 1 t/m 3: `checks / 100 * 5 + stijl / 6 * 3 + uitdagend + 1`
 
 ## Dagelijks ritme
 
 De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok ruim een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicum maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 
 
-## Deadline inleveren opdrachten
-
-Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever
-je van zoveel mogelijk opdrachten jouw oplossing in, waarna deze
-automatisch wordt gecontroleerd op werking met `checkpy`. We 
-controleren hierbij dus of je code het juiste antwoord geeft. Daarna
-volgt een werkcollege waarin je een code review gaat doen, waarbij de
-focus ligt op de stijl van het programma. Je kunt daarna een
-verbeterde versie inleveren van dezelfde programma's. Let wel, het
-gaat hierbij om de stijl van het programma. Er wordt dus niet opnieuw
-naar de antwoorden van je code gekregen. Deze tweede versie wordt door de assistenten nagekeken.
-
-| opdracht  | deadline        |  verbeterd       |  
-| --------- |---------------- |  --------------- |  
-| module 1  | ma 16 sep 10:59 |  wo 18 sep 19:59 |  
-| module 2  | ma 30 sep 10:59 |  wo  2 okt 19:59 |  
-| module 3  | ma 14 okt 10:59 |  wo 16 okt 19:59 |  
-| module 4  | ma 21 okt 10:59 |  -               |  
-
-
 ## Tentamen
 
-Hoewel het niet toegestaan is zou het mogelijk kunnen zijn om ongemerkt mee te liften met 
-een medestudent tijdens het maken van de practica. Doe dit alsjeblieft niet. De regels wat betreft plagiaat zijn erg streng en we voeren controles uit, dus kom gewoon langs als je moeite hebt met de stof en wat extra hulp nodig hebt, dan helpen we je. Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald sluiten we het vak af met een (individueel) tentamen. Het tentamen telt voor 60% mee voor je eindcijfer en om het vak te halen is er een extra eis dat het tentamen zelf ook met een voldoende afgesloten moet worden.
-
-
-## Eindcijfer
-
-Je krijgt een eindcijfer voor dit vak als je:
-
-* elke module op tijd en naar verwachting hebt ingeleverd;
-* een voldoende hebt gehaald voor het tentamen.
-
-Het eindcijfer wordt dan als volgt berekend:
-
-| onderdeel | gewicht |  
-| --------- | ------: |
-| module 1  |     10% |  
-| module 2  |     10% |  
-| module 3  |     10% |  
-| module 4  |     10% |
-| tentamen  |     60% |  
+Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald sluiten we het vak af met een (individueel) tentamen. Het tentamen bepaalt je eindcijfer voor het vak en betsaal uit een aantal korte opdrachten. 
 
 
 ## Samenwerken, fraude en plagiaat
