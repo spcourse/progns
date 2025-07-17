@@ -42,7 +42,8 @@ Jouw **eerste aanspreekpunt** punt zijn jouw medestudenten. Juist als je bezig b
 - laptop werkt niet meer
 - installatieproblemen voor de benodigde software
 - loop langs tussen 10 en 16 uur in lokaal B1.19A
-- vanaf 23 september alleen nog dinsdag en donderdag 12--13 uur in B1.27A
+- vanaf 22 september alleen nog dinsdag en donderdag 12--13 uur in B1.27A
+
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
