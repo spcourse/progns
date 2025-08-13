@@ -8,19 +8,18 @@ Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit 
 De cursus is bedoeld voor mensen die nog geen enkele ervaring hebben
 met programmeren en bestaat uit vier afzonderlijke modules. Gedurende
 de cursus leren we steeds meer over programmeren en de manier waarop
-we complexe problemen gestructureerd aan kunnen pakken. Elke module is
-steeds opgedeeld in vier dagdelen en per module zijn er een aantal
-opgaven die ingeleverd kunnen  worden. 
+we complexe problemen gestructureerd aan kunnen pakken. Elke module
+(twee weken, met elke week twee afzonderlijke werkcolleges) is steeds
+opgedeeld in vier dagdelen. Per module zijn er een aantalopgaven die ingeleverd kunnen  worden. 
 
 ## Docenten en assistenten
 
 De docenten zijn de ontwerpers van deze cursus. Je zult ze af en toe zien of horen in een filmpje en ze denken graag met je mee als je een probleem hebt. Je kunt ze mailen via <progns@mprog.nl>:
 
-Ivo van Vulpen (Nikhef/UvA)  
-Martijn Stegeman (UvA)
+    Ivo van Vulpen (Nikhef/UvA)  
+    Martijn Stegeman (UvA)
 
-Voor hulp bij dit vak vak staan bovendien de assistenten voor je klaar. Zij zijn studenten die het vak eerder hebben gevolgd en een heleboel problemen zelf al zijn tegengekomen.
-
+Tijdens de werkcolleges zijn er assistenten die je kunnen helpen. Het zijn studenten die het vak eerder hebben gevolgd en een heleboel problemen zelf al zijn tegengekomen.
 
 ## Vragen stellen
 
@@ -81,7 +80,7 @@ van het programma `checkpy`.
 
 Aan het begin van elke module starten we met een zogenaamde code review: een korte sessie waarbij je samen met een medestudent elkaars code bespreekt.
 
-Let op: je eindcijfer voor dit vak wordt volledig gebaseerd op je score tijdens het tentamen.
+<b>Let op: je eindcijfer voor dit vak wordt volledig gebaseerd op je score tijdens het tentamen.</b>
 
 
 ## Dagelijks ritme
