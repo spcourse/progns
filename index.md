@@ -5,7 +5,12 @@
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
 
-De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren en bestaat uit vier afzonderlijke modules. Gedurende de cursus leren we steeds meer over programmeren en de manier waarop we complexe problemen gestructureerd aan kunnen pakken. Elke module is opgedeeld in vier dagdelen en per module zijn er een aantal opgaven die ingeleverd kunnen  worden. 
+De cursus is bedoeld voor mensen die nog geen enkele ervaring hebben
+met programmeren en bestaat uit vier afzonderlijke modules. Gedurende
+de cursus leren we steeds meer over programmeren en de manier waarop
+we complexe problemen gestructureerd aan kunnen pakken. Elke module is
+steeds opgedeeld in vier dagdelen en per module zijn er een aantal
+opgaven die ingeleverd kunnen  worden. 
 
 ## Docenten en assistenten
 
