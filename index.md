@@ -16,8 +16,8 @@ opgedeeld in vier dagdelen. Per module zijn er een aantalopgaven die ingeleverd 
 
 De docenten zijn de ontwerpers van deze cursus. Je zult ze af en toe zien of horen in een filmpje en ze denken graag met je mee als je een probleem hebt. Je kunt ze mailen via <progns@mprog.nl>:
 
-    Ivo van Vulpen (Nikhef/UvA)  
-    Martijn Stegeman (UvA)
+Ivo van Vulpen (Nikhef/UvA)  
+Martijn Stegeman (UvA)
 
 Tijdens de werkcolleges zijn er assistenten die je kunnen helpen. Het zijn studenten die het vak eerder hebben gevolgd en een heleboel problemen zelf al zijn tegengekomen.
 
@@ -90,8 +90,14 @@ De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook
 
 ## Tentamen
 
-Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald sluiten we het vak af met een (individueel) tentamen. Het tentamen bepaalt je eindcijfer voor het vak en betsaal uit een aantal korte opdrachten. 
-
+Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt
+ gehaald sluiten we het vak af met een (individueel) tentamen. Dat
+ tentamen bestaat uit een aantal korte opdrachten en bepaalt je
+ eindcijfer voor het vak. Let op, het tentamen maak je niet op je
+ eigen laptop, volledig zelfstandig en er is geen verbinding met
+ internet. In aanloop naar het tentamen zal er ook een oefententaen
+ beschikbaar worden gemaakt.
+ 
 
 ## Samenwerken, fraude en plagiaat
 
