@@ -1,4 +1,4 @@
-# Opdracht 1: miljardair modus
+# Opdracht 1: miljardair-modus
 
 Schrijf een programma dat een groot aantal potjes van een vereenvoudigde versie van het spel Monopoly simuleert.
 
@@ -109,7 +109,7 @@ Implementeer dit in je programma.
 
 We gaan nu de functie `simuleer_potje_monopoly()` uitbreiden zodat we ook
 straten kunnen kopen en daarbij bijhouden welke straten er wel/niet zijn
-verkocht. We beginnen daarmee door in de zogenaamde Donald Trump-mode over het
+verkocht. We beginnen daarmee door in de zogenaamde miljardiar-modus over het
 bord te stappen: we kunnen alles kopen, zijn de enige speler in het spel en we
 wandelen net zo lang door tot we alles in ons bezit hebben. De vraag die we in
 deze opdracht willen beantwoorden is de volgende: "hoe lang (hoeveel worpen)
@@ -178,7 +178,7 @@ Schrijf een functie `simuleer_groot_aantal_potjes_monopoly(aantal_potjes)` die e
 
 4.  Bepaal dan ook het gemiddeld aantal worpen dat nodig was om alle straten in bezit te krijgen en print het resultaat op het scherm, in het format dat aan het begin van de opgave gespecificeerd was:
 
-        Monopoly simulator: 1 speler, Trump-mode
+        Monopoly simulator: 1 speler, miljardair-modus
         We hebben 10,000 potjes gesimuleerd
         Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
