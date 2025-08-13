@@ -1,8 +1,8 @@
-# Basiselementen van programmeren
+# Basiselementen
 
 Een **programma** is een reeks instructies die specificeren hoe een bewerking gedaan moet worden. Zo'n bewerking kan wiskundig zijn, zoals het oplossen van een stelsel vergelijkingen, of het vinden van de nulpunten van een polynoom. Maar het kan ook om een symbolische bewerking gaan, zoals het zoeken en vervangen van tekst in een document.
 
-Hoewel de details verschillen, is er een beperkt aantal **instructies** dat in feite voorkomt in elke programmeertaal:
+Hoewel de details verschillen, is er een beperkt aantal **instructies** dat voorkomt in bijna elke programmeertaal:
 
 gegevensinvoer (input)
 : Verkrijgen van gegevens van het toetsenbord, uit een bestand of bijvoorbeeld via het internet.

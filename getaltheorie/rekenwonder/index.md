@@ -4,7 +4,7 @@ title: Rekenwonder
 
 # Rekenwonder
 
-We beginnen heel voorzichtig en gaan proberen een programma te schrijven dat aan een gebruiker twee getallen vraagt en vervolgens het product van die getallen uitrekent en op het scherm print. Als volgt dus:
+We beginnen heel rustig en gaan proberen een programma te schrijven dat aan een gebruiker twee getallen vraagt en vervolgens het product van die getallen uitrekent en op het scherm print. Als volgt dus:
 
 	Wat is het eerste getal? 16
 	Wat is het tweede getal? 4
