@@ -1,6 +1,6 @@
 # Reeks
 
-Schrijf een programma dat de *langste aaneengesloten reeks niet-priemgetallen* bepaalt onder de 10,000 en daar een korte samenvatting van geeft.
+Schrijf een programma dat de *langste aaneengesloten reeks niet-priemgetallen* bepaalt onder de 10.000 en daar een korte samenvatting van geeft.
 
 	# python reeks.py
 	De langste reeks niet-priemgetallen onder de 10,000 begint op ... en eindigt bij ...
@@ -11,11 +11,11 @@ Lees goed wat er gevraagd wordt: de begin en eindpunten zijn zelf dus *niet* pri
 	De langste reeks niet-priemgetallen onder de 100 begint op 90 en eindigt bij 96
 	De reeks is 7 lang.
 
-De opdracht luidt om de langste reeks te vinden onder het getal 10,000.
+De opdracht luidt om de langste reeks te vinden onder het getal 10.000.
 
 ## Achtergrond
 
-Bepaal altijd met pen en papier je strategie en ga dus niet gelijk tikken. De 5--10 minuten die je hieraan besteedt verdien je dik terug tijdens het omzetten naar programmacode.
+<b> Tip:</b>Bepaal altijd met pen en papier je strategie en ga dus niet gelijk tikken. De 5--10 minuten die je hieraan besteedt verdien je dik terug tijdens het omzetten naar programmacode.
 
 Om het idee van de reeks niet-priemgetallen goed te begrijpen, schrijf je bijvoorbeeld de eerste tien priemgetallen op papier en bekijk steeds de onderlinge afstand: tussen 2 en 3 is het verschil maar één, terwijl het verschil tussen 13 en 17 vier is (wat dus betekent dat er 3 opeenvolgende getallen tussen zitten die niet-priem zijn, namelijk 14, 15 en 16).
 
