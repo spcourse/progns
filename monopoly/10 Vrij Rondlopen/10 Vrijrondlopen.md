@@ -1,4 +1,4 @@
-# Opdracht 1: Miljardair mode
+# Opdracht 1: miljardair-mode
 
 Schrijf een programma dat een groot aantal potjes van een vereenvoudigde versie van het spel Monopoly simuleert.
 
