@@ -10,7 +10,8 @@ met programmeren en bestaat uit vier afzonderlijke modules. Gedurende
 de cursus leren we steeds meer over programmeren en de manier waarop
 we complexe problemen gestructureerd aan kunnen pakken. Elke module
 (twee weken, met elke week twee afzonderlijke werkcolleges) is steeds
-opgedeeld in vier dagdelen. Per module zijn er een aantalopgaven die ingeleverd kunnen  worden. 
+opgedeeld in vier dagdelen. Per module zijn er een aantalopgaven die
+ingeleverd kunnen  worden. 
 
 ## Docenten en assistenten
 
@@ -85,8 +86,14 @@ Aan het begin van elke module starten we met een zogenaamde code review: een kor
 
 ## Dagelijks ritme
 
-De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok ruim een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicum maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
+De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling
+is dan ook dat je voor elk blok ruim een uur of vier aan werk
+bent. Als je niet alles af hebt aan het eind van het practicum maak
+dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 
+Bij elke module is er ook een uitdagende opdracht. Die is bedoeld voor
+mensen die wat meer uitdaging zoeken. Als je daar niet aan toekomt is
+dat geen probleem.
 
 ## Tentamen
 
