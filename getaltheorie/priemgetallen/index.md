@@ -33,15 +33,18 @@ Bij deze opdracht nemen we je aan de hand door een aantal stappen te geven om te
 
 Een belangrijk deel van de omschrijving hierboven is dat het om priemgetallen gaat. Wat is een priemgetal? Dat moeten we in Python zien uit te drukken.
 
-Definieer dus eerst een functie `priem_of_niet()` met één argument die van een bepaald getal, het argument, onderzoekt of het een priemgetal is of niet. De functie moet `True`/`False` returnen als het argument wel/niet een priemgetal is.
+Definieer dus eerst een functie `priem_of_niet(getal)` met één argument die van een bepaald getal, het argument, onderzoekt of het een priemgetal is of niet. De functie moet `True`/`False` returnen als getal wel/niet een priemgetal is.
 
-Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen een deler zijn van het argument. Als je dit bijhoudt in de loop (tellen!), kun je na afloop van de loop bepalen of het getal een priemgetal is of niet. Als rekenen met `%` nog wat nieuw voor je is, kijk dan nog eens [hier](/python/basiselementen) bij het stukje over operatoren en [hier](/python/functies) bij het stukje over even getallen aan het eind.
+Begin om de functie te bouwen zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen een deler zijn van het argument. Als je dit bijhoudt in de loop (tellen!), kun je na afloop van de loop bepalen of het getal een priemgetal is of niet. Als rekenen met `%` nog wat nieuw voor je is, kijk dan nog eens [hier](/python/basiselementen) bij het stukje over operatoren en [hier](/python/functies) bij het stukje over even getallen aan het eind.
+
+Test je functie door een aantal getallen als input mee te geven waarvan je weet of het wel/niet een priemgetal is. Zo weet je zeker dat je functie werkt en je het daarna in een wat groter programma in kunt bouwen.
+
 
 ## Stap 2: check een hele partij getallen
 
 We gaan een stap verder. We kunnen bovenstaand stukje code nu hergebruiken (i.e. de functie aanroepen) en voor *elk* getal onder de 100 bepalen of het een priemgetal is of niet.
 
-Definieer een functie `alle_priem_tot()` met één argument, `N`. Maak in deze functie een `for`-loop om alle getallen onder de `N` langs te loopen en bepaal voor elk van deze "kandidaat-priemgetallen" of het wel of niet een priemgetal is door de functie `priem_of_niet` aan te roepen.
+Definieer een functie `alle_priem_tot(N)` met één argument, `N`. Maak in deze functie een `for`-loop om alle getallen onder de `N` langs te loopen en bepaal voor elk van deze "kandidaat-priemgetallen" of het wel of niet een priemgetal is door de functie `priem_of_niet` aan te roepen.
 
 Schrijf dus bovenstaande procedure en maak deze goed werkend. De functie hoeft vervolgens niets te returnen, maar moet wel ieder gevonden priemgetal printen.
 
@@ -53,7 +56,7 @@ We gaan nu terug naar de opdracht: op zoek naar het $$N$$-de priemgetal. We geve
 
 - Nu zoeken we het `N`-de priemgetal; we willen niet weten of `N` een priemgetal is (zie je het verschil met stap 2?) Je kunt nu niet meer met een `for`-loop simpelweg tot `N` loopen. Immers, bij een `for`-loop weet je van tevoren hoe vaak er geïtereerd wordt en dat weten we nu niet. Je moet dus in je programma gaan bijhouden *hoeveel* priemgetallen je al gevonden hebt. Gebruik hiervoor een variabele, net als bij het bijhouden van de hoeveelheid delers in Stap 1. Merk op dat dit bijhouden van informatie in een variabele (bv. een 'teller') nu al een paar keer handig blijkt. We zullen dit meerdere keren terug zien komen bij de rest van het vak, dus oefen er goed mee!
 
-- Definieer een functie `zoveelste_priem()`, met één argument: `N`. De functie moet vervolgens het `N`ste priemgetal returnen.
+- Definieer een functie `zoveelste_priem(N)`, met één argument: `N`. De functie moet vervolgens het `N`ste priemgetal returnen.
 
 - Zoals bovenaan beschreven moet bij het runnen van je programma de gebruiker om input worden gevraagd tot een geheel getal wordt gegeven. Doe dit opvragen buiten de functie en geef de input als argument aan je functie.
 
@@ -83,11 +86,11 @@ We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* p
 
 ## Stap 6: grote optimalisaties
 
-Deze stap is volledig optioneel, dus hoeft niet ingeleverd te worden.
+Deze stap is optioneel, dus hoeft niet ingeleverd te worden.
 
-Bovenstaande optimalisaties geven een beperkte snelheidswinst, in die zin dat je daarmee geen veel grotere priemgetallen gaat vinden dan mogelijk is met het basisalgoritme. Je kunt wel overstappen naar een fundamenteel ander algoritme.
+De optimalisaties in stap 5 geven al een redelijke snelheidswinst, maar er is nog een veel grotere optimalisatiestap mogelijk. De belangrijkste boodschap van punt 5 was om je mee te geven dat de computer alleen 'dom/trouw' jouw instructies uit gaat voeren. De simheid moet van jou als programmeur in een algoritme geimplementeerd te worden.
 
-Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door 2, 3, 5, 7, 11. Bedenk waarom (dit vraagt waarschijnlijk een flinke aanpassing van je code).
+Heb je zelf een idee welke stap je nog zou kunnen maken? Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door de priemgatellen die kleiner zijn dan de wortel van het getal dat je aan het onderzoeken bent, in ons geval dus 2, 3, 5, 7, 11. Bedenk waarom dit zo is (dit vraagt waarschijnlijk een flinke aanpassing van je code).
 
 Om dit idee in een algoritme te implementeren heb je hulp nodig van lijsten (lijsten van priemgetallen in dit geval). Bestudeer [hier](/python/lijsten) hoe ze werken in Python.
 
