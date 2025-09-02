@@ -91,6 +91,13 @@ is dan ook dat je voor elk blok ruim een uur of vier aan werk
 bent. Als je niet alles af hebt aan het eind van het practicum maak
 dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 
+<b>Deadlines inleveren</b> (ook vermeld bij de inleverpagina):
+Module 1   maandag 15 september   11:00 uur
+Module 2   maandag 29 september   11:00 uur
+Module 3   maandag 13 oktober   11:00 uur
+Module 4   maandag 20 oktober   11:00 uur
+
+
 Bij elke module is er ook een uitdagende opdracht. Die is bedoeld voor
 mensen die wat meer uitdaging zoeken. Als je daar niet aan toekomt is
 dat geen probleem.
