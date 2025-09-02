@@ -95,7 +95,7 @@ dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 Module 1   maandag 15 september   11:00 uur <br>
 Module 2   maandag 29 september   11:00 uur <br>
 Module 3   maandag 13 oktober   11:00 uur <br>
-Module 4   maandag 20 oktober   11:00 uur <br"
+Module 4   maandag 20 oktober   11:00 uur <br>
 
 
 Bij elke module is er ook een uitdagende opdracht. Die is bedoeld voor
