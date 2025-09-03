@@ -52,19 +52,19 @@ Op dit moment is het niet van belang om het precieze aantal gemeenschappelijke d
 
 Om de fractie van paren te bepalen waarin er geen gemeenschappelijke deler is moeten we:
 
-   1. een groot aantal getallen-paren maken (willekeurig)
+1. een groot aantal getallen-paren maken (willekeurig)
 
-   2. voor elk getallen-paar kijken of er wel of niet een gemeenschappelijke deler is
+2. voor elk getallen-paar kijken of er wel of niet een gemeenschappelijke deler is
 
-   3. evalueren welke fractie van de getallen-paren geen gemeenschappelijke deler had
+3. evalueren welke fractie van de getallen-paren geen gemeenschappelijke deler had
 
 Maak een functie `experiment()` die deze stappen implementeert en die deze fractie op het scherm print en ook teruggeeft als return argument.
 
 Specificaties:
 
-    - gebruik getallen (n1 en n2) tussen de 10,000 en 100,000
+- gebruik getallen (n1 en n2) tussen de 10,000 en 100,000
 
-    - gebruik 10,000 getallen-paren
+- gebruik 10,000 getallen-paren
 
 
 **Python tip:**
