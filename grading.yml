@@ -26,13 +26,13 @@ grades:
         hide_calculated: true
     module1:
         <<: *module
-        deadline: 16/9/24 11:00
+        deadline: 15/9/25 11:00
     module2:
         <<: *module
-        deadline: 30/9/24 11:00
+        deadline: 29/9/25 11:00
     module3:
         <<: *module
-        deadline: 14/10/24 11:00
+        deadline: 13/10/25 11:00
     module4:
         type: integer
         subgrades:
@@ -43,10 +43,10 @@ grades:
         hide_calculated: true
         auto_publish: true
         allow_resubmit: true
-        deadline: 21/10/24 11:00
+        deadline: 20/10/25 11:00
     module1-reviewed:
         type: float
-        deadline: 18/9/24 20:00
+        deadline: 17/9/25 20:00
         subgrades:
             checks: integer
             stijl: integer
@@ -54,7 +54,7 @@ grades:
         calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     module2-reviewed:
         type: float
-        deadline: 2/10/24 20:00
+        deadline: 1/10/25 20:00
         subgrades:
             checks: integer
             stijl: integer
@@ -62,7 +62,7 @@ grades:
         calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     module3-reviewed:
         type: float
-        deadline: 17/10/24 23:59
+        deadline: 15/10/25 20:00
         subgrades:
             checks: integer
             stijl: integer
