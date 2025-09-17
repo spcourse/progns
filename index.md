@@ -1,6 +1,6 @@
 # Studiewijzer
 
-*Inleiding programmeren voor Natuur- en Sterrenkunde*  
+*Inleiding programmeren voor Natuur- en Sterrenkunde*
 *September 2025*
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
@@ -11,13 +11,13 @@ de cursus leren we steeds meer over programmeren en de manier waarop
 we complexe problemen gestructureerd aan kunnen pakken. Elke module
 (twee weken, met elke week twee afzonderlijke werkcolleges) is steeds
 opgedeeld in vier dagdelen. Per module zijn er een aantalopgaven die
-ingeleverd kunnen  worden. 
+ingeleverd kunnen  worden.
 
 ## Docenten en assistenten
 
 De docenten zijn de ontwerpers van deze cursus. Je zult ze af en toe zien of horen in een filmpje en ze denken graag met je mee als je een probleem hebt. Je kunt ze mailen via <progns@mprog.nl>:
 
-Ivo van Vulpen (Nikhef/UvA)  
+Ivo van Vulpen (Nikhef/UvA)
 Martijn Stegeman (UvA)
 
 Tijdens de werkcolleges zijn er assistenten die je kunnen helpen. Het zijn studenten die het vak eerder hebben gevolgd en een heleboel problemen zelf al zijn tegengekomen.
@@ -74,9 +74,9 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 
 Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee
 voor een programma naar werkende Python-code. Per module doe je eerst wat kleine
-oefeningen om de nieuwe programmeerelementen onder de knie te krijgen en ga je 
-daarna aan de slag met wat grotere opdrachten. Aan het eind van de module kun je 
-de opdrachten digitaal inleveren. Je kunt de werking van je code controleren met behulp 
+oefeningen om de nieuwe programmeerelementen onder de knie te krijgen en ga je
+daarna aan de slag met wat grotere opdrachten. Aan het eind van de module kun je
+de opdrachten digitaal inleveren. Je kunt de werking van je code controleren met behulp
 van het programma `checkpy`.
 
 Aan het begin van elke module starten we met een zogenaamde code review: een korte sessie waarbij je samen met een medestudent elkaars code bespreekt.
@@ -91,26 +91,41 @@ is dan ook dat je voor elk blok ruim een uur of vier aan werk
 bent. Als je niet alles af hebt aan het eind van het practicum maak
 dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 
-<b>Deadlines inleveren huiswerk</b> (ook vermeld bij de inleverpagina):<br>
-Module 1   maandag 15 september   11:00 uur <br>
-Module 2   maandag 29 september   11:00 uur <br>
-Module 3   maandag 13 oktober   11:00 uur <br>
-Module 4   maandag 20 oktober   11:00 uur <br>
 
-Bij elke module is er ook een uitdagende opdracht. Die is bedoeld voor
-mensen die wat meer uitdaging zoeken. Als je daar niet aan toekomt is
-dat geen probleem.
+## Deadline inleveren opdrachten
+
+Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever
+je van zoveel mogelijk opdrachten jouw oplossing in, waarna deze
+automatisch wordt gecontroleerd op werking met `checkpy`. We
+controleren hierbij dus of je code het juiste antwoord geeft. Daarna
+volgt een werkcollege waarin je een code review gaat doen, waarbij de
+focus ligt op de stijl van het programma. Je kunt daarna een
+verbeterde versie inleveren van dezelfde programma's.
+
+| opdracht  | deadline        |  verbeterd       |
+| --------- |---------------- |  --------------- |
+| module 1  | ma 15 sep 10:59 |  wo 17 sep 19:59 |
+| module 2  | ma 29 sep 10:59 |  wo  1 okt 19:59 |
+| module 3  | ma 13 okt 10:59 |  wo 15 okt 19:59 |
+| module 4  | ma 20 okt 10:59 |  -               |
+
+Bij elke module is er ook een uitdagende opdracht.
+Die is bedoeld voor mensen die al redelijk wat ervaring hebben of de andere opdrachten wat makkelijk vinden.
+Als je daar niet aan toekomt is dat geen probleem.
+
+De opdrachten worden niet becijferd maar dienen als voorbereiding voor het tentamen.
+
 
 ## Tentamen
 
 Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt
- gehaald sluiten we het vak af met een (individueel) tentamen. Dat
- tentamen bestaat uit een aantal korte opdrachten en bepaalt je
- eindcijfer voor het vak. Let op, het tentamen maak je niet op je
- eigen laptop, volledig zelfstandig en er is geen verbinding met
- internet. In aanloop naar het tentamen zal er ook een oefententaen
- beschikbaar worden gemaakt.
- 
+gehaald sluiten we het vak af met een (individueel) tentamen. Dat
+tentamen bestaat uit een aantal korte opdrachten en bepaalt je
+eindcijfer voor het vak. Let op, het tentamen maak je niet op je
+eigen laptop, volledig zelfstandig en er is geen verbinding met
+internet. In aanloop naar het tentamen zal er ook een oefententaen
+beschikbaar worden gemaakt.
+
 
 ## Samenwerken, fraude en plagiaat
 
@@ -118,8 +133,8 @@ Samenwerken tijdens dit vak is *niet* toegestaan. Dit vak heeft als doel jouw
 persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het
 vaak wél mogelijk om samen te programmeren.
 
-Tijdens de practica is het natuurlijk prima als je de opgave (en strategie) 
-bespreekt met de student die naast je zit. Het is echter niet toegestaan om 
+Tijdens de practica is het natuurlijk prima als je de opgave (en strategie)
+bespreekt met de student die naast je zit. Het is echter niet toegestaan om
 een regel code van je medestudenten of van internet over te nemen.
 
 Een belangrijk verschil dus: je kunt discussiëren over de manier waarop je een
