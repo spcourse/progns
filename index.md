@@ -17,8 +17,8 @@ ingeleverd kunnen  worden.
 
 De docenten zijn de ontwerpers van deze cursus. Je zult ze af en toe zien of horen in een filmpje en ze denken graag met je mee als je een probleem hebt. Je kunt ze mailen via <progns@mprog.nl>:
 
-Ivo van Vulpen (Nikhef/UvA)
-Martijn Stegeman (UvA)
+- Ivo van Vulpen (Nikhef/UvA)
+- Martijn Stegeman (UvA)
 
 Tijdens de werkcolleges zijn er assistenten die je kunnen helpen. Het zijn studenten die het vak eerder hebben gevolgd en een heleboel problemen zelf al zijn tegengekomen.
 
