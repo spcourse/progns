@@ -75,16 +75,12 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee
 voor een programma naar werkende Python-code. Per module doe je eerst wat kleine
 oefeningen om de nieuwe programmeerelementen onder de knie te krijgen en ga je
-daarna aan de slag met wat grotere opdrachten. Aan het eind van de module kun je
-de opdrachten digitaal inleveren. Je kunt de werking van je code controleren met behulp
-van het programma `checkpy`.
+daarna aan de slag met wat grotere opdrachten.
 
-Aan het begin van elke module starten we met een zogenaamde code review: een korte sessie waarbij je samen met een medestudent elkaars code bespreekt.
-
-<b>Let op: je eindcijfer voor dit vak wordt volledig gebaseerd op je score tijdens het tentamen.</b>
+*Let op: je eindcijfer voor dit vak wordt volledig gebaseerd op je score tijdens het tentamen.*
 
 
-## Dagelijks ritme
+### Ritme
 
 De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling
 is dan ook dat je voor elk blok ruim een uur of vier aan werk
@@ -92,7 +88,7 @@ bent. Als je niet alles af hebt aan het eind van het practicum maak
 dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
 
 
-## Deadline inleveren opdrachten
+### Deadline inleveren opdrachten
 
 Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever
 je van zoveel mogelijk opdrachten jouw oplossing in, waarna deze
