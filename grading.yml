@@ -36,9 +36,9 @@ grades:
     module4:
         type: integer
         subgrades:
-            checks: integer
+            percentage_correct: integer
         automatic:
-            checks: correctness_score*100
+            percentage_correct: correctness_score*100
         calculation: checks/100*9+1
         hide_calculated: true
         auto_publish: true
@@ -49,24 +49,24 @@ grades:
         deadline: 17/9/25 20:00
         subgrades:
             checks: integer
-            stijl: integer
-            uitdagend: float
+            # stijl: integer
+            # uitdagend: float
         calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     module2-reviewed:
         type: float
         deadline: 1/10/25 20:00
         subgrades:
             checks: integer
-            stijl: integer
-            uitdagend: float
+            # stijl: integer
+            # uitdagend: float
         calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     module3-reviewed:
         type: float
         deadline: 15/10/25 20:00
         subgrades:
             checks: integer
-            stijl: integer
-            uitdagend: float
+            # stijl: integer
+            # uitdagend: float
         calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
     oefententamen:
         type: float
