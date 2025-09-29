@@ -87,10 +87,10 @@ grades:
 calculation:
     eindcijfer:
         tentamen: 60
-        cijfers: 40
+        # cijfers: 40
     resit:
         hertentamen: 60
-        cijfers: 40
+        # cijfers: 40
 
 opdrachten:
     show_progress: true
