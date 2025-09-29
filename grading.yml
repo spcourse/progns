@@ -105,7 +105,7 @@ opdrachten:
         module4: 1
 
 reviews:
-    show_progress: true
+    show_overview: true
     submits:
         module1-reviewed: 1
         module2-reviewed: 1
