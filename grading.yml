@@ -52,6 +52,7 @@ grades:
             # stijl: integer
             # uitdagend: float
         calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
+        hide_calculated: true
     module2-reviewed:
         type: float
         deadline: 1/10/25 20:00
@@ -60,6 +61,7 @@ grades:
             # stijl: integer
             # uitdagend: float
         calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
+        hide_calculated: true
     module3-reviewed:
         type: float
         deadline: 15/10/25 20:00
@@ -68,6 +70,7 @@ grades:
             # stijl: integer
             # uitdagend: float
         calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
+        hide_calculated: true
     oefententamen:
         type: float
         subgrades:
