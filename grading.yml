@@ -87,13 +87,13 @@ grades:
             punten: float
         calculation: (punten.to_f / 10 * 9 + 1).round(1)
 
-calculation:
-    eindcijfer:
-        tentamen: 60
-        # cijfers: 40
-    resit:
-        hertentamen: 60
-        # cijfers: 40
+# calculation:
+#     eindcijfer:
+#         tentamen: 60
+#         # cijfers: 40
+#     resit:
+#         hertentamen: 60
+#         # cijfers: 40
 
 opdrachten:
     show_progress: true

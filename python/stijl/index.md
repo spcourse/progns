@@ -194,3 +194,7 @@ We zien hier een belangrijke vuistregel in actie: splits de code op in blokjes, 
     c = (a + b) * (a - b)
 
 Let ook op dat we in het voorbeeld van de energieën bij "Variabelen" (als het ware tegen de regels in) `(v_1 + v_2)**2` schrijven in plaats van `(v_1 + v_2) ** 2`. Dit hebben we gedaan om meer eenheid te creëren in dit onderdeel van de vergelijking. Soms is het handig om dit te doen, omdat het de leesbaarheid van de vergelijking ten gunste kan komen. Naarmate je beter wordt in programmeren en meer code hebt gezien, zul je steeds handiger worden in het maken van keuzes in dit soort grijze gebieden.
+
+### Spaties na een komma
+
+Na elke komma moet een spatie staan.
