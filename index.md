@@ -63,11 +63,17 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Wat willen we dat je kunt aan het einde van deze cursus?
 
-* Je kunt een omschrijving van een programma omzetten naar werkende code
-* Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma's
-* Je kunt code overzichtelijk en beter leesbaar maken door een consistente stijl toe te passen
-* Je kunt programmeerfouten opsporen en verbeteren
-* Je kunt uitleggen hoe je een aantal numerieke technieken als programma kunt implementeren
+1. De student kan eenvoudige natuurkundige problemen oplossen in Python.
+2. De student kan kleine datafiles verwerken, normaliseren; vragen beantwoorden met hulp van Python
+3. De student kan een kleine simulatie ontwerpen van een natuurkundig of ander systeem
+4. De student kan enkele numerieke technieken toepassen, zoals integreren met de monte-carlomethode
+5. De student kan random getallen gebruiken bij het oplossen van bepaalde programmeerproblemen
+6. De student beheerst het gebruik van functies, loops, condities, input/output, en datastructuren zoals lists en strings
+7. De student kan bestaande Python-libraries zoals matplotlib en math toepassen.
+8. De student kan een nette programmeerstijl toepassen.
+9. Studenten hebben geoefend met het reviewen van elkaars code
+10. De student kan zelf-ontwikkelde algoritmes valideren
+
 
 
 ## Opdrachten
