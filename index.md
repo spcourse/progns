@@ -71,8 +71,7 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 6. De student beheerst het gebruik van functies, loops, condities, input/output, en datastructuren zoals lists en strings
 7. De student kan bestaande Python-libraries zoals matplotlib en math toepassen.
 8. De student kan een nette programmeerstijl toepassen.
-9. Studenten hebben geoefend met het reviewen van elkaars code
-10. De student kan zelf-ontwikkelde algoritmes valideren
+9. De student kan zelf-ontwikkelde algoritmes valideren
 
 
 
