@@ -1,6 +1,6 @@
 # Bouwsteen 3: Functies
 
-test
+test2
 
 Nu we logica en loops hebben gezien komen we aan bij functies. Een *functie* is een stukje code
 waar je een naam aan geeft, zodat het hergebruikt kan worden. Functies die je eerder al gebruikt
