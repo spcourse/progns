@@ -11,7 +11,7 @@ Belangrijk om te onthouden is dat functies _input_ hebben en _output_ (wordt ook
 Op de middelbare school heb je bij wiskunde veel functies gezien in de vorm van _y = f(x)_. Het is een 'voorschrift' dat de waarde van y berekent voor een specifieke input-waarde *x*. 
 
 Voorbeeld vanuit de wiskunde:
-    _f(x) = x^2 + 4x - 5_
+    _f(x) = x<sup>2</sup> + 4x - 5_
 Input is hier de waarde van _x_ en de return-waarde is _y_.
 
 In een computerprogramma 'vang' je deze functionaloiteit in de functie _f_. Je definieert deze als volgt:
