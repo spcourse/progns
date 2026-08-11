@@ -1,7 +1,6 @@
 # Bouwsteen 3: Functies
 
-Nu we logica en loops hebben gezien komen we aan bij _functies_. Een functie is een stukje code (met een eigen naam) die een specifieke taak uitvoert en steeds herbruikt kan worden. Functies worden bij het programmeren veel gebruikt omdat het je code overzichtelijker maakt en het is daarom belangrijk goed te begrijpen hoe ze wel (en niet) werken.
-
+Nu we logica en loops hebben gezien komen we aan bij _functies_. Een functie is een stukje code (met een eigen naam) die een specifieke taak uitvoert en steeds herbruikt kan worden. Functies worden bij het programmeren veel gebruikt omdat het je code overzichtelijker maakt en het is daarom belangrijk goed te begrijpen hoe ze wel (en niet) werken. Onderaan de pagina zijn wat extra video's met voorbeelden.
 
 ## Functies: van wiskunde naar programmeren 
 Op de middelbare school heb je bij wiskunde veel functies gezien in de vorm van _f(x)_. Het is een 'voorschrift' dat de waarde van y berekent voor een specifieke input-waarde _x_. Bijvoorbeeld een parabool:  _f(x) = x<sup>2</sup> + 4x - 5_
@@ -34,6 +33,34 @@ Je hoeft niet per se de output-waarde in een nieuwe variabele op te slaan. Je ha
 <b>Let op:</b> in de voorbeelden in de video's worden de functies aangeroepen binnen een print-statement, net zoals hierboven, maar het is gebruikelijker om de functie in de code aan te roepen en vervolgens de output te printen.
 
 **Oefening 1:** schrijf een programma dat bovenstaande functie aanroept (in een loop) voor waardes van x tussen 0 en 100. 
+
+
+#### speciale return-waardes: True/False
+
+Soms worden fucties gebruikt om te controleren of iets wel (of juist niet) waar is. De oputput van de functie is dan niet een getal, maar een logische waarde 'True' of 'False'. Hieronder een klein voorbeeld dat alle even getallen print onder de 50.
+
+    def even(getal):
+        if getal % 2 == 0:
+            return True
+        else:
+            return False
+
+Je kunt nu voor elk getal cpontroleren of het even is en, als dat het geval is, het getal op het scherm printen:
+
+    for getal in range(1,51):
+        is_het_getal_even = even(getal)
+        if is_het_getal_even:
+           print(f"{getal} is even")
+
+Je kunt de code zelfs nog compacter maken door de variabele `is_het_getal_even` weg te
+halen. 
+
+    for getal in range(1,51):
+        if even(getal):
+		   print(f"{getal} is even")
+
+
+Het is opnieuw een keuze hier of je de data direct wil gebruiken of hem eerst wil opslaan in een variabele voor eventueel later gebruik.
 
 
 ## Functies: complexere input en output
@@ -97,8 +124,6 @@ Ook in dit voorbeeld hebben de namen van de parameters in de functie en die in h
 Functies zijn een manier om een stuk code 'los' te zetten van de rest van je programma. Daarmee wordt niet alleen je code overzichtelijk, maar kun je ook op een meer gestructureerde manier naar de werking/logica van je programma kijken. De voorbeelden hierboven zijn kleine stukjes code, maar functies kunnen ook vrij uitgebreid zijn
 
 Je kunt in je programma gebruik maken van je eigen functies, maar  natuurlijk ook de functies die door andere mensen geschreven zijn. Deze functies zijn in lzogenaamde bibliotheken opgeslagen en die staan ook tot je beschikking - dat leren we later. Een voorbeeld is bijvoorbeeld de _sqrt()_ functie in de wiskunde bibliotheek (hoe zou je dat zelf programmeren?) of de _plot()_ functies om grafieken te maken uit de Matplotlib bibliotheek.
-
-
 <br>
 <br>
 
@@ -109,41 +134,7 @@ Je kunt in je programma gebruik maken van je eigen functies, maar  natuurlijk oo
 
 
 
-## kleine oefeningen
-
-**Oefening 1:** schrijf een functie 
-
-
-**Oefening 6:** Neem de onderstaande code over in je bestand.
-
-    # check of getal even is
-    def even(getal):
-        if getal % 2 == 0:
-            return True
-        else:
-            return False
-
-We gebruiken hier de in "Algoritmen en logica" geïntroduceerde booleans en modulo-rekenen.
-Schrijf nu boven deze functie `N = 20` en onder deze functie definiëren we een nieuwe:
-
-    # print de even getallen onder N
-    def vind_even(N):
-        for getal in range(N):
-            is_het_getal_even = even(getal)
-            if is_het_getal_even:
-                print(f"{getal} is even")
-
-Roep nu de functie aan met `vind_even(N)`. Kijk eens aan! We hebben nu een programma geschreven
-waarin alles in functies staat, afgezien van globale variabelen en het aanroepen van sommige
-functies. Je kunt de code zelfs nog compacter maken door de variabele `is_het_getal_even` weg te
-halen. Het is opnieuw een keuze hier of je de data direct wil gebruiken of hem eerst wil opslaan
-in een variabele voor eventueel later gebruik.
-
-
-
-
-
-## Voorbeelden: input-output machines
+## Video's: functies zijn input-output machines
 
 Een functie kan geen, één of meerdere parameters als input nemen en/of als output geven.
 
