@@ -5,7 +5,7 @@
 
 Welkom bij deze cursus inleiding programmeren voor Natuur- en Sterrenkunde! Dit blok gaan aan de slag met de programmeertaal Python om te leren hoe we wetenschappelijke problemen uit de wis-, natuur- en sterrenkunde met behulp van een computer op kunnen lossen.
 
-De cursus is opgezet voor mensen die nog geen enkele ervaring hebben met programmeren en bestaat uit vier afzonderlijke modules. Tijdens de cursus leren we steeds meer over programmeren en de manier waarop we complexe problemen gestructureerd aan kunnen pakken. Elke module (twee weken, met elke week twee afzonderlijke werkcolleges) is steeds opgedeeld in vier dagdelen. Per module zijn er opgaven die ingeleverd moeten worden.
+De cursus is opgezet voor mensen die nog geen enkele ervaring hebben met programmeren en bestaat uit vier afzonderlijke modules. Tijdens de cursus leren we via de opdrachten steeds meer over programmeren en de manier waarop we complexe problemen gestructureerd aan kunnen pakken. Elke module (twee weken, met elke week twee afzonderlijke werkcolleges) is steeds opgedeeld in vier dagdelen. Per module zijn er opgaven die ingeleverd moeten worden.
 
 ## Docenten en assistenten
 
@@ -32,7 +32,6 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 9. De student kan zelf-ontwikkelde algoritmes valideren
 
 
-
 ## Opdrachten
 
 Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee
@@ -42,15 +41,13 @@ daarna aan de slag met wat grotere opdrachten.
 
 *Let op: je eindcijfer voor dit vak wordt volledig gebaseerd op je score tijdens het tentamen.*
 
+#### Ritme
 
-### Ritme
+De opdrachten zijn ingedeeld in blokken van een dagdeel. Als je niet alles af hebt aan het eind van het practicum maak dan de opdracht thuis af. Is het je aan het eind van de module niet gelukt om alle opdrachten te maken, lever dan alles in en neem contact op met de studentassistenten.
 
-De opdrachten zijn ingedeeld in blokken van een dagdeel. De bedoeling is dan ook dat je voor elk blok ruim een uur of vier aan werk bent. Als je niet alles af hebt aan het eind van het practicum maak dan de opdracht thuis af. Kom je in de problemen? Neem dan contact op!
+#### Deadline inleveren opdrachten
 
-
-### Deadline inleveren opdrachten
-
-Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever je van zoveel mogelijk opdrachten jouw oplossing in, waarna deze automatisch wordt gecontroleerd op werking met `checkpy`. We controleren hierbij dus of je code het juiste antwoord geeft. Daarna volgt een werkcollege waarin je een code review gaat doen, waarbij de focus ligt op de stijl van het programma. Je kunt daarna een verbeterde versie inleveren van dezelfde programma's. 
+Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever je van zoveel mogelijk opdrachten jouw oplossing in, waarna deze automatisch wordt gecontroleerd op werking met `checkpy`. We controleren hierbij dus of je code het juiste antwoord geeft. Daarna volgt een werkcollege waarin je een zogenaamde 'code review' doet, waarin je samen met een mede-student elkaars code op leesbaarheid en functionaliteit bespreekt. De focus ligt in die stap op de stijl van het programma. Je kunt gelijk daarna een verbeterde versie inleveren van dezelfde programma's. 
 
 | opdracht  | deadline        |  verbeterd       |
 | --------- |---------------- |  --------------- |
@@ -67,7 +64,7 @@ De opdrachten worden niet becijferd maar dienen als voorbereiding voor het tenta
 
 ## Tentamen
 
-Tijdens de practica is het prima als je de opgave zelf en de mogelijk strategie bespreekt met de student die naast je zit. Als je thuis aan de slag gaat met de opdrachten zal ook de verleiding groot zijn om met ChatGPT of Claude aan de slag te gaan.
+Tijdens de practica is het prima als je de opgaven en de mogelijk strategie bespreekt met je medestudenten. Als je thuis aan de slag gaat met de opdrachten zal de verleiding groot zijn om met ChatGPT of Claude aan de slag te gaan. Let er goed op dat je zelfstandig de oplossingen in code omzet. Dat is belangrijk voor het tentamen. 
 
 Om zeker te zijn dat je zelfstandig de leerdoelen van het vak hebt gehaald sluiten we het vak af met een (individueel) tentamen. Dat tentamen bestaat uit een aantal korte opdrachten en bepaalt je eindcijfer voor het vak. Let op, het tentamen maak je niet op je eigen laptop, volledig zelfstandig en er is geen verbinding met internet. In aanloop naar het tentamen zal er ook een oefententamen beschikbaar worden gemaakt.
 
