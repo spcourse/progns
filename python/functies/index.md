@@ -33,6 +33,7 @@ Je hoeft niet per se de output-waarde in een nieuwe variabele op te slaan. Je ha
 
 <b>Let op:</b> in de voorbeelden in de video's worden de functies aangeroepen binnen een print-statement, net zoals hierboven, maar het is gebruikelijker om de functie in de code aan te roepen en vervolgens de output te printen.
 
+**Oefening 1:** schrijf een programma dat bovenstaande functie aanroept (in een loop) voor waardes van x tussen 0 en 100. 
 
 
 ## Functies: complexere input en output
@@ -57,6 +58,10 @@ Twee voorbeelden:
         else:
            grootste = b
         return grootste
+
+
+
+**Oefening 2:** pas de bovenstaande functie _grootste()_ zo aan dat de functie op het scherm print 'Er is geen grootste getal: ze zijn aan elkaar gelijk.' Test dit met aan aantal voorbeelden.
 
 
 Een functie _hoeft_ trouwens niet per se een input-waarde te hebben. Zie bijvoorbeeld de functie:
@@ -85,7 +90,6 @@ Een functie kan ook meerdere output waardes teruggeven in een return-statement. 
     print("oppervlakte vierkant = ", oppervlakte)
 
 Ook in dit voorbeeld hebben de namen van de parameters in de functie en die in het hoofdprogramma een andere naam. Dat hebben we expres gedaan om nog een keer te benadrukken dat het 'verschillende werelden' zijn. Dit zullen we later op deze pagina nog extra benadrukken.
-
 
 
 ### conclusies
