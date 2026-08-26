@@ -9,7 +9,7 @@ De cursus is opgezet voor mensen die nog geen enkele ervaring hebben met program
 
 ## Docenten en assistenten
 
-De docenten zijn de ontwerpers van deze cursus. Je zult ze af en toe zien of horen in een filmpje en ze denken graag met je mee als je een probleem hebt. Je kunt ze mailen via <progns@mprog.nl>:
+De docenten zijn de ontwerpers van deze cursus. Je zult ze af en toe zien of horen in een filmpje en ze denken graag met je mee als je een probleem hebt. Je kunt ze mailen via <progns@proglab.nl>:
 
 - Ivo van Vulpen (Nikhef/UvA)
 - Martijn Stegeman (UvA)
@@ -47,14 +47,14 @@ De opdrachten zijn ingedeeld in blokken van een dagdeel. Als je niet alles af he
 
 #### Deadline inleveren opdrachten
 
-Er zijn twee deadlines voor het inleveren van opdrachten: eerst lever je van zoveel mogelijk opdrachten jouw oplossing in, waarna deze automatisch wordt gecontroleerd op werking met `checkpy`. We controleren hierbij dus of je code het juiste antwoord geeft. Daarna volgt een werkcollege waarin je een zogenaamde 'code review' doet, waarin je samen met een mede-student elkaars code op leesbaarheid en functionaliteit bespreekt. De focus ligt in die stap op de stijl van het programma. Je kunt gelijk daarna een verbeterde versie inleveren van dezelfde programma's. 
+Aan het eind van de module is er een deadlines voor het inleveren van opdrachten. Zodra je de opdrachten inlevert die je opgelost hebt worden deze automatisch wordt gecontroleerd op werking met `checkpy`. We controleren hierbij dus of je code het juiste antwoord geeft. 
 
-| opdracht  | deadline        |  verbeterd       |
-| --------- |---------------- |  --------------- |
-| module 1  | ma 14 sep 10:59 |  vr 17 sep 11:59 |
-| module 2  | ma 28 sep 10:59 |  vr  2 okt 11:59 |
-| module 3  | ma 12 okt 10:59 |  vr 16 okt 11:59 |
-| module 4  | ma 19 okt 10:59 |  -               |
+| opdracht  | deadline        |
+| --------- |----------------|
+| module 1  | ma 14 sep 10:59|
+| module 2  | ma 28 sep 10:59|
+| module 3  | ma 12 okt 10:59|
+| module 4  | ma 19 okt 10:59|
 
 Kom je in tijdnood? Bespreek het even met de docenten. We willen het graag zo oplossen dat je het vak zelfstandig kunt halen. Programmeren is echt iets dat je zelf even onder de knie moet krijgen.
 
@@ -82,7 +82,7 @@ Jouw **eerste aanspreekpunt** punt zijn je medestudenten. Die zijn met hetzelfde
 - je hebt moeite met verzinnen oplossing
 - alleen tijdens de geroosterde uren, de wachttijd kan soms oplopen
 
-**Mail:** contact met de vakcoördinatoren via <progns@mprog.nl>.
+**Mail:** contact met de vakcoördinatoren via <progns@proglab.nl>.
 
 - maken van persoonlijke afspraken en andere officiële zaken
 - meedenken over grote problemen met het vak
