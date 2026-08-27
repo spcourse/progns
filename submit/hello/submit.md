@@ -1,14 +1,16 @@
 # Inleveren
 
-In de installatie-instructies word je gevraagd om `hello.py` te maken.
+Maak nu een `hello.py` met hulp van Visual Studio code. Kom je er niet uit, wacht dan tot het werkcollege om hulp te krijgen, of check je medestudenten.
 
-Lever `hello.py` in onderaan deze pagina om te laten zien dat je gestart bent met de cursus.
+Zet in dit bestand de volgende regel:
 
-- Zorg dat je alle ingeleverde programma's precies de juiste naam hebt gegeven. Als je bijvoorbeeld `hello.py` moet inleveren dan wordt `hello (1).py` of `priemtest.py` niet geaccepteerd!
+    print("Hello, Python!")
 
-- De gewenste uitvoer wijkt misschien af van de uitvoer die je in het filmpje gezien hebt. Met behulp van de tests kun je dit nagaan.
+Sla `hello.py` vervolgens op in je directory `Programming`. Dit is jouw eerste (Python-)programma, en deze kun je ook uitvoeren door het volgende commando in de terminal te voeren:
 
-- Bij dit programma zijn er twee tests. Je kunt zelf `checkpy` gebruiken vóór je je programma instuurt, of je bekijkt de `checkpy`-resultaten op deze website.
+    uv run hello.py
+
+Lever daarna `hello.py` in onderaan deze pagina om te laten zien dat je gestart bent met de cursus.
 
 - Wordt je programma niet goedgekeurd? Bekijk dan de check-resultaten.
 
