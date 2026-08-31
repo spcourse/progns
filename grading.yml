@@ -26,13 +26,13 @@ grades:
         hide_calculated: true
     module1:
         <<: *module
-        deadline: 14/9/25 11:00
+        deadline: 14/9/26 11:00
     module2:
         <<: *module
-        deadline: 28/9/25 11:00
+        deadline: 28/9/26 11:00
     module3:
         <<: *module
-        deadline: 12/10/25 11:00
+        deadline: 12/10/26 11:00
     module4:
         type: integer
         subgrades:
@@ -43,7 +43,7 @@ grades:
         hide_calculated: true
         auto_publish: true
         allow_resubmit: true
-        deadline: 19/10/25 11:00
+        deadline: 19/10/26 11:00
     oefententamen:
         type: float
         subgrades:
