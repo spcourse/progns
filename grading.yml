@@ -26,13 +26,13 @@ grades:
         hide_calculated: true
     module1:
         <<: *module
-        deadline: 15/9/25 11:00
+        deadline: 14/9/25 11:00
     module2:
         <<: *module
-        deadline: 29/9/25 11:00
+        deadline: 28/9/25 11:00
     module3:
         <<: *module
-        deadline: 13/10/25 11:00
+        deadline: 12/10/25 11:00
     module4:
         type: integer
         subgrades:
@@ -43,34 +43,7 @@ grades:
         hide_calculated: true
         auto_publish: true
         allow_resubmit: true
-        deadline: 20/10/25 11:00
-    module1-reviewed:
-        type: float
-        deadline: 17/9/25 20:00
-        subgrades:
-            percentage_correct: integer
-            # stijl: integer
-            # uitdagend: float
-        calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
-        hide_calculated: true
-    module2-reviewed:
-        type: float
-        deadline: 1/10/25 20:00
-        subgrades:
-            percentage_correct: integer
-            # stijl: integer
-            # uitdagend: float
-        calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
-        hide_calculated: true
-    module3-reviewed:
-        type: float
-        deadline: 15/10/25 20:00
-        subgrades:
-            percentage_correct: integer
-            # stijl: integer
-            # uitdagend: float
-        calculation: (checks/100.0*5 + stijl/6.0*3 + uitdagend + 1).round(1)
-        hide_calculated: true
+        deadline: 19/10/25 11:00
     oefententamen:
         type: float
         subgrades:
@@ -87,13 +60,11 @@ grades:
             punten: float
         calculation: (punten.to_f / 10 * 9 + 1).round(1)
 
-# calculation:
-#     eindcijfer:
-#         tentamen: 60
-#         # cijfers: 40
-#     resit:
-#         hertentamen: 60
-#         # cijfers: 40
+calculation:
+    eindcijfer:
+        tentamen: 1
+    resit:
+        hertentamen: 1
 
 opdrachten:
     show_progress: true
@@ -104,13 +75,6 @@ opdrachten:
         module3: 1
         module4: 1
 
-reviews:
-    show_overview: true
-    submits:
-        module1-reviewed: 1
-        module2-reviewed: 1
-        module3-reviewed: 1
-
 oefententamen:
     show_overview: true
     submits:
@@ -118,14 +82,12 @@ oefententamen:
 
 tentamen:
     show_overview: true
-    minimum: 5.5
     required: true
     submits:
         tentamen: 1
 
 hertentamen:
     show_overview: true
-    minimum: 5.5
     required: true
     submits:
         hertentamen: 1
