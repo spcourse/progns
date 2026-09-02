@@ -4,7 +4,7 @@ Maak nu een `hello.py` met hulp van Visual Studio code. Kom je er niet uit, wach
 
 Zet in dit bestand de volgende regel:
 
-    print("Hello, Python!")
+    print("Hallo Python")
 
 Sla `hello.py` vervolgens op in je directory `Programming`. Dit is jouw eerste (Python-)programma, en deze kun je ook uitvoeren door het volgende commando in de terminal te voeren:
 
