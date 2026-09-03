@@ -10,10 +10,12 @@ Sla `hello.py` vervolgens op in je directory `Programming`. Dit is jouw eerste (
 
     uv run hello.py
 
+Dubbelcheck daarna met `checkpy` of het ook echt klopt:
+
+	uv run checkpy hello
+
+Kleurt de check groen en zie je een vrolijke smiley? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan (vinden wij). Mocht er iets rood kleuren, geen paniek! Kijk goed na in de opdracht of je precies hebt gedaan wat er is gevraagd. En soms biedt de omschrijving in checkpy ook een extra hint over wat er verwacht wordt.
+
 Lever daarna `hello.py` in onderaan deze pagina om te laten zien dat je gestart bent met de cursus.
 
-- Wordt je programma niet goedgekeurd? Bekijk dan de check-resultaten.
-
-    - Heb je een `:(` of een `:|`? Check dan of je programma wel echt exact de gevraagde letters print. Vergeet je bijvoorbeeld de hoofdletters, dan wordt het afgekeurd.
-
-- Mocht je problemen hebben bij het inleveren, vraag dan een assistent tijdens het laptopcollege of mail direct naar <progns@mprog.nl>.
+Mocht je problemen hebben bij het inleveren, vraag dan een assistent tijdens het laptopcollege of mail direct naar <progns@mprog.nl>.
